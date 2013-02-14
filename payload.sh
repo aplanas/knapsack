@@ -11,7 +11,7 @@ function process_month {
   count=0
   for i in $PREFIX/$year/$month/*-access_log.gz ; do
     count=$((count + 1))
-    python get_path.py $i > `mktemp $PREFIX/path-$year-$month-XXXXXXXXXX.txt` &
+    (pfile=`mktemp $PREFIX/path-$year-$month-XXXXXXXXXX.txt` ; python get_path.py $i > $pfile ; gzip $pfile) &
     if [[ $((count % $NPROCS)) -eq 0 ]]; then
       wait
     fi
