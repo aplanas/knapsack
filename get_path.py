@@ -23,6 +23,7 @@ PARTS = [
     r'(?P<rest>.*)',
 ]
 PATTERN = re.compile(r'\s+'.join(PARTS)+r'\s*$')
+PACKAGE = re.compile(r'(.+)-[^-]+-[^-]+\.(\w+)\.(?:d?)rpm') # Adapted from 'xmath'
 
 
 def parse_file(name):
@@ -35,8 +36,17 @@ def parse_file(name):
                 continue
 
             # Normalize the path
-            hit['path'] = os.path.normpath(hit['path'])
-            print hit['ip'], hit['path']
+            path = os.path.normpath(hit['path'])
+
+            # If it is not any importan file, ignore the entry
+            if not path.endswith(('.rpm', '.drpm', '.iso')):
+                continue
+
+            # Get the path without the version
+            m = PACKAGE.match(path)
+            path = m.groups()[0] if m else path
+
+            print hit['ip'], path
 
 
 if __name__ == '__main__':
