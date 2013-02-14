@@ -1,8 +1,7 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 
-# Variation of the 0/1 knapsack problem, where the objects are related
-# via an hierarchical relation.
+# Implementatio of the 0/1 knapsack problem (0/1 KP)
 #
 # (Source Wikipedia: http://en.wikipedia.org/wiki/Knapsack_problem)
 #
