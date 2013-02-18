@@ -3,4 +3,4 @@
 HOST=mirror@pontifex2-opensuse
 PREFIX=/srv/ftp-stage/pub/opensuse
 
-ssh $HOST "cd $PREFIX ; ( du --apparent-size . | sort -nr )" > disk_size.txt
+ssh $HOST "cd $PREFIX ; ( du --all --apparent-size --exclude='repositories/home:/*' . | sort -nr )" > disk_size.txt
