@@ -1,7 +1,7 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 
-# Implementatio of the 0/1 knapsack problem (0/1 KP)
+# Implementation of the 0/1 knapsack problem (0/1 KP)
 #
 # (Source Wikipedia: http://en.wikipedia.org/wiki/Knapsack_problem)
 #
@@ -91,21 +91,26 @@ def read_file(filename, ratio=1, remove_dot=False):
                 size = fields[0]
                 path = ' '.join(fields[1:])
             if remove_dot:
-                if path.starswith('.'):
+                if path.startswith('.'):
                     path = path[1:]
             if path:
                 item_list.append((int(size) / ratio, path))
 
+    return item_list
+
 
 if __name__ == '__main__':
-    parser = argparse.ArgumentParser(description='Resolve the knapsack problem with hierarchical relations.')
+    parser = argparse.ArgumentParser(description='Resolve the knapsack problem.')
     parser.add_argument('--price', help='Price sorted file')
     parser.add_argument('--size', help='Size sorted file')
     parser.add_argument('--wsize', type=int, help='Knapsack max size in MB')
 
     args = parser.parse_args()
 
+    print 'Reading price list...'
     prices = read_file(args.price)
+    print 'Reading size list...'
     sizes = read_file(args.size, ratio=K_M, remove_dot=True)
 
-    print knapsack([10, 40, 30, 50], [5, 4, 6, 3], 10)
+    print 'Computing 0-1 KP...'
+    print knapsack(prices, sizes, args.wsize)
