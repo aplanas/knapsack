@@ -1,1 +1,4 @@
+*.pyc
+
 disk_size.txt
+payload.txt
