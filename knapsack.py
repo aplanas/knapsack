@@ -33,8 +33,7 @@ def kpsolution(weights, capacity, keep):
     j = capacity
 
     for i in range(len(weights), 0, -1):
-        print i, j
-        if keep[i][j]:
+        if (i, j) in keep:
             solution.append(i-1)
             j = j - weights[i-1]
 
@@ -48,18 +47,21 @@ def knapsack(values, weights, capacity):
     # We use the dynamic programming pseudo-polynomial time algorithm
 
     # Initialize the matrix
-    m = [[0] * (capacity+1) for _ in range(len(values)+1)]
-    keep = [[0] * (capacity+1) for _ in range(len(values)+1)]
+    m = [[0] * (capacity+1) for _ in range(2)]
+    keep = set()
 
     # Build the rest of the table. In every iteration m[i][j] will
     # store the maximum value that we can carry using a combination of
     # items of {1, ..., i}, with weight at most of j.
+    previous_row = 0
+    current_row = 1
     for i in range(1, len(weights)+1):
+        print i, (len(weights)+1)
         for j in range(capacity+1):
             # If the weight of the i item is bigger than the limit j,
             # we can't carry it.
             if weights[i-1] > j:
-                m[i][j] = m[i-1][j]
+                m[current_row][j] = m[previous_row][j]
             else:
                 # Get the maximum value when we leave or we carry the
                 # i item.
@@ -71,9 +73,11 @@ def knapsack(values, weights, capacity):
                 #   maximum value when wehave enough room for this
                 #   item.
                 #
-                m[i][j] = max(m[i-1][j], m[i-1][j-weights[i-1]] + values[i-1])
-                if m[i][j] != m[i-1][j]:
-                    keep[i][j] = 1
+                m[current_row][j] = max(m[previous_row][j],
+                                        m[previous_row][j-weights[i-1]] + values[i-1])
+                if m[current_row][j] != m[previous_row][j]:
+                    keep.add((i, j))
+        current_row, previous_row = previous_row, current_row
 
     return kpsolution(weights, capacity, keep)
 
@@ -114,3 +118,4 @@ if __name__ == '__main__':
 
     print 'Computing 0-1 KP...'
     print knapsack(prices, sizes, args.wsize)
+    # print knapsack([10, 40, 30, 50], [5, 4, 6, 3], 10)
