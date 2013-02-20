@@ -18,6 +18,8 @@ __author__ = 'Alberto Planas <aplanas@suse.de>'
 
 import argparse
 
+from knapsacklib import knapsack
+
 
 # Byte -> Mega
 B_M = 1024 * 1024
@@ -25,62 +27,7 @@ B_M = 1024 * 1024
 K_M = 1024
 
 
-def kpsolution(weights, capacity, keep):
-    """Reconstruct the solution using the keep matrix."""
-    solution = []
-
-    # We go from (n, W) backtracking according to the keep matrix
-    j = capacity
-
-    for i in range(len(weights), 0, -1):
-        if (i, j) in keep:
-            solution.append(i-1)
-            j = j - weights[i-1]
-
-    solution.reverse()
-    return solution
-    
-
-def knapsack(values, weights, capacity):
-    """Implement the 0/1 knapsack solver."""
-
-    # We use the dynamic programming pseudo-polynomial time algorithm
-
-    # Initialize the matrix
-    m = [[0] * (capacity+1) for _ in range(2)]
-    keep = set()
-
-    # Build the rest of the table. In every iteration m[i][j] will
-    # store the maximum value that we can carry using a combination of
-    # items of {1, ..., i}, with weight at most of j.
-    previous_row = 0
-    current_row = 1
-    for i in range(1, len(weights)+1):
-        print i, (len(weights)+1)
-        for j in range(capacity+1):
-            # If the weight of the i item is bigger than the limit j,
-            # we can't carry it.
-            if weights[i-1] > j:
-                m[current_row][j] = m[previous_row][j]
-            else:
-                # Get the maximum value when we leave or we carry the
-                # i item.
-                #
-                # m[i-1][j]: maximun value if we don't take the item
-                #
-                # m[i-1][j-weight[i]] + values[i]: if we the item, the
-                #   new value is the value of the item plus the
-                #   maximum value when wehave enough room for this
-                #   item.
-                #
-                m[current_row][j] = max(m[previous_row][j],
-                                        m[previous_row][j-weights[i-1]] + values[i-1])
-                if m[current_row][j] != m[previous_row][j]:
-                    keep.add((i, j))
-        current_row, previous_row = previous_row, current_row
-
-    return kpsolution(weights, capacity, keep)
-
+PRICE_CUTOFF = 100
 
 
 def read_file(filename, ratio=1, remove_dot=False):
@@ -112,10 +59,29 @@ if __name__ == '__main__':
     args = parser.parse_args()
 
     print 'Reading price list...'
-    prices = read_file(args.price)
+    prices = { p[1]: p[0] for p in read_file(args.price) if p[0] > PRICE_CUTOFF }
     print 'Reading size list...'
-    sizes = read_file(args.size, ratio=K_M, remove_dot=True)
+    sizes = { s[1]: s[0] for s in read_file(args.size, ratio=K_M) }
+
+    ordered_names = []
+    ordered_prices = []
+    ordered_sizes = []
+    for name, size in sizes.iteritems():
+        ordered_names.append(name)
+        ordered_sizes.append(size)
+        value = 0
+        try:
+            value = prices[name]
+        except:
+            pass
+        ordered_prices.append(value)
 
     print 'Computing 0-1 KP...'
-    print knapsack(prices, sizes, args.wsize)
+    indexes= knapsack(ordered_prices, ordered_sizes, args.wsize)
+    for i in indexes:
+        print ordered_prices[i], ordered_sizes[i], ordered_names[i]
+
+    # total = sum(p[0] for p in prices)
+    # total_kp = sum(prices[i][0] for i in indexes)
+
     # print knapsack([10, 40, 30, 50], [5, 4, 6, 3], 10)
