@@ -14,7 +14,8 @@
 #
 
 
-__author__ = 'Alberto Planas <aplanas@suse.de>'
+__author__ = ('Alberto Planas <aplanas@suse.de>',
+              'Stephan Kulow <coolo@suse.de>')
 
 import argparse
 
@@ -28,6 +29,7 @@ K_M = 1024
 
 
 PRICE_CUTOFF = 100
+SIZE_CUTOFF = 1024 / 1024
 
 
 def read_file(filename, ratio=1, remove_dot=False):
@@ -59,9 +61,9 @@ if __name__ == '__main__':
     args = parser.parse_args()
 
     print 'Reading price list...'
-    prices = { p[1]: p[0] for p in read_file(args.price) if p[0] > PRICE_CUTOFF }
+    prices = {p[1]: p[0] for p in read_file(args.price) if p[0] >= PRICE_CUTOFF}
     print 'Reading size list...'
-    sizes = { s[1]: s[0] for s in read_file(args.size, ratio=K_M) }
+    sizes = {s[1]: s[0] for s in read_file(args.size, ratio=K_M) if s[0] >= SIZE_CUTOFF}
 
     ordered_names = []
     ordered_prices = []
