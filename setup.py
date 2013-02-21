@@ -7,7 +7,6 @@ ext_module = Extension(
     ["knapsacklib.pyx"],
     extra_compile_args=['-fopenmp'],
     extra_link_args=['-fopenmp'],
-    language='c++',
 )
 
 setup(
