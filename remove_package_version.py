@@ -17,6 +17,8 @@ if __name__ == '__main__':
 
     items_group = {}
     for value, path in items:
+        if not path.startswith('/'):
+            path = '/' + path
         m = PACKAGE.match(path)
         path = m.groups()[0] if m else path
         old_value = items_group.get(path, 0)
