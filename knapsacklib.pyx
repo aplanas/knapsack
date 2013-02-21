@@ -26,6 +26,24 @@ class SparseMatrix(object):
             r.append([y, y])
             # print x, y
 
+    def merge(self, x, y1, y2):
+        # we cheat
+        while x >= len(self.row):
+            self.row.append([])
+
+        r = self.row[x]
+        interval = [y1, y2]
+        try:
+            interval = r[-1]
+        except:
+            r.append(interval)
+            return
+
+        if interval[1] == y1 - 1:
+            interval[1] = y2
+        else:
+            r.append([y1, y2])
+
     def get(self, x, y):
         if x >= len(self.row):
             return 0
@@ -91,6 +109,26 @@ cdef int _kp_loop(int weight, int value, int j, int* previous_row, int* current_
         return 0
 
 
+cdef int _kp_insert(int *array, int index, int value) nogil:
+    #fprintf(stdout, "insert %x %d %d\n", array, index, value)
+    if array[index] == -1: # empty - index == 0
+        array[index] = value
+        array[index+1] = value
+        array[index+2] = -1
+        # we need to point to the end of the sequence
+        return index + 1
+
+    if array[index] == value - 1: # enlarge the sequence
+        array[index] = value
+        return index
+
+    # sequence does not match - append a new one
+    array[index+1] = value
+    array[index+2] = value
+    array[index+3] = -1
+    return index + 2
+
+
 cdef _knapsack(int* values, int* weights, int lweights, int capacity):
     """Implement the 0/1 knapsack solver."""
 
@@ -109,42 +147,48 @@ cdef _knapsack(int* values, int* weights, int lweights, int capacity):
 
     keep = SparseMatrix()
 
-    cdef Tuple** keep_local = <Tuple **>malloc((openmp.omp_get_max_threads()) * sizeof(Tuple*))
-    cdef int* keep_local_counter = <int *>malloc((openmp.omp_get_max_threads()) * sizeof(int))
+    cdef int** keep_local = <int **>malloc((openmp.omp_get_max_threads()) * sizeof(int*))
+    cdef int* keep_local_index = <int *>malloc((openmp.omp_get_max_threads()) * sizeof(int))
 
-    cdef Tuple* _keep_local
+    cdef int* _keep_local
+    cdef int _keep_index
 
+    # the worst case for the size of this array is if the pattern is 0-1-0-1-0     
+    # then we need to keep for every 2nd number two ints. So to make sure we're 
+    # not running into this, we add another 10
+    cdef int max_size = capacity + 10
     for i in range(openmp.omp_get_max_threads()):
-        keep_local[i] = <Tuple *>malloc((capacity+1) * sizeof(Tuple))
-        keep_local_counter[i] = 0
+        keep_local[i] = <int *>malloc(max_size * sizeof(int))
 
     # Build the rest of the table. In every iteration m[i][j] will
     # store the maximum value that we can carry using a combination of
     # items of {1, ..., i}, with weight at most of j.
 
     for i in range(1, lweights+1):
-        # print i
+        #print i
         with nogil, parallel():
-            _keep_local = keep_local[threadid()]
-            for j in prange(capacity+1):
+            _i = threadid()
+            # mark the start of the index
+            _keep_local = keep_local[_i]
+            _keep_local[0] = -1
+            keep_local_index[_i] = 0
+            for j in prange(capacity+1, schedule='static'):
                 if _kp_loop(weights[i-1], values[i-1], j, previous_row, current_row):
-                    _i = keep_local_counter[threadid()]
-                    _keep_local[_i].i = i
-                    _keep_local[_i].j = j
-                    keep_local_counter[threadid()] += 1
+                    keep_local_index[_i] = _kp_insert(_keep_local, keep_local_index[_i], j)
 
         current_row, previous_row = previous_row, current_row
 
         for t in range(openmp.omp_get_max_threads()):
-            for c in range(keep_local_counter[t]):
-                # print keep_local[t][c].i, keep_local[t][c].j
-                keep.set(keep_local[t][c].i, keep_local[t][c].j)
-            keep_local_counter[t] = 0
+            c = 0
+            while keep_local[t][c] != -1:
+                #print t, i, keep_local[t][c], keep_local[t][c+1]
+                keep.merge(i, keep_local[t][c], keep_local[t][c+1])
+                c += 2
 
     for t in range(openmp.omp_get_max_threads()):
         free(keep_local[t])
     free(keep_local)
-    free(keep_local_counter)
+    free(keep_local_index)
 
     free(current_row)
     free(previous_row)
