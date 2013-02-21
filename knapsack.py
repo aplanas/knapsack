@@ -82,9 +82,16 @@ if __name__ == '__main__':
     print  >> sys.stderr, 'Computing 0-1 KP...'
     indexes= knapsack(ordered_prices, ordered_sizes, args.wsize)
     for i in indexes:
-        print ordered_prices[i], ordered_sizes[i], ordered_names[i]
+        print ordered_names[i]
 
-    # total = sum(p[0] for p in prices)
-    # total_kp = sum(prices[i][0] for i in indexes)
+    total_value = sum(i for i in prices.itervalues())
+    total_size = sum(i for i in sizes.itervalues())
+    kp_value = sum(ordered_prices[i] for i in indexes)
+    kp_size = sum(ordered_sizes[i] for i in indexes)
+
+    print >> sys.stderr, 'Total value: {}'.format(total_value)
+    print >> sys.stderr, 'Total size: {}'.format(total_size)
+    print >> sys.stderr, 'Knapsack value: {}'.format(kp_value)
+    print >> sys.stderr, 'Knapsack value: {}'.format(kp_size)
 
     # print knapsack([10, 40, 30, 50], [5, 4, 6, 3], 10)
