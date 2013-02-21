@@ -18,6 +18,7 @@ __author__ = ('Alberto Planas <aplanas@suse.de>',
               'Stephan Kulow <coolo@suse.de>')
 
 import argparse
+import sys
 
 from knapsacklib import knapsack
 
@@ -25,11 +26,11 @@ from knapsacklib import knapsack
 # Byte -> Mega
 B_M = 1024 * 1024
 # Kilo -> Mega
-K_M = 1024
+# K_M = 1024
 
 
-PRICE_CUTOFF = 100
-SIZE_CUTOFF = 1024 / 1024
+PRICE_CUTOFF = 100 # Hits
+SIZE_CUTOFF = 0    # Mega
 
 
 def read_file(filename, ratio=1, remove_dot=False):
@@ -60,10 +61,10 @@ if __name__ == '__main__':
 
     args = parser.parse_args()
 
-    print 'Reading price list...'
+    print >> sys.stderr, 'Reading price list...'
     prices = {p[1]: p[0] for p in read_file(args.price) if p[0] >= PRICE_CUTOFF}
-    print 'Reading size list...'
-    sizes = {s[1]: s[0] for s in read_file(args.size, ratio=K_M) if s[0] >= SIZE_CUTOFF}
+    print >> sys.stderr, 'Reading size list and converting size into MB...'
+    sizes = {s[1]: s[0] for s in read_file(args.size, ratio=B_M) if s[0] >= SIZE_CUTOFF}
 
     ordered_names = []
     ordered_prices = []
@@ -78,7 +79,7 @@ if __name__ == '__main__':
             pass
         ordered_prices.append(value)
 
-    print 'Computing 0-1 KP...'
+    print  >> sys.stderr, 'Computing 0-1 KP...'
     indexes= knapsack(ordered_prices, ordered_sizes, args.wsize)
     for i in indexes:
         print ordered_prices[i], ordered_sizes[i], ordered_names[i]
