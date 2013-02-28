@@ -48,7 +48,8 @@ def read_file(filename, ratio=1, remove_dot=False):
                 if path.startswith('.'):
                     path = path[1:]
             if path:
-                item_list.append((int(size) / ratio, path))
+                # The +1 is some kind of laplacian smoothing aproximation.
+                item_list.append((1 + int(size) / ratio, path))
 
     return item_list
 
@@ -61,10 +62,12 @@ if __name__ == '__main__':
 
     args = parser.parse_args()
 
-    print >> sys.stderr, 'Reading price list...'
-    prices = {p[1]: p[0] for p in read_file(args.price) if p[0] >= PRICE_CUTOFF}
     print >> sys.stderr, 'Reading size list and converting size into MB...'
     sizes = {s[1]: s[0] for s in read_file(args.size, ratio=B_M) if s[0] >= SIZE_CUTOFF}
+    sizes_set = set(sizes.iterkeys())
+    print >> sys.stderr, 'Reading price list...'
+    prices = {p[1]: p[0] for p in read_file(args.price)
+              if p[0] >= PRICE_CUTOFF and p[1] in sizes_set}
 
     ordered_names = []
     ordered_prices = []
@@ -92,6 +95,37 @@ if __name__ == '__main__':
     print >> sys.stderr, 'Total value: {}'.format(total_value)
     print >> sys.stderr, 'Total size: {}'.format(total_size)
     print >> sys.stderr, 'Knapsack value: {}'.format(kp_value)
-    print >> sys.stderr, 'Knapsack value: {}'.format(kp_size)
+    print >> sys.stderr, 'Knapsack size: {}'.format(kp_size)
 
-    # print knapsack([10, 40, 30, 50], [5, 4, 6, 3], 10)
+
+    # Make a binary search in to find the KP size that get the 99% of
+    # the overall value
+
+    # wsize_min = 10 * 1024
+    # wsize_max = sum(ordered_sizes[i] for i in range(len(ordered_names)) if ordered_prices[i] > 0)
+
+    # EPSILON = 0.01
+    # percentage = 0
+
+    # total_value = sum(i for i in prices.itervalues())
+    # total_size = sum(i for i in sizes.itervalues())
+    # print 'Total value: {}'.format(total_value)
+    # print 'Total size: {}'.format(total_size)
+
+    # print 'Initial range: [{} - {}]'.format(wsize_min, wsize_max)
+    # while not (percentage - EPSILON <= 99 <= percentage + EPSILON):
+    #     wsize_mid = wsize_min + (wsize_max - wsize_min) / 2
+    #     print 'KP-{}'.format(wsize_mid)
+    #     indexes= knapsack(ordered_prices, ordered_sizes, wsize_mid)
+
+    #     kp_value = sum(ordered_prices[i] for i in indexes)
+    #     kp_size = sum(ordered_sizes[i] for i in indexes)
+    #     print 'Knapsack value: {} ({})'.format(kp_value, 100.0*kp_value/total_value)
+    #     print 'Knapsack size: {} ({})'.format(kp_size, 100.0*kp_size/total_size)
+
+    #     percentage = 100.0 * kp_value / total_value
+
+    #     if percentage < 99:
+    #         wsize_min = wsize_mid
+    #     else:
+    #         wsize_max = wsize_mid
