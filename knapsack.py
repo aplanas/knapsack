@@ -39,7 +39,7 @@ def read_file(filename, ratio=1, laplacian=True, as_int=True, remove_dot=False, 
 
     def _item(size, _time=None, path=None):
         if _time:
-            return (size, (int(t) for t in _time.split('-')), path)
+            return (size, tuple(int(t) for t in _time.split('-')), path)
         return (size, path)
 
     with open(filename) as f:

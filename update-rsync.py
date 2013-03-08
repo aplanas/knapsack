@@ -90,9 +90,14 @@ if __name__ == '__main__':
         print >> sys.stderr, 'Linking new files ({0})...'.format(len(new_files))
     for f in new_files:
         src, dst = join(args.src, f), join(args.dst, f)
-        # print 'SRC', src
-        # print 'DST', dst
-        os.link(src, dst)
+        print 'SRC', src
+        print 'DST', dst
+        try:
+            os.link(src, dst)
+        except:
+            print 'SRC', src
+            print 'DST', dst
+            
 
     # print '** Del files'
     # for i in del_files:
