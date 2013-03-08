@@ -4,9 +4,9 @@
 # Parse the Apache log life and extract the PATH field
 
 import argparse
-import gzip
 import os.path
 import re
+import sys
 
 
 # Different parts of a log line
@@ -26,35 +26,36 @@ PATTERN = re.compile(r'\s+'.join(PARTS)+r'\s*$')
 PACKAGE = re.compile(r'(.+)-[^-]+-[^-]+\.(\w+)\.(?:d?)rpm') # Adapted from 'xmath'
 
 
-def parse_file(name):
+def parse_file(infile, outfile):
     """Parse the file and print the PATH for every line."""
-    with gzip.open(name) as f:
-        for line in f:
-            m = PATTERN.match(line)
-            hit = m.groupdict() if m else None
-            if not hit:
-                continue
+    for line in infile:
+        m = PATTERN.match(line)
+        hit = m.groupdict() if m else None
+        if not hit:
+            continue
 
-            # Normalize the path
-            path = os.path.normpath(hit['path'])
+        # Normalize the path
+        path = os.path.normpath(hit['path'])
 
-            # If it is not any importan file, ignore the entry
-            if not path.endswith(('.rpm', '.drpm', '.iso')):
-                continue
+        # If it is not any importan file, ignore the entry
+        if not path.endswith(('.rpm', '.drpm', '.iso')):
+            continue
 
-            # Get the path without the version
-            m = PACKAGE.match(path)
-            path = m.groups()[0] if m else path
+        # Get the path without the version
+        m = PACKAGE.match(path)
+        path = m.groups()[0] if m else path
 
-            print hit['ip'], path
+        print >> outfile, hit['ip'], path
 
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(
         description='Parse software.o.o downloads information and get the PATH field.')
-    parser.add_argument('files', metavar='FILE', nargs='+',
+    parser.add_argument('infile', nargs='?', type=argparse.FileType('r'),
+                        default=sys.stdin,
                         help='Logfiles used to read the information')
+    parser.add_argument('outfile', nargs='?', type=argparse.FileType('w'),
+                        default=sys.stdout)
     args = parser.parse_args()
 
-    for name in args.files:
-        parse_file(name)
+    parse_file(args.infile, args.outfile)
