@@ -13,7 +13,7 @@ if __name__ == '__main__':
 
     args = parser.parse_args()
 
-    items = read_file(args.file)
+    items = read_file(args.file, laplacian=False)
 
     items_group = {}
     for value, path in items:
