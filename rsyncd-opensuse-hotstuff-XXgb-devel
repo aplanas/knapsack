@@ -1,0 +1,25 @@
+# comments and empty lines are allowed...
+# hints:
+# - avoid trailing spaces!!
+# - include all upper directories, or the one you want to include will be dropped.
+# - intelligently use apachetop on download.opensuse.org to find out what causes the most traffic
+
+# Changelog
+#   28/02/2013 - Alberto Planas <aplanas@suse.de>
+#     - Use the 0-1 KP to create an initial list. Use a recursive grouping
+#       schema to shorten the list.
+#
+#
+#   11/02/2013 - Alberto Planas <aplanas@suse.de>
+#     - Compile apachetop without FAM support and measure
+#       the logs from January 2013:
+#
+#       $ mkfifo /tno/fifo
+#       $ ( zcat *access* > /tmp/fifo & ); apachetop -f /tmp/fifo
+#
+
+# Here goes the 0-1 KP output
+<KP>
+
+# Exclude the all the rest
+- *
