@@ -33,23 +33,36 @@ PRICE_CUTOFF = 100 # Hits
 SIZE_CUTOFF = 0    # Mega
 
 
-def read_file(filename, ratio=1, remove_dot=False):
+def read_file(filename, ratio=1, laplacian=True, as_int=True, remove_dot=False, with_time=False):
     """Read a file in the format <NUM> <PATH>."""
     item_list = []
+
+    def _item(size, _time=None, path=None):
+        if _time:
+            return (size, (int(t) for t in _time.split('-')), path)
+        return (size, path)
+
     with open(filename) as f:
         for line in f:
             fields = line.split()
-            if len(fields) == 2:
-                size, path = fields
+            
+            if not with_time:
+                size, path = fields[0], ' '.join(fields[1:])
+                _time = None
             else:
-                size = fields[0]
-                path = ' '.join(fields[1:])
+                size, _time, path = fields[0], fields[1], ' '.join(fields[2:])
+
             if remove_dot:
                 if path.startswith('.'):
                     path = path[1:]
             if path:
                 # The +1 is some kind of laplacian smoothing aproximation.
-                item_list.append((1 + int(size) / ratio, path))
+                l = 1 if laplacian else 0
+                l = 0
+                # When coputing the KP is better to use int, and float
+                # when groping.
+                s = int(size) if as_int else float(size)
+                item_list.append(_item(l+s/ratio, _time, path))
 
     return item_list
 
@@ -59,8 +72,19 @@ if __name__ == '__main__':
     parser.add_argument('--price', help='Price sorted file')
     parser.add_argument('--size', help='Size sorted file')
     parser.add_argument('--wsize', type=int, help='Knapsack max size in MB')
+    parser.add_argument('--fixsize', action='store_true',
+                        help='Use a lineal model to calculate the correct size')
+    parser.add_argument('--slope', type=float, default=1.10873,
+                        help='Slope of the lineal model used to fix the size')
+    parser.add_argument('--intercept', type=float, default=17467.82762,
+                        help='Intercept of the lineal model used to fix the size')
 
     args = parser.parse_args()
+
+    if args.fixsize:
+        args.wsize = (args.wsize - args.intercept) / args.slope - 1024
+        print >> sys.stderr, 'Fixed the size of the KP to {0}MB ({1}GB)'.format(
+            args.wsize, args.wsize/1024)
 
     print >> sys.stderr, 'Reading size list and converting size into MB...'
     sizes = {s[1]: s[0] for s in read_file(args.size, ratio=B_M) if s[0] >= SIZE_CUTOFF}
@@ -82,7 +106,7 @@ if __name__ == '__main__':
             pass
         ordered_prices.append(value)
 
-    print  >> sys.stderr, 'Computing 0-1 KP...'
+    print >> sys.stderr, 'Computing 0-1 KP...'
     indexes= knapsack(ordered_prices, ordered_sizes, args.wsize)
     for i in indexes:
         print ordered_names[i]
