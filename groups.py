@@ -9,7 +9,7 @@ import sys
 
 from knapsack import B_M, PRICE_CUTOFF, SIZE_CUTOFF, read_file
 
-THRESHOLD = 1000
+THRESHOLD = 5000
 
 class TreeNode(dict):
     """Simple generic tree node class."""
@@ -71,20 +71,30 @@ class TreeNode(dict):
 
         return [[self.attr['name']] + p for p in partial_paths]
 
-    def print_tree(self, path=None):
+    def print_tree(self, rsync=False, path=None):
         path = path or []
 
         value = self.attr.get('value', 'NOVALUE')
         name = self.attr['name']
 
         path = path + [name]
-        print value, pstr(path)
+
+        if rsync:
+            suff = '/'
+            if 'collapse' in self.attr:
+                suff = '/***'
+            elif self.is_leaf():
+                suff = '*'
+            str_path = pstr(path)
+            if str_path != '/':
+                print '+ ' + str_path + suff
+        else:
+            print value, pstr(path)
 
         for node in self.itervalues():
-            node.print_tree(path)
+            node.print_tree(rsync, path)
 
-
-    def print_leaf(self, rsync=False, path=None):
+    def print_leaf(self, path=None):
         path = path or []
 
         value = self.attr.get('value', 'NOVALUE')
@@ -93,14 +103,11 @@ class TreeNode(dict):
         path = path + [name]
 
         if self.is_leaf():
-            if rsync:
-                suff = '/' if 'collapse' in self.attr else '*'
-                print '+ ' + pstr(path) + suff
-            else:
-                print value, pstr(path)
-        else:
-            for node in self.itervalues():
-                node.print_leaf(rsync, path)
+            suff = '/' if 'collapse' in self.attr else ''
+            print int(value), pstr(path) + suff
+
+        for node in self.itervalues():
+            node.print_leaf(path)
 
 
 def split_path(path):
@@ -216,10 +223,8 @@ if __name__ == '__main__':
     print >> sys.stderr, 'Generating price tree...'
     price_tree = treefy(togroup)
 
-    # print 'Original tree...'
-    # price_tree.print_leaf()
-
     print >> sys.stderr, 'Making groups...'
     groupfy(price_tree, sizes)
 
-    price_tree.print_leaf(rsync=True)
+    # price_tree.print_tree(rsync=True)
+    price_tree.print_leaf()
