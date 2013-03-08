@@ -17,7 +17,7 @@ if __name__ == '__main__':
     parser.add_argument('file', help='File to remove the version name')
 
     args = parser.parse_args()
-    args.date = (int(d) for d in args.date.split('-'))
+    args.date = tuple(int(d) for d in args.date.split('-'))
 
     items = read_file(args.file, laplacian=False, with_time=True)
 

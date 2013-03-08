@@ -25,7 +25,7 @@ SINCE=`date -d "$NDAYS days ago" +%Y-%m-%d`
 # fi
 
 echo 'Removing the date field and filtering the new packages ...'
-python remove_time_filter_new.py --date SINCE disk_size_time_sql.txt > disk_size_sql.txt 2> payload_new.txt
+python remove_time_filter_new.py --date $SINCE disk_size_time_sql.txt > disk_size_sql.txt 2> payload_new.txt
 gzip -f disk_size_time_sql.txt
 
 echo 'Removing version name ...'
