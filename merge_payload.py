@@ -17,6 +17,8 @@ if __name__ == '__main__':
     prices = {p[1]: p[0] for p in read_file(args.payloads[0])}
     for price_file in args.payloads[1:]:
         for hits, path in read_file(price_file):
+            if not path.startswith('/'):
+                path = '/' + path
             hits = hits + prices.get(path, 0)
             prices[path] = hits
 
