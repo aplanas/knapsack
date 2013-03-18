@@ -24,9 +24,10 @@ PARTS = [
 ]
 PATTERN = re.compile(r'\s+'.join(PARTS)+r'\s*$')
 PACKAGE = re.compile(r'(.+)-[^-]+-[^-]+\.(\w+)\.(?:d?)rpm') # Adapted from 'xmath'
+BOTS = re.compile(r'<String>(.*?)</String>')
 
 
-def parse_file(infile, outfile):
+def parse_file(infile, outfile, bots):
     """Parse the file and print the PATH for every line."""
     for line in infile:
         m = PATTERN.match(line)
@@ -38,7 +39,10 @@ def parse_file(infile, outfile):
         path = os.path.normpath(hit['path'])
 
         # If it is not any importan file, ignore the entry
-        if not path.endswith(('.rpm', '.drpm', '.iso')):
+        if not path.endswith(('.rpm', '.drpm', '.iso', '.xml.gz')):
+            continue
+
+        if hit['user_agent'] in bots:
             continue
 
         # Get the path without the version
@@ -58,4 +62,5 @@ if __name__ == '__main__':
                         default=sys.stdout)
     args = parser.parse_args()
 
-    parse_file(args.infile, args.outfile)
+    bots = set(l.strip() for l in open('bots.txt'))
+    parse_file(args.infile, args.outfile, bots)
