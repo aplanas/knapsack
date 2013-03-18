@@ -24,6 +24,6 @@ if __name__ == '__main__':
     for size, _time, path in items:
         print size, path
         if _time >= args.date:
-            value = 1000
-            value *= 100 if any(path.startswith(p) for p in PREFIX) else 1
+            value = 100
+            value *= 1000 if any(path.startswith(p) for p in PREFIX) else 1
             print >> sys.stderr, value, path
