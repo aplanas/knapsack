@@ -7,7 +7,7 @@ MB_PASSWD=`cat mbpasswd`
 MB_SQL="\"SELECT hash.size, to_timestamp(hash.mtime)::date, filearr.path
           FROM hash, filearr
           WHERE filearr.id=hash.file_id
-             AND (filearr.path LIKE '%rpm' OR filearr.path LIKE '%.iso')
+             AND (filearr.path LIKE '%rpm' OR filearr.path LIKE '%.iso' or filearr.path LIKE '%.xml%')
              AND filearr.path NOT LIKE 'ensuse/%';\""
 
 ### AND filearr.path NOT LIKE 'repositories/home:%';\""
