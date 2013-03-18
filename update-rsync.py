@@ -24,19 +24,49 @@ def get_files(path):
     return files, dirs
 
 
+_CACHE = [None, None]
 def find_packages(path, filename_prefix):
-    """Use the filename_prefix to find real packages."""
-    for filename in glob.glob(join(path, filename_prefix) + '*'):
-        _dirname, _basename = os.path.dirname(filename), os.path.basename(filename)
+    """Use the filename_prefix to find real packages. This assumes the prefices are sorted when called"""
+    _filename = join(path, filename_prefix)
+    _dirname, _prefixname = os.path.split(_filename)
+    if _CACHE[0] == _dirname:
+       all_files = _CACHE[1]	
+    else:
+	_CACHE[0] = _dirname
+	try:
+  	   all_files = sorted(os.listdir(_dirname))
+        except OSError:
+	   all_files = []
+	_CACHE[1] = all_files
+    donewith = []
+    found = False
+    while len(all_files):
+	_basename = all_files.pop(0)
+	donewith.append(_basename)
+	if not _basename.startswith(_prefixname):
+            # we can skip everything if we already had a prefix hit and now are no longer 
+            if found: 
+                # but be careful - it might be the next prefix
+                all_files.insert(0, _basename)
+                return
+            continue
+	found = True
         m = PACKAGE.match(_basename)
-        _path = os.path.join(_dirname, m.groups()[0]) if m else filename
+        _path = os.path.join(_dirname, m.groups()[0]) if m else _filename
         if _path.endswith(filename_prefix):
-            yield filename[len(path):]
+            yield os.path.join(_dirname, _basename)[len(path):]
+	else:
+	    # if it's not matching, the path is longer so we can stop here
+	    all_files.insert(0, _basename)
+	    return
+    if not found:
+	_CACHE[1] = donewith
 
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Synchronize a rsync directory using hard links and an external file.')
     parser.add_argument('--src', help='Src directory')
+    parser.add_argument('--srcalt', help='Src directory')
     parser.add_argument('--dst', help='Dst directory')
     parser.add_argument('kpsol', help='Knapsack solution file')
 
@@ -47,10 +77,12 @@ if __name__ == '__main__':
         exit(0)
 
     args.src = os.path.abspath(args.src)
-    src_files_to_expand = [f.strip() for f in open(args.kpsol) if f.strip()]
+    args.srcalt = os.path.abspath(args.srcalt)
+    src_files_to_expand = sorted(f.strip() for f in open(args.kpsol) if f.strip())
     src_files = set()
     for src_file in src_files_to_expand:
         src_files.update((f for f in find_packages(args.src, src_file)))
+
     src_dir = set(('/'))
     for src_file in src_files:
         d = os.path.dirname(src_file)
@@ -90,13 +122,13 @@ if __name__ == '__main__':
         print >> sys.stderr, 'Linking new files ({0})...'.format(len(new_files))
     for f in new_files:
         src, dst = join(args.src, f), join(args.dst, f)
-        print 'SRC', src
-        print 'DST', dst
         try:
             os.link(src, dst)
         except:
             print 'SRC', src
             print 'DST', dst
+	    src = join(args.srcalt, f)
+	    os.link(src, dst)
             
 
     # print '** Del files'
