@@ -29,8 +29,9 @@ B_M = 1024 * 1024
 # K_M = 1024
 
 
-PRICE_CUTOFF = 100 # Hits
+PRICE_CUTOFF = 50  # Hits
 SIZE_CUTOFF = 0    # Mega
+SIZE_CUTOFF_GREEDY = 2048  # Byte 
 
 
 def read_file(filename, ratio=1, laplacian=True, as_int=True, remove_dot=False, with_time=False):
@@ -108,8 +109,38 @@ if __name__ == '__main__':
 
     print >> sys.stderr, 'Computing 0-1 KP...'
     indexes= knapsack(ordered_prices, ordered_sizes, args.wsize)
+
+    # The KP is done, but if we are far from the KP size (usually
+    # because the current KP cover all the real avaliable value), we
+    # can switch to a greedy algorithm, adding the bigger retail.
+    kp_size = sum(ordered_sizes[i] for i in indexes)
+
+    if kp_size < args.wsize:
+        print >> sys.stderr, 'Computing greedy retail (%s < %s)...'%(kp_size, args.wsize)
+        sizes_greedy = {s[1]: s[0] for s in read_file(args.size) if s[0] >= SIZE_CUTOFF_GREEDY}
+        sizes_set_greedy = set(sizes_greedy.iterkeys())
+        retail = {p[1]: p[0] for p in read_file(args.price)
+                  if p[0] < PRICE_CUTOFF and p[1] in sizes_set_greedy}
+        candidates = sorted(((sizes_greedy[name], name) for name in retail), reverse=True)
+
+        # Fix units here. Convert from Mega (used in KP) to Byte (greedy)
+        kp_size *= B_M
+        args.wsize *= B_M
+
+        for c_size, c_name in candidates:
+            if (kp_size + c_size) < args.wsize:
+                kp_size += c_size
+                indexes.append(len(ordered_names))
+                ordered_names.append(c_name)
+                ordered_sizes.append(c_size / B_M)
+                ordered_prices.append(retail[c_name])
+                prices[c_name] = retail[c_name]
+
+    # Print KP
     for i in indexes:
+        # print ordered_prices[i], ordered_names[i]
         print ordered_names[i]
+
 
     total_value = sum(i for i in prices.itervalues())
     total_size = sum(i for i in sizes.itervalues())
