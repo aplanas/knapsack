@@ -88,11 +88,11 @@ if __name__ == '__main__':
             args.wsize, args.wsize/1024)
 
     print >> sys.stderr, 'Reading size list and converting size into MB...'
-    sizes = {s[1]: s[0] for s in read_file(args.size, ratio=B_M) if s[0] >= SIZE_CUTOFF}
+    sizes = dict((s[1], s[0]) for s in read_file(args.size, ratio=B_M) if s[0] >= SIZE_CUTOFF)
     sizes_set = set(sizes.iterkeys())
     print >> sys.stderr, 'Reading price list...'
-    prices = {p[1]: p[0] for p in read_file(args.price)
-              if p[0] >= PRICE_CUTOFF and p[1] in sizes_set}
+    prices = dict((p[1], p[0]) for p in read_file(args.price)
+                  if p[0] >= PRICE_CUTOFF and p[1] in sizes_set)
 
     ordered_names = []
     ordered_prices = []
@@ -117,10 +117,10 @@ if __name__ == '__main__':
 
     if kp_size < args.wsize:
         print >> sys.stderr, 'Computing greedy retail (%s < %s)...'%(kp_size, args.wsize)
-        sizes_greedy = {s[1]: s[0] for s in read_file(args.size) if s[0] >= SIZE_CUTOFF_GREEDY}
+        sizes_greedy = dict((s[1], s[0]) for s in read_file(args.size) if s[0] >= SIZE_CUTOFF_GREEDY)
         sizes_set_greedy = set(sizes_greedy.iterkeys())
-        retail = {p[1]: p[0] for p in read_file(args.price)
-                  if p[0] < PRICE_CUTOFF and p[1] in sizes_set_greedy}
+        retail = dict((p[1], p[0]) for p in read_file(args.price)
+                      if p[0] < PRICE_CUTOFF and p[1] in sizes_set_greedy)
         candidates = sorted(((sizes_greedy[name], name) for name in retail), reverse=True)
 
         # Fix units here. Convert from Mega (used in KP) to Byte (greedy)

@@ -4,6 +4,7 @@ PREFIX=/mounts/users-space/aplanas/knapsack
 URL=http://langley.suse.de/pub/pontifex2-opensuse.suse.de/download.opensuse.org/
 NPROCS=6
 
+TMP=/var/tmp
 
 function process_day {
     year=$1; month=$2; day=$3
@@ -12,7 +13,7 @@ function process_day {
     touch $PREFIX/$year/$month/$year$month$day.txt
     if curl -sIf -o /dev/null "$log"; then
 	mkdir -p $PREFIX/$year/$month
-	curl -s "$log" | gunzip | python get_path.py | sort | uniq | cut -d ' ' -f 2- >$PREFIX/$year/$month/$year$month$day.txt
+	curl -s "$log" | gunzip | python get_path.py | sort -T $TMP | uniq | cut -d ' ' -f 2- >$PREFIX/$year/$month/$year$month$day.txt
     fi
 }
 
@@ -52,5 +53,5 @@ done
 
 wait
 
-sort --parallel=$NPROCS -T /var/tmp ${LOGS[*]} | uniq -c | sort --parallel=$NPROCS -T /var/tmp -nr > $PREFIX/_tmp_payload.txt
+sort --parallel=$NPROCS -T $TMP ${LOGS[*]} | uniq -c | sort --parallel=$NPROCS -T $TMP -nr > $PREFIX/_tmp_payload.txt
 mv $PREFIX/_tmp_payload.txt $PREFIX/payload.txt
