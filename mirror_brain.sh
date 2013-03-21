@@ -2,7 +2,8 @@
 
 HOST=mirror@pontifex2-opensuse
 
-MB_HOST=149.44.161.13
+# MB_HOST=149.44.161.13
+MB_HOST=mirrordb-opensuse.suse.de
 MB_PASSWD=`cat mbpasswd`
 MB_SQL="SELECT hash.size, to_timestamp(hash.mtime)::date, filearr.path
         FROM hash, filearr
