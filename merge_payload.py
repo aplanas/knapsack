@@ -2,7 +2,6 @@
 # -*- coding: utf-8 -*-
 
 import argparse
-import sys
 
 from knapsack import read_file
 
