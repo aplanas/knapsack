@@ -11,6 +11,9 @@ from knapsack import read_file
 PREFIX = ('distribution',
           'update')
 
+BANNED = () #('repositories/home:',)
+
+
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Group files in directories and add the size.')
     parser.add_argument('--date', help='Date to filter as a new (YYYY-MM-DD)')
@@ -26,4 +29,5 @@ if __name__ == '__main__':
         if _time >= args.date:
             value = 100
             value *= 1000 if any(path.startswith(p) for p in PREFIX) else 1
-            print >> sys.stderr, value, path
+            if not any(path.startswith(p) for p in BANNED):
+                print >> sys.stderr, value, path
