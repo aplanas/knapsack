@@ -12,6 +12,10 @@ if [ -f mirror_brain.txt ] ; then
     python remove_package_version.py disk_size_sql.txt > no_version_disk_size_sql.txt
     gzip -f disk_size_sql.txt
 
+    echo 'Removing version name in payload_new ...'
+    python remove_package_version.py payload.txt > no_version_disk_size_sql.txt
+    gzip -f disk_size_sql.txt
+
     echo 'Adding directories sizes ...'
     python disk_size_groups.py --size no_version_disk_size_sql.txt > no_version_disk_size_sql_with_dir.txt
     gzip -f no_version_disk_size_sql.txt
