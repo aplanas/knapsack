@@ -10,9 +10,9 @@ function process_day {
     year=$1; month=$2; day=$3
 
     log=$URL/$year/$month/download.opensuse.org-$year$month$day-access_log.gz
+    mkdir -p $PREFIX/$year/$month
     touch $PREFIX/$year/$month/$year$month$day.txt
     if curl -sIf -o /dev/null "$log"; then
-	mkdir -p $PREFIX/$year/$month
 	curl -s "$log" | gunzip | python get_path.py | sort -T $TMP | uniq | cut -d ' ' -f 2- >$PREFIX/$year/$month/$year$month$day.txt
     fi
 }
