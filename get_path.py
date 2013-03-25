@@ -8,6 +8,8 @@ import os.path
 import re
 import sys
 
+from remove_package_version import remove_version_or_discard
+
 
 # Different parts of a log line
 PARTS = [
@@ -23,7 +25,6 @@ PARTS = [
     r'(?P<rest>.*)',
 ]
 PATTERN = re.compile(r'\s+'.join(PARTS)+r'\s*$')
-PACKAGE = re.compile(r'(.+)-[^-]+-[^-]+\.(\w+)\.(?:d?)rpm') # Adapted from 'xmath'
 BOTS = re.compile(r'<String>(.*?)</String>')
 
 
@@ -32,7 +33,7 @@ def parse_file(infile, outfile, bots):
     for line in infile:
         m = PATTERN.match(line)
         hit = m.groupdict() if m else None
-        if not hit:
+        if not hit or hit['user_agent'] in bots:
             continue
 
         # Normalize the path
@@ -42,14 +43,10 @@ def parse_file(infile, outfile, bots):
         if not path.endswith(('.rpm', '.drpm', '.iso', '.xml.gz')):
             continue
 
-        if hit['user_agent'] in bots:
-            continue
-
         # Get the path without the version
-        m = PACKAGE.match(path)
-        path = m.groups()[0] if m else path
-
-        print >> outfile, hit['ip'], path
+        path = remove_version_or_discard(path)
+        if path:
+            print >> outfile, hit['ip'], path
 
 
 if __name__ == '__main__':
