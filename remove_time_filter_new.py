@@ -8,10 +8,10 @@ from knapsack import read_file
 
 
 # Extra points if the path has one of these prefix
-PREFIX = ('distribution',
-          'update')
+PREFIX = ('/distribution',
+          '/update')
 
-BANNED = () #('repositories/home:',)
+BANNED = () #('/repositories/home:',)
 
 
 if __name__ == '__main__':
@@ -25,9 +25,14 @@ if __name__ == '__main__':
     items = read_file(args.file, laplacian=False, with_time=True)
 
     for size, _time, path in items:
+        # Mirror Brain do not add '/' at the beginning
+        if not path.startswith('/'):
+            path = '/' + path
         print size, path
+
+        # 
         if _time >= args.date:
-            value = 100
-            value *= 1000 if any(path.startswith(p) for p in PREFIX) else 1
+            value = 10
+            value *= 10000 if any(path.startswith(p) for p in PREFIX) else 1
             if not any(path.startswith(p) for p in BANNED):
                 print >> sys.stderr, value, path
