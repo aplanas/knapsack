@@ -13,4 +13,4 @@
 
 # Mergue the payloads
 PREFIX=/mounts/users-space/aplanas/knapsack
-python merge_payload.py $PREFIX/payload.txt payload_new.txt > payload_final.txt
+python merge_payload.py $PREFIX/payload.txt payload_new_no_version.txt > payload_final.txt
