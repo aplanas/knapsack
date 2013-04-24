@@ -33,7 +33,7 @@ def parse_file(infile, outfile, bots):
     for line in infile:
         m = PATTERN.match(line)
         hit = m.groupdict() if m else None
-        if not hit or hit['user_agent'] in bots:
+        if not hit or hit['status'] == '404' or hit['user_agent'] in bots:
             continue
 
         # Normalize the path
