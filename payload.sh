@@ -54,4 +54,7 @@ done
 wait
 
 sort --parallel=$NPROCS -T $TMP ${LOGS[*]} | uniq -c | sort --parallel=$NPROCS -T $TMP -nr > $PREFIX/_tmp_payload.txt
+# Make a backup for the old payload.txt
+mv $PREFIX/payload.txt $PREFIX/payload-`date +%Y-%m-%d`.txt
+gzip $PREFIX/payload-`date +%Y-%m-%d`.txt
 mv $PREFIX/_tmp_payload.txt $PREFIX/payload.txt
