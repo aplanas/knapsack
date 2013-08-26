@@ -10,7 +10,12 @@ ext_module = Extension(
 )
 
 setup(
-    cmdclass = {'build_ext': build_ext},
+    name='knapsack',
+    version='1.0',
+    description='Knapsack alogrithm for openSUSE mirrors',
+    author='Alberto Planas',
+    author_email='aplanas@suse.de',
+    cmdclass={'build_ext': build_ext},
     # ext_modules = [Extension("knapsacklib", ["knapsacklib.pyx"])]
-    ext_modules = [ext_module],
+    ext_modules=[ext_module],
 )
