@@ -13,7 +13,7 @@ function process_day {
     mkdir -p $PREFIX/$year/$month
     touch $PREFIX/$year/$month/$year$month$day.txt
     if curl -sIf -o /dev/null "$log"; then
-	curl -s "$log" | gunzip | python get_path.py | sort -T $TMP | uniq | cut -d ' ' -f 2- >$PREFIX/$year/$month/$year$month$day.txt
+	curl -s "$log" | gunzip | get_path | sort -T $TMP | uniq | cut -d ' ' -f 2- >$PREFIX/$year/$month/$year$month$day.txt
     fi
 }
 
