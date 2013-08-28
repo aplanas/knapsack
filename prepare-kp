@@ -5,12 +5,12 @@
 # (both from the MirrorBrain database).
 
 # Generate the payload form remote logs using the last 40 days
-./payload.sh 40
+payload 40
 
 # Get the sizes of all files, and consider new files all that are 7 or
 # less days old
-./disk_size.sh 7
+disk_size 7
 
 # Mergue the payloads
 PREFIX=/mounts/users-space/aplanas/knapsack
-python merge_payload.py $PREFIX/payload.txt payload_new_no_version.txt > payload_final.txt
+merge_payload $PREFIX/payload.txt payload_new_no_version.txt > payload_final.txt
