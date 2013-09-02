@@ -21,6 +21,7 @@ setup(
              'get_file', 'run-when', 'update-rsync', 'disk_size',
              'full-kp', 'mirror_brain', 'payload', 'prepare-kp',
              'run-server', 'user-agents'],
+    data_files=['data', ['bots.txt']],
     cmdclass={'build_ext': build_ext},
     ext_modules=[ext_module],
 )

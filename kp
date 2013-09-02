@@ -20,7 +20,7 @@ __author__ = ('Alberto Planas <aplanas@suse.de>',
 import argparse
 import sys
 
-from knapsack import read_file
+from knapsack.utils import read_file
 from knapsack.cknapsack import knapsack
 
 

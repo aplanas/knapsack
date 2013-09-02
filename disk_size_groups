@@ -5,8 +5,8 @@
 
 import argparse
 
-from groups import treefy
-from knapsack import read_file
+from knapsack.groups import treefy
+from knapsack.utils import read_file
 
 
 def calc_size(node):

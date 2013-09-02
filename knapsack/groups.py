@@ -4,10 +4,10 @@
 # Group different filenames path and try to decide if we can group
 # them in a single directory.
 
-import argparse
+# import argparse
 import sys
 
-from knapsack import B_M, PRICE_CUTOFF, SIZE_CUTOFF, read_file
+# from knapsack import B_M, PRICE_CUTOFF, SIZE_CUTOFF, read_file
 
 THRESHOLD = 5000
 
@@ -195,36 +195,36 @@ def groupfy(tree, sizes, node=None, path=None):
                 del node[key]
 
 
-if __name__ == '__main__':
-    parser = argparse.ArgumentParser(description='Group files in directories. If kp is provided, the file kp is grouped. If not, the file price is grouped. You need to provide at least the price in order to compute the index.')
-    parser.add_argument('--price', help='Price sorted file')
-    parser.add_argument('--size', help='Size sorted file')
-    parser.add_argument('--kp', help='Knapsack solution file')
+# if __name__ == '__main__':
+#     parser = argparse.ArgumentParser(description='Group files in directories. If kp is provided, the file kp is grouped. If not, the file price is grouped. You need to provide at least the price in order to compute the index.')
+#     parser.add_argument('--price', help='Price sorted file')
+#     parser.add_argument('--size', help='Size sorted file')
+#     parser.add_argument('--kp', help='Knapsack solution file')
 
-    args = parser.parse_args()
+#     args = parser.parse_args()
 
-    if not (args.price or args.kp) or not args.size:
-        parser.print_help()
-        exit(0)
+#     if not (args.price or args.kp) or not args.size:
+#         parser.print_help()
+#         exit(0)
 
-    print >> sys.stderr, 'Reading size list and converting size into MB...'
-    sizes = dict((s[1], s[0]) for s in read_file(args.size, ratio=B_M) if s[0] >= SIZE_CUTOFF)
-    sizes_set = set(sizes.iterkeys())
-    print >> sys.stderr, 'Reading price list...'
-    prices = dict((p[1], p[0]) for p in read_file(args.price)
-                  if p[0] >= PRICE_CUTOFF and p[1] in sizes_set)
+#     print >> sys.stderr, 'Reading size list and converting size into MB...'
+#     sizes = dict((s[1], s[0]) for s in read_file(args.size, ratio=B_M) if s[0] >= SIZE_CUTOFF)
+#     sizes_set = set(sizes.iterkeys())
+#     print >> sys.stderr, 'Reading price list...'
+#     prices = dict((p[1], p[0]) for p in read_file(args.price)
+#                   if p[0] >= PRICE_CUTOFF and p[1] in sizes_set)
 
-    if args.kp:
-        print >> sys.stderr, 'Reading kp file...'
-        togroup = [(prices[i.strip()], i.strip()) for i in open(args.kp)]
-    else:
-        togroup = [(p[1], p[0]) for p in prices.iteritems()]
+#     if args.kp:
+#         print >> sys.stderr, 'Reading kp file...'
+#         togroup = [(prices[i.strip()], i.strip()) for i in open(args.kp)]
+#     else:
+#         togroup = [(p[1], p[0]) for p in prices.iteritems()]
 
-    print >> sys.stderr, 'Generating price tree...'
-    price_tree = treefy(togroup)
+#     print >> sys.stderr, 'Generating price tree...'
+#     price_tree = treefy(togroup)
 
-    print >> sys.stderr, 'Making groups...'
-    groupfy(price_tree, sizes)
+#     print >> sys.stderr, 'Making groups...'
+#     groupfy(price_tree, sizes)
 
-    # price_tree.print_tree(rsync=True)
-    price_tree.print_leaf()
+#     # price_tree.print_tree(rsync=True)
+#     price_tree.print_leaf()

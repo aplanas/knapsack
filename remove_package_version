@@ -4,25 +4,8 @@
 import argparse
 import re
 
-from knapsack import read_file
-
-PACKAGE = re.compile(r'(.+)-[^-]+-[^-]+\.(\w+)\.(?:d?)rpm') # Adapted from 'xmath'
-HEX64 = re.compile(r'[0-9a-f]{64}')
-
-
-def remove_version_or_discard(path):
-    """Remove the version of None if is not versioned."""
-    # Get the path without the version
-    m = PACKAGE.match(path)
-    _path = m.groups()[0] if m else path
-
-    # If have an HEX64 number, remove it
-    _path = HEX64.sub('', _path)
-
-    # Discard the file if is a non-versioned small XML file
-    _path = _path if _path != path or not path.endswith('.xml.gz') else None
-
-    return _path
+from knapsack.utils import read_file
+from knapsack.utils import remove_version_or_discard
 
 
 if __name__ == '__main__':

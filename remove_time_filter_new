@@ -4,7 +4,7 @@
 import argparse
 import sys
 
-from knapsack import read_file
+from knapsack.utils import read_file
 
 
 # Extra points if the path has one of these prefix

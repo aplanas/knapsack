@@ -3,7 +3,7 @@
 
 import argparse
 
-from knapsack import read_file
+from knapsack.utils import read_file
 
 
 if __name__ == '__main__':
