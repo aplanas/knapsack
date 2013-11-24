@@ -1,3 +1,6 @@
+/repositories/home:/1Slarti1/openSUSE_Factory/i586/streamplayer
+/repositories/home:/1Slarti1/openSUSE_Factory/src/streamplayer
+/repositories/home:/1Slarti1/openSUSE_Factory/x86_64/streamplayer
 /repositories/home:/cavallo71:/opt-python-pyquality/openSUSE_Factory/i586/pyquality
 /repositories/home:/cavallo71:/opt-python-pyquality/openSUSE_Factory/src/pyquality
 /repositories/home:/cavallo71:/opt-python-pyquality/openSUSE_Factory/x86_64/pyquality
@@ -1018,9 +1021,6 @@
 /update/13.1-test/i586/gwenview
 /update/13.1-test/i586/gwenview-debuginfo
 /update/13.1-test/i586/gwenview-debugsource
-/update/13.1-test/i586/iputils
-/update/13.1-test/i586/iputils-debuginfo
-/update/13.1-test/i586/iputils-debugsource
 /update/13.1-test/i586/java-1_7_0-openjdk
 /update/13.1-test/i586/java-1_7_0-openjdk-debuginfo
 /update/13.1-test/i586/java-1_7_0-openjdk-debugsource
@@ -2134,7 +2134,6 @@
 /update/13.1-test/src/gupnp-tools
 /update/13.1-test/src/gvfs
 /update/13.1-test/src/gwenview
-/update/13.1-test/src/iputils
 /update/13.1-test/src/java-1_7_0-openjdk
 /update/13.1-test/src/jovie
 /update/13.1-test/src/juk
@@ -2648,9 +2647,6 @@
 /update/13.1-test/x86_64/gwenview
 /update/13.1-test/x86_64/gwenview-debuginfo
 /update/13.1-test/x86_64/gwenview-debugsource
-/update/13.1-test/x86_64/iputils
-/update/13.1-test/x86_64/iputils-debuginfo
-/update/13.1-test/x86_64/iputils-debugsource
 /update/13.1-test/x86_64/java-1_7_0-openjdk
 /update/13.1-test/x86_64/java-1_7_0-openjdk-debuginfo
 /update/13.1-test/x86_64/java-1_7_0-openjdk-debugsource
