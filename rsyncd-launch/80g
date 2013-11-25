@@ -17,12 +17,15 @@
 /repositories/home:/1Slarti1/openSUSE_Factory/i586/streamplayer
 /repositories/home:/1Slarti1/openSUSE_Factory/src/streamplayer
 /repositories/home:/1Slarti1/openSUSE_Factory/x86_64/streamplayer
+/repositories/home:/blair_sadewitz/openSUSE_13.1/src/chromium
+/repositories/home:/blair_sadewitz/openSUSE_Tumbleweed/src/chromium
 /repositories/home:/cavallo71:/opt-python-pyquality/openSUSE_Factory/i586/pyquality
 /repositories/home:/cavallo71:/opt-python-pyquality/openSUSE_Factory/src/pyquality
 /repositories/home:/cavallo71:/opt-python-pyquality/openSUSE_Factory/x86_64/pyquality
 /repositories/home:/derselbst/openSUSE_Tumbleweed/noarch/0ad-data
 /repositories/home:/derselbst/openSUSE_Tumbleweed/src/0ad
 /repositories/home:/derselbst/openSUSE_Tumbleweed/src/0ad-data
+/repositories/home:/draht/evergreen_11.2/x86_64/mozilla-nss-tools-debuginfo
 /repositories/home:/jsmeix/openSUSE_Factory/i586/cups
 /repositories/home:/jsmeix/openSUSE_Factory/i586/cups-client
 /repositories/home:/jsmeix/openSUSE_Factory/i586/cups-ddk
@@ -74,6 +77,9 @@
 /repositories/home:/rhyssmith:/raptor/openSUSE_Tumbleweed/src/raptor-ica
 /repositories/home:/rhyssmith:/raptor/openSUSE_Tumbleweed/src/raptor-mua
 /repositories/home:/rhyssmith:/raptor/openSUSE_Tumbleweed/src/raptor-web
+/repositories/home:/Rotkraut/openSUSE_12.1/repodata/-patterns.xml.gz
+/repositories/home:/Rotkraut/openSUSE_12.2/repodata/-patterns.xml.gz
+/repositories/home:/Rotkraut/openSUSE_12.3/repodata/-patterns.xml.gz
 /repositories/home:/scalpel4k/openSUSE_12.3/src/chromium
 /repositories/home:/scalpel4k/openSUSE_Factory/src/chromium
 /repositories/home:/SebastianHilbert:/GNUmed/openSUSE_Tumbleweed/i586/gnumed-server
@@ -89,8 +95,7 @@
 /repositories/home:/syntron:/freeciv/openSUSE_Tumbleweed/i586/freeciv
 /repositories/home:/syntron:/freeciv/openSUSE_Tumbleweed/src/freeciv
 /repositories/home:/syntron:/freeciv/openSUSE_Tumbleweed/x86_64/freeciv
-/repositories/home:/vjt:/ifad/openSUSE_12.2/src/libreoffice
-/repositories/science/openSUSE_Factory/i586/libatlas3-sse-devel
+/repositories/KDE:/Qt/openSUSE_Factory_PowerPC/noarch/libqt4-devel-doc-data
 /repositories/security:/Stunnel/openSUSE_13.1/i586/stunnel
 /repositories/security:/Stunnel/openSUSE_13.1/i586/stunnel-doc
 /repositories/security:/Stunnel/openSUSE_13.1/src/stunnel

@@ -33,6 +33,9 @@
 /repositories/home:/quelrod/openSUSE_Tumbleweed/i586/rcracki
 /repositories/home:/quelrod/openSUSE_Tumbleweed/src/rcracki
 /repositories/home:/quelrod/openSUSE_Tumbleweed/x86_64/rcracki
+/repositories/home:/Rotkraut/openSUSE_12.1/repodata/-patterns.xml.gz
+/repositories/home:/Rotkraut/openSUSE_12.2/repodata/-patterns.xml.gz
+/repositories/home:/Rotkraut/openSUSE_12.3/repodata/-patterns.xml.gz
 /repositories/home:/skyhisi:/plonesearch/openSUSE_Factory/i586/plonesearch
 /repositories/home:/skyhisi:/plonesearch/openSUSE_Factory/i586/plonesearch-debuginfo
 /repositories/home:/skyhisi:/plonesearch/openSUSE_Factory/i586/plonesearch-debugsource
