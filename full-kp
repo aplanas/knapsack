@@ -11,7 +11,7 @@ done
 
 source rsyncpasswd
 
-RSYNC_PASSWORD=$RSYNCPW rsync -avz rsyncd-launch/* knapsacks@pontifex2-opensuse.suse.de::put-knapsacks
+RSYNC_PASSWORD=$RSYNCPW rsync -avz rsyncd-launch/* knapsacks@pontifex3-opensuse.suse.de::put-knapsacks
 RSYNC_PASSWORD=$RSYNCPW rsync -avz rsyncd-launch/* knapsacks@widehat-opensuse.suse.de::put-knapsacks
 
 git commit rsyncd-launch/* -m 'Automatic KP commit.'
