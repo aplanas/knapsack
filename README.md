@@ -56,3 +56,46 @@ useless for a generic solution, but can server as a initial point to
 develop your own environment to feed the KP algorithm.
 
   [1]: http://www.mirrorbrain.org/ "MirrorBrain"
+
+
+Update the bots file
+--------------------
+
+To remove some noise that hit the apache logs, we remove known
+signatures make by web bots. We need to generate or maintain the
+bots.txt using the we crawler list maintained by myip.ms:
+
+  wget http://myip.ms/files/bots/live_webcrawlers.txt
+  ./user-agents
+
+
+Deployment
+----------
+
+* Create a directory used to signal different scripts that are in
+  different machines.
+
+  mkdir lock-dir
+
+* Create password files
+
+  echo -n "PASSWORD_FOR_MB" > mbpasswd
+  echo -n "RSYNCPW=ANOTHER_PASSWD" > rsyncpasswd
+
+* Create the directory where we are storing the kp results
+
+  mkdir rsyncd-launch
+
+* Run the script that watch the lock-dir and put the results in
+  rsyncd-launch directory.
+
+  ./run-server
+
+* Add in a crontab the call to download the Mirror Brain data. The
+  machine needs to have rights to access the PostgreSQL database, and
+  need to put the data in a shared (NFS) directory. 
+
+  0 3 * * * ( cd /PATH ; ./mirror_brain )
+
+* Put in the rsync server the module put-knapsack, and the script that
+  synchronize.
