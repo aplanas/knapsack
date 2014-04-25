@@ -11,7 +11,7 @@ ext_module = Extension(
 
 setup(
     name='knapsack',
-    version='1.0',
+    version='0.1',
     description='Knapsack algorithm for openSUSE mirrors',
     author='Alberto Planas',
     author_email='aplanas@suse.de',
