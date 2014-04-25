@@ -1,15 +1,13 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 
-#  /srv/rsync-modules/update-rsync-notify.py --src /srv/ftp-stage/pub/opensuse/ --srcalt /srv/ftp/pub/opensuse/ --dst /srv/rsync-modules/ --lists /srv/rsync-modules/result-lists/ 30g 80g 160g 320g 640g 2000g
-
 import argparse
 import os
 import sys
 import time
 import threading
 
-from get_path import PACKAGE
+from knapsack.utils import PACKAGE
 
 import pyinotify
 
@@ -137,10 +135,6 @@ if __name__ == '__main__':
 	for file in kp_files:
             fte = src_files_to_expand.get(file, [])
             src_files_to_expand[file] = fte.append(kpsol)
-	    # try: # mega python
-	    #     src_files_to_expand[file].append(kpsol)
-            # except KeyError:
-	    #     src_files_to_expand[file] = [kpsol]
 
     all_dirs = dict()
     srcfiles = dict()
@@ -163,157 +157,158 @@ if __name__ == '__main__':
     wm.add_watch(args.lists, mask)
 
     for kpsol in args.kpsol:
-	    src_dir = set(('/'))
-	    src_files = set()
-	    for dir, files in all_dirs.items():
-		for file in files:
-			if kpsol in file[1]:
-				for f in file[2]:
-					src_files.add(join(dir, f))
-	    for src_file in src_files:
-		d = os.path.dirname(src_file)
-		while d != '/':
-		    src_dir.add(d)
-		    d = os.path.dirname(d)
+        src_dir = set(('/'))
+        src_files = set()
+        for dir, files in all_dirs.items():
+            for file in files:
+                if kpsol in file[1]:
+                    for f in file[2]:
+                        src_files.add(join(dir, f))
+        for src_file in src_files:
+            print "SRC", kpsol, src_file
+            d = os.path.dirname(src_file)
+            print "DIR", d
+            while len(d) and d != '/':
+                src_dir.add(d)
+                d = os.path.dirname(d)
 
-	    dst_files, dst_dir = get_files(join(args.dst, kpsol))
+        dst_files, dst_dir = get_files(join(args.dst, kpsol))
 
-	    # print '** SRC DIR'
-	    # for i in src_dir:
-	    #     print i
-	    # print '** SRC FILES'
-	    # for i in src_files:
-	    #     print i
+        # print '** SRC DIR'
+        # for i in src_dir:
+        #     print i
+        # print '** SRC FILES'
+        # for i in src_files:
+        #     print i
 
-	    new_files = src_files - dst_files
-	    del_files = dst_files - src_files
+        new_files = src_files - dst_files
+        del_files = dst_files - src_files
 
-	    new_dir = src_dir - dst_dir
-            cur_dir = src_dir & dst_dir
-	    del_dir = dst_dir - src_dir
+        new_dir = src_dir - dst_dir
+        cur_dir = src_dir & dst_dir
+        del_dir = dst_dir - src_dir
 
-	    kpdir = os.path.join(args.dst, kpsol)
-	    # print '** New dirs'
-	    # for i in new_dir:
-	    #     print i
-	    if new_dir:
-		print >> sys.stderr, '{1}: Creating new directories ({0})...'.format(len(new_dir), kpsol)
-	    for d in sorted(new_dir):
-                stat = os.stat(join(args.src, d))
-		d = join(kpdir, d)
-		os.mkdir(d)
+        kpdir = os.path.join(args.dst, kpsol)
+        # print '** New dirs'
+        # for i in new_dir:
+        #     print i
+        if new_dir:
+            print >> sys.stderr, '{1}: Creating new directories ({0})...'.format(len(new_dir), kpsol)
+        for d in sorted(new_dir):
+            stat = os.stat(join(args.src, d))
+            d = join(kpdir, d)
+            os.mkdir(d)
+            os.chmod(d, stat.st_mode)
+
+        # Update permissions
+        for d in sorted(cur_dir):
+            try:
+                sd = join(args.src, d)
+                stat = os.stat(sd)
+                d = join(kpdir, d)
                 os.chmod(d, stat.st_mode)
+            except:
+                print >> sys.stderr, 'ERROR', sd, d, stat
 
-            # Update permissions
-            for d in sorted(cur_dir):
+        # print '** New files'
+        # for i in new_files:
+        #     print i
+        if new_files:
+            print >> sys.stderr, '{1}: Linking new files ({0})...'.format(len(new_files), kpsol)
+        for f in new_files:
+            src, dst = join(args.src, f), join(kpdir, f)
+            try:
+                os.link(src, dst)
+            except:
+                #print 'SRC', src
+                #print 'DST', dst
+                src = join(args.srcalt, f)
                 try:
-                    sd= = join(args.src, d)
-                    stat = os.stat(sd)
-                    d = join(kpdir, d)
-                    os.chmod(d, stat.st_mode)
+                   os.link(src, dst)
                 except:
-                    print >> sys.stderr, 'ERROR', sd, d, stat
+                   # the initial startup is slow, so it happens that files disappear
+                   # but once we're done here, we look at the notify events
+                   pass 
 
-	    # print '** New files'
-	    # for i in new_files:
-	    #     print i
-	    if new_files:
-		print >> sys.stderr, '{1}: Linking new files ({0})...'.format(len(new_files), kpsol)
-	    for f in new_files:
-		src, dst = join(args.src, f), join(kpdir, f)
-		try:
-		    os.link(src, dst)
-		except:
-		    #print 'SRC', src
-		    #print 'DST', dst
-		    src = join(args.srcalt, f)
-		    try:
-		       os.link(src, dst)
-		    except:
-                       # the initial startup is slow, so it happens that files disappear
-		       # but once we're done here, we look at the notify events
-		       pass 
+        # print '** Del files'
+        # for i in del_files:
+        #     print i
+        if del_files:
+            print >> sys.stderr, '{1}: Unlinking deleted files ({0})...'.format(len(del_files), kpsol)
+        for f in del_files:
+            f = join(kpdir, f)
+            os.unlink(f)
 
-	    # print '** Del files'
-	    # for i in del_files:
-	    #     print i
-	    if del_files:
-		print >> sys.stderr, '{1}: Unlinking deleted files ({0})...'.format(len(del_files), kpsol)
-	    for f in del_files:
-		f = join(kpdir, f)
-		os.unlink(f)
-
-	    # print '** Del dirs'
-	    # for i in del_dir:
-	    #     print i
-	    if del_dir:
-		print >> sys.stderr, '{1}: Unlinking deleted directories ({0})...'.format(len(del_dir), kpsol)
-	    for d in sorted(del_dir, reverse=True):
-		d = join(kpdir, d)
-		os.rmdir(d)
+        # print '** Del dirs'
+        # for i in del_dir:
+        #     print i
+        if del_dir:
+            print >> sys.stderr, '{1}: Unlinking deleted directories ({0})...'.format(len(del_dir), kpsol)
+        for d in sorted(del_dir, reverse=True):
+            d = join(kpdir, d)
+            os.rmdir(d)
  
     print "looping"
     while not changed_dirs.has_key(args.lists):
-      dirtoupdate = None
-      change_lock.acquire()
-      for dir in changed_dirs:
-         if time.time() - changed_dirs[dir] < 100: continue
-         del changed_dirs[dir]
-	 dirtoupdate = dir[len(args.src):]
-         break
-      change_lock.release()
-      if not dirtoupdate:
-        print "sleep 20"
-        time.sleep(20)
-        continue
-      #update_dir(dirs)
+        dirtoupdate = None
+        change_lock.acquire()
+        for dir in changed_dirs:
+            if time.time() - changed_dirs[dir] < 100: continue
+            del changed_dirs[dir]
+            dirtoupdate = dir[len(args.src):]
+            break
+        change_lock.release()
+        if not dirtoupdate:
+            time.sleep(20)
+            continue
+        # update_dir(dirs)
       
-      if not all_dirs.has_key(dirtoupdate):
-         print "not found:", dirtoupdate, sorted(all_dirs.keys())
-         continue
+        if not all_dirs.has_key(dirtoupdate):
+            print "not found:", dirtoupdate, sorted(all_dirs.keys())
+            continue
 
-      print "updating", dirtoupdate
-      #print "B:", dirtoupdate, all_dirs[dirtoupdate]
-      # collect the prefices in all knapsacks
-      srcfiles = dict()
-      for src_file in all_dirs[dirtoupdate]:
-        srcfiles[src_file[0]] = src_file[1]
-      all_dirs[dirtoupdate] = expand_dir(join(args.src, dirtoupdate), srcfiles)
-      #print "A:", dirtoupdate, all_dirs[dirtoupdate]
+        print "updating", dirtoupdate
+        #print "B:", dirtoupdate, all_dirs[dirtoupdate]
+        # collect the prefices in all knapsacks
+        srcfiles = dict()
+        for src_file in all_dirs[dirtoupdate]:
+            srcfiles[src_file[0]] = src_file[1]
+        all_dirs[dirtoupdate] = expand_dir(join(args.src, dirtoupdate), srcfiles)
+        #print "A:", dirtoupdate, all_dirs[dirtoupdate]
 
-      # update knapsacks
-      for kpsol in args.kpsol:
-        kpdir = join(os.path.join(args.dst, kpsol), dirtoupdate)
-        src_files = set()
-        for file in all_dirs[dirtoupdate]:
-          if kpsol in file[1]:
-            for f in file[2]:
-              src_files.add(f)
-        dst_files, dst_dir = get_files(kpdir)
-        new_files = src_files - dst_files
-        del_files = dst_files - src_files
-	#print kpsol, src_files, dst_files, new_files, del_files
-        # TODO: avoid code duplication
-        if del_files:
-           print >> sys.stderr, '{1}: Unlinking deleted files ({0})...'.format(len(del_files), kpsol)
-        for f in del_files:
-           f = os.path.join(kpdir, f)
-           os.unlink(f)
+        # update knapsacks
+        for kpsol in args.kpsol:
+            kpdir = join(os.path.join(args.dst, kpsol), dirtoupdate)
+            src_files = set()
+            for file in all_dirs[dirtoupdate]:
+                if kpsol in file[1]:
+                    for f in file[2]:
+                        src_files.add(f)
+            dst_files, dst_dir = get_files(kpdir)
+            new_files = src_files - dst_files
+            del_files = dst_files - src_files
+            #print kpsol, src_files, dst_files, new_files, del_files
+            # TODO: avoid code duplication
+            if del_files:
+                print >> sys.stderr, '{1}: Unlinking deleted files ({0})...'.format(len(del_files), kpsol)
+            for f in del_files:
+                f = os.path.join(kpdir, f)
+                os.unlink(f)
 
-        if new_files:
-          print >> sys.stderr, '{1}: Linking new files ({0})...'.format(len(new_files), kpsol)
-        for f in new_files:
-          src, dst = os.path.join(join(args.src, dirtoupdate), f), os.path.join(kpdir, f)
-          try:
-            os.link(src, dst)
-          except:
-            #print 'SRC', src
-            #print 'DST', dst
-            src = os.path.join(join(args.srcalt, dirtoupdate), f)
-            try:
-              os.link(src, dst)
-            except:
-              print "linking failed", f, dirtoupdate, kpsol
-              pass
+            if new_files:
+                print >> sys.stderr, '{1}: Linking new files ({0})...'.format(len(new_files), kpsol)
+            for f in new_files:
+                src, dst = os.path.join(join(args.src, dirtoupdate), f), os.path.join(kpdir, f)
+                try:
+                    os.link(src, dst)
+                except:
+                    #print 'SRC', src
+                    #print 'DST', dst
+                    src = os.path.join(join(args.srcalt, dirtoupdate), f)
+                    try:
+                        os.link(src, dst)
+                    except:
+                        print "linking failed", f, dirtoupdate, kpsol
+                        pass
 
     notifier.stop()
