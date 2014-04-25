@@ -1,0 +1,21 @@
+include knapsack/*.py knapsack/*.pyx
+include README.md
+include MANIFEST.in
+include bots.txt
+include disk_size
+include disk_size_groups
+include full-kp
+include get_path
+include kp
+include merge_payload
+include mirror_brain
+include payload
+include prepare-kp
+include remove_package_version
+include remove_time_filter_new
+include run-server
+include run-when
+include setup.py
+include update-rsync
+include update-rsync-notify.py
+include user-agents
