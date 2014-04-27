@@ -22,8 +22,7 @@ setup(
              'remove_package_version', 'remove_time_filter_new', 'run-server',
              'run-when', 'update-rsync', 'update-rsync-notify.py',
              'user-agents'],
-    data_files=(['data', ['bots.txt']],
-                ['doc', ['README.md']]),
+    data_files=(['data', ['bots.txt']],),
     cmdclass={'build_ext': build_ext},
     ext_modules=[ext_module],
 )
