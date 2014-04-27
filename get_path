@@ -11,6 +11,7 @@ import sys
 from knapsack.utils import parse_file
 from knapsack.utils import remove_version_or_discard
 
+BOTS='/usr/share/bots.txt'
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(
@@ -22,5 +23,5 @@ if __name__ == '__main__':
                         default=sys.stdout)
     args = parser.parse_args()
 
-    bots = set(l.strip() for l in open('bots.txt'))
+    bots = set(l.strip() for l in open(BOTS))
     parse_file(args.infile, args.outfile, bots)
