@@ -1,7 +1,7 @@
 #!/bin/bash
 
 PREFIX=/mounts/users-space/aplanas/knapsack
-URL=http://langley.suse.de/pub/pontifex2-opensuse.suse.de/download.opensuse.org/
+URL=http://langley.suse.de/pub/pontifex3-opensuse.suse.de/download.opensuse.org/
 NPROCS=6
 
 TMP=/var/tmp.ok
