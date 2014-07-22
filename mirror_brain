@@ -1,7 +1,8 @@
 #!/bin/bash
 
 # MB_HOST=149.44.161.13
-MB_HOST=mirrordb4-opensuse.suse.de
+# MB_HOST=mirrordb4-opensuse.suse.de
+MB_HOST=mirrordb3-opensuse.suse.de
 MB_PASSWD=`cat mbpasswd`
 MB_SQL="SELECT hash.size, to_timestamp(hash.mtime)::date, filearr.path
         FROM hash, filearr
