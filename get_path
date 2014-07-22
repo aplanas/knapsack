@@ -11,7 +11,7 @@ import sys
 from knapsack.utils import parse_file
 from knapsack.utils import remove_version_or_discard
 
-BOTS='/usr/share/knapsack/bots.txt'
+BOTS='/usr/share/python-knapsack/bots.txt'
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(
