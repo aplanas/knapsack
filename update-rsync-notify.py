@@ -146,7 +146,8 @@ if __name__ == '__main__':
         kp_files = sorted(f.strip() for f in open(join(args.lists, kpsol)) if f.strip())
         for file in kp_files:
             fte = src_files_to_expand.get(file, [])
-            src_files_to_expand[file] = fte.append(kpsol)
+            fte.append(kpsol)
+            src_files_to_expand[file] = fte
 
     all_dirs = dict()
     srcfiles = dict()
