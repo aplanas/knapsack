@@ -210,7 +210,7 @@ if __name__ == '__main__':
         for d in sorted(new_dir):
             stat = os.stat(join(args.src, d))
             d = join(kpdir, d)
-            os.mkdir(d)
+            os.makedirs(d)
             os.chmod(d, stat.st_mode)
 
         # Update permissions
