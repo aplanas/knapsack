@@ -11,7 +11,9 @@ done
 
 source rsyncpasswd
 
+# stage.o.o -- used for mirrors
 RSYNC_PASSWORD=$RSYNCPW rsync -avz rsyncd-launch/* knapsacks@pontifex3-opensuse.suse.de::put-knapsacks
+# rsync.o.o -- used by users
 RSYNC_PASSWORD=$RSYNCPW rsync -avz rsyncd-launch/* knapsacks@widehat-opensuse.suse.de::put-knapsacks
 
 git commit rsyncd-launch/* -m 'Automatic KP commit.'
