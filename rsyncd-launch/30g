@@ -1,10 +1,14 @@
-/repositories/home:/magist3r:/bootdisk/openSUSE_13.1/x86_64/kernel-vanilla-debuginfo
-/repositories/home:/oneukum:/oS132-ckt1-review2/standard/x86_64/kernel-debug
+/repositories/home:/jsundermeyer/Fedora_22/i686/texstudio
+/repositories/home:/jsundermeyer/Fedora_22/i686/texstudio-debuginfo
+/repositories/home:/jsundermeyer/Fedora_22/src/texstudio
+/repositories/home:/jsundermeyer/Fedora_22/x86_64/texstudio
+/repositories/home:/jsundermeyer/Fedora_22/x86_64/texstudio-debuginfo
 /repositories/home:/toganm:/photography/openSUSE_13.1/i586/darktable
 /repositories/home:/toganm:/photography/openSUSE_13.1/x86_64/darktable
 /repositories/home:/toganm:/photography/openSUSE_13.2/i586/darktable
 /repositories/home:/toganm:/photography/openSUSE_13.2/x86_64/darktable
-/repositories/openSUSE:/Maintenance:/3817/openSUSE_13.2_Update_ports/ppc64/libtalloc2-32bit
+/repositories/home:/Ximi1970:/Toolchains:/Qt:/openSUSE/openSUSE_13.2/i586/libqt4-opensource-4.8.6-static
+/repositories/isv:/ownCloud:/community/openSUSE_Factory_ARM/noarch/owncloud-app-gallery
 /update/13.1/i586/apache2
 /update/13.1/i586/apache2-devel
 /update/13.1/i586/apache2-event
