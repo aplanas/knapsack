@@ -6,7 +6,8 @@ import os.path
 import re
 
 
-def read_file(filename, ratio=1, laplacian=True, as_int=True, remove_dot=False, with_time=False):
+def read_file(filename, ratio=1, laplacian=True, as_int=True,
+              remove_dot=False, with_time=False):
     """Read a file in the format <NUM> <PATH>."""
     item_list = []
 
@@ -18,7 +19,7 @@ def read_file(filename, ratio=1, laplacian=True, as_int=True, remove_dot=False, 
     with open(filename) as f:
         for line in f:
             fields = line.split()
-            
+
             if not with_time:
                 size, path = fields[0], ' '.join(fields[1:])
                 _time = None
@@ -74,12 +75,15 @@ def parse_file(infile, outfile, bots):
 
         # Get the path without the version
         path = remove_version_or_discard(path)
+
         if path:
+            # Merge 'factory' and 'tumbleweed'
+            path = path.replace('/factory/', '/tumbleweed/')
             print >> outfile, hit['ip'], path
 
 
-
-PACKAGE = re.compile(r'(.+)-[^-]+-[^-]+\.(\w+)\.(?:d?)rpm') # Adapted from 'xmath'
+# Adapted from 'xmath'
+PACKAGE = re.compile(r'(.+)-[^-]+-[^-]+\.(\w+)\.(?:d?)rpm')
 HEX64 = re.compile(r'[0-9a-f]{64}')
 
 
