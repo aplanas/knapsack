@@ -3,7 +3,7 @@
 NDAYS=${1:-7}
 SINCE=`date -d "$NDAYS days ago" +%Y-%m-%d`
 
-if [ -f mirror_brain.txt ] ; then
+if [ -s mirror_brain.txt ] ; then
     echo 'Removing the date field and filtering the new packages ...'
     remove_time_filter_new --date $SINCE mirror_brain.txt > disk_size_sql.txt 2> payload_new.txt
     gzip -f mirror_brain.txt
