@@ -9,11 +9,14 @@ TMP=/var/tmp
 function process_day {
     year=$1; month=$2; day=$3
 
-    log=$URL/$year/$month/download.opensuse.org-$year$month$day-access_log.gz
+    log_xz=$URL/$year/$month/download.opensuse.org-$year$month$day-access_log.xz
+    log_gz=$URL/$year/$month/download.opensuse.org-$year$month$day-access_log.gz
     mkdir -p $PREFIX/$year/$month
     touch $PREFIX/$year/$month/$year$month$day.txt
-    if curl -sIf -o /dev/null "$log"; then
-	curl -s "$log" | gunzip | get_path | sort -T $TMP | uniq | cut -d ' ' -f 2- >$PREFIX/$year/$month/$year$month$day.txt
+    if curl -sIf -o /dev/null "$log_xz"; then
+	curl -s "$log_xz" | xz -d | get_path | sort -T $TMP | uniq | cut -d ' ' -f 2- >$PREFIX/$year/$month/$year$month$day.txt
+    elif curl -sIf -o /dev/null "$log_gz"; then
+	curl -s "$log_gz" | gunzip | get_path | sort -T $TMP | uniq | cut -d ' ' -f 2- >$PREFIX/$year/$month/$year$month$day.txt
     fi
 }
 
