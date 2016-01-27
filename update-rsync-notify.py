@@ -215,6 +215,7 @@ if __name__ == '__main__':
 
         # Update permissions
         for d in sorted(cur_dir):
+            stat = None
             try:
                 sd = join(args.src, d)
                 stat = os.stat(sd)
