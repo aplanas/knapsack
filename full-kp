@@ -1,20 +1,29 @@
 #!/bin/bash
 
+# Load configuration file
+if [ ! -f kp.cfg ]; then
+    . /etc/kp.cfg
+else
+    . kp.cfg
+fi
+
 # Prepare the KP data. The only pre-requisite is mirror_brain.txt
 prepare-kp
 
 # Compile with: python setup.py build_ext --inplace
 
 for KP in 30 80 160 320 640 ; do
-    kp --price payload_final.txt --size no_version_disk_size_sql_with_dir.txt --wsize $(($KP*1024)) --fixsize | sort > rsyncd-launch/${KP}g
+    kp --price $DATA/payload_final.txt \
+       --size $DATA/no_version_disk_size_sql_with_dir.txt \
+       --wsize $(($KP*1024)) --fixsize | sort > rsyncd-launch/${KP}g
 done
-
-source rsyncpasswd
 
 # stage.o.o -- used for mirrors
 RSYNC_PASSWORD=$RSYNCPW rsync -avz rsyncd-launch/* knapsacks@pontifex3-opensuse.suse.de::put-knapsacks
 # rsync.o.o -- used by users
 RSYNC_PASSWORD=$RSYNCPW rsync -avz rsyncd-launch/* knapsacks@widehat-opensuse.suse.de::put-knapsacks
 
-git commit rsyncd-launch/* -m 'Automatic KP commit.'
-git push -u origin master
+if [ "$GIT" = true ]; then
+    git commit rsyncd-launch/* -m 'Automatic KP commit.'
+    git push -u origin master
+fi

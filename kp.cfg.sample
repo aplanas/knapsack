@@ -1,0 +1,29 @@
+# Place where are the data files (needs read / write):
+#    mirror_brain.txt
+#    disk_size_sql.txt
+#    payload_new.txt
+#    no_version_disk_size_sql.txt
+#    payload_new_no_version.txt
+#    no_version_disk_size_sql_with_dir.txt
+#    payload_final.txt
+DATA=/var/lib/kp
+
+# Place where the payload is stored
+PAYLOAD=$DATA/payload
+
+# Temporal directory (used for distributed sorting)
+TMP=/var/tmp
+
+# Password for rsync service
+RSYNCPW=PASSWORD
+
+# Host, username and password for mirror brain service
+MB_HOST=HOST
+MB_USER=USER
+MB_PASSWD=PASSWORD
+
+# Track with git
+GIT=false
+
+# Use lock to wake up process
+LOCK=false

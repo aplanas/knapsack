@@ -1,22 +1,26 @@
 #!/bin/bash
 
-PREFIX=/mounts/users-space/aplanas/knapsack
+# Load configuration file
+if [ ! -f kp.cfg ]; then
+    . /etc/kp.cfg
+else
+    . kp.cfg
+fi
+
 URL=http://langley.suse.de/pub/pontifex3-opensuse.suse.de/download.opensuse.org/
 NPROCS=6
-
-TMP=/var/tmp
 
 function process_day {
     year=$1; month=$2; day=$3
 
     log_xz=$URL/$year/$month/download.opensuse.org-$year$month$day-access_log.xz
     log_gz=$URL/$year/$month/download.opensuse.org-$year$month$day-access_log.gz
-    mkdir -p $PREFIX/$year/$month
-    touch $PREFIX/$year/$month/$year$month$day.txt
+    mkdir -p $PAYLOAD/$year/$month
+    touch $PAYLOAD/$year/$month/$year$month$day.txt
     if curl -sIf -o /dev/null "$log_xz"; then
-	curl -s "$log_xz" | xz -d | get_path | sort -T $TMP | uniq | cut -d ' ' -f 2- >$PREFIX/$year/$month/$year$month$day.txt
+	curl -s "$log_xz" | xz -d | get_path | sort -T $TMP | uniq | cut -d ' ' -f 2- >$PAYLOAD/$year/$month/$year$month$day.txt
     elif curl -sIf -o /dev/null "$log_gz"; then
-	curl -s "$log_gz" | gunzip | get_path | sort -T $TMP | uniq | cut -d ' ' -f 2- >$PREFIX/$year/$month/$year$month$day.txt
+	curl -s "$log_gz" | gunzip | get_path | sort -T $TMP | uniq | cut -d ' ' -f 2- >$PAYLOAD/$year/$month/$year$month$day.txt
     fi
 }
 
@@ -35,7 +39,7 @@ for days_ago in `seq -w $NDAYS -1 0`; do
     month=`echo $pdate | cut -d'-' -f2`
     day=`echo $pdate | cut -d'-' -f3`
 
-    logfile=$PREFIX/$year/$month/$year$month$day.txt
+    logfile=$PAYLOAD/$year/$month/$year$month$day.txt
 
     # If the size of the file is not zero, include the file and don't
     # call process_day()
@@ -56,8 +60,8 @@ done
 
 wait
 
-sort --parallel=$NPROCS -T $TMP ${LOGS[*]} | uniq -c | sort --parallel=$NPROCS -T $TMP -nr > $PREFIX/_tmp_payload.txt
+sort --parallel=$NPROCS -T $TMP ${LOGS[*]} | uniq -c | sort --parallel=$NPROCS -T $TMP -nr > $PAYLOAD/_tmp_payload.txt
 # Make a backup for the old payload.txt
-mv $PREFIX/payload.txt $PREFIX/payload-`date +%Y-%m-%d`.txt
-gzip $PREFIX/payload-`date +%Y-%m-%d`.txt
-mv $PREFIX/_tmp_payload.txt $PREFIX/payload.txt
+mv $PAYLOAD/payload.txt $PAYLOAD/payload-`date +%Y-%m-%d`.txt
+gzip $PAYLOAD/payload-`date +%Y-%m-%d`.txt
+mv $PAYLOAD/_tmp_payload.txt $PAYLOAD/payload.txt

@@ -1,5 +1,12 @@
 #!/bin/bash
 
+# Load configuration file
+if [ ! -f kp.cfg ]; then
+    . /etc/kp.cfg
+else
+    . kp.cfg
+fi
+
 # To prepare the KP data, we need to generage the payload from the
 # logs files, the payload from the new files and the size of all files
 # (both from the MirrorBrain database).
@@ -12,5 +19,4 @@ payload 40
 disk_size 7
 
 # Mergue the payloads
-PREFIX=/mounts/users-space/aplanas/knapsack
-merge_payload $PREFIX/payload.txt payload_new_no_version.txt > payload_final.txt
+merge_payload $PAYLOAD/payload.txt $DATA/payload_new_no_version.txt > $DATA/payload_final.txt

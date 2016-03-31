@@ -1,22 +1,29 @@
 #!/bin/bash
 
+# Load configuration file
+if [ ! -f kp.cfg ]; then
+    . /etc/kp.cfg
+else
+    . kp.cfg
+fi
+
 NDAYS=${1:-7}
 SINCE=`date -d "$NDAYS days ago" +%Y-%m-%d`
 
-if [ -s mirror_brain.txt ] ; then
+if [ -s $DATA/mirror_brain.txt ] ; then
     echo 'Removing the date field and filtering the new packages ...'
-    remove_time_filter_new --date $SINCE mirror_brain.txt > disk_size_sql.txt 2> payload_new.txt
-    gzip -f mirror_brain.txt
+    remove_time_filter_new --date $SINCE $DATA/mirror_brain.txt > $DATA/disk_size_sql.txt 2> $DATA/payload_new.txt
+    gzip -f $DATA/mirror_brain.txt
 
     echo 'Removing version name ...'
-    remove_package_version disk_size_sql.txt > no_version_disk_size_sql.txt
-    gzip -f disk_size_sql.txt
+    remove_package_version $DATA/disk_size_sql.txt > $DATA/no_version_disk_size_sql.txt
+    gzip -f $DATA/disk_size_sql.txt
 
     echo 'Removing version name in payload_new ...'
-    remove_package_version payload_new.txt > payload_new_no_version.txt
-    gzip -f payload_new.txt
+    remove_package_version $DATA/payload_new.txt > $DATA/payload_new_no_version.txt
+    gzip -f $DATA/payload_new.txt
 
     echo 'Adding directories sizes ...'
-    disk_size_groups --size no_version_disk_size_sql.txt > no_version_disk_size_sql_with_dir.txt
-    gzip -f no_version_disk_size_sql.txt
+    disk_size_groups --size $DATA/no_version_disk_size_sql.txt > $DATA/no_version_disk_size_sql_with_dir.txt
+    gzip -f $DATA/no_version_disk_size_sql.txt
 fi

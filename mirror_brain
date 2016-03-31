@@ -1,9 +1,12 @@
 #!/bin/bash
 
-# MB_HOST=149.44.161.13
-# MB_HOST=mirrordb4-opensuse.suse.de
-MB_HOST=mirrordb3-opensuse.suse.de
-MB_PASSWD=`cat mbpasswd`
+# Load configuration file
+if [ ! -f kp.cfg ]; then
+    . /etc/kp.cfg
+else
+    . kp.cfg
+fi
+
 MB_SQL="SELECT hash.size, to_timestamp(hash.mtime)::date, filearr.path
         FROM hash, filearr
         WHERE filearr.id=hash.file_id
@@ -14,9 +17,9 @@ MB_SQL="SELECT hash.size, to_timestamp(hash.mtime)::date, filearr.path
 ### AND filearr.path NOT LIKE 'repositories/home:%';\""
 
 echo 'Getting the package list ...'
-PGPASSWORD=$MB_PASSWD psql -U rsyncsize -h $MB_HOST -t -A -F ' ' mb_opensuse -c "$MB_SQL" > mirror_brain.txt
-
-date +%Y-%m-%d > last_time_mb
+PGPASSWORD=$MB_PASSWD psql -U $MB_USER -h $MB_HOST -t -A -F ' ' mb_opensuse -c "$MB_SQL" > $DATA/mirror_brain.txt
 
 # Wake up the rest of the process
-:> lock-dir/kp.lock
+if [ "$LOCK" = true ]; then
+    :> lock-dir/kp.lock
+fi
