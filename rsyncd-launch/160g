@@ -24,6 +24,7 @@
 /debug/tumbleweed/repo/oss/suse/x86_64/libxml2-2-debuginfo
 /debug/tumbleweed/repo/oss/suse/x86_64/libxml2-debuginfo
 /debug/tumbleweed/repo/oss/suse/x86_64/pcre-debuginfo
+/debug/tumbleweed/repo/oss/suse/x86_64/plasma5-workspace-debuginfo
 /debug/tumbleweed/repo/oss/suse/x86_64/pulseaudio-debuginfo
 /debug/update/leap/42.2/non-oss/repodata/-appdata.xml.gz
 /debug/update/leap/42.2/non-oss/repodata/-primary.xml.gz
@@ -40,30 +41,62 @@
 /debug/update/leap/42.3/oss/repodata/-appdata.xml.gz
 /debug/update/leap/42.3/oss/repodata/-primary.xml.gz
 /debug/update/leap/42.3/oss/repodata/-suseinfo.xml.gz
+/debug/update/leap/42.3/oss/x86_64/chromedriver-debuginfo
 /debug/update/leap/42.3/oss/x86_64/libgcrypt20-debuginfo
 /debug/update/leap/42.3/oss/x86_64/libpcre1-debuginfo
 /distribution/leap/15.0/repo/non-oss/repodata/-appdata.xml.gz
 /distribution/leap/15.0/repo/non-oss/repodata/-primary.xml.gz
 /distribution/leap/15.0/repo/non-oss/repodata/-susedata.xml.gz
+/distribution/leap/15.0/repo/oss/noarch/file-magic
+/distribution/leap/15.0/repo/oss/noarch/kbd-legacy
 /distribution/leap/15.0/repo/oss/noarch/system-group-hardware
 /distribution/leap/15.0/repo/oss/noarch/system-user-root
 /distribution/leap/15.0/repo/oss/repodata/-appdata.xml.gz
 /distribution/leap/15.0/repo/oss/repodata/-primary.xml.gz
 /distribution/leap/15.0/repo/oss/repodata/-susedata.xml.gz
-/distribution/leap/15.0/repo/oss/x86_64/autofs
+/distribution/leap/15.0/repo/oss/x86_64/cracklib
 /distribution/leap/15.0/repo/oss/x86_64/glibc
+/distribution/leap/15.0/repo/oss/x86_64/kmod
 /distribution/leap/15.0/repo/oss/x86_64/kmod-compat
+/distribution/leap/15.0/repo/oss/x86_64/libapparmor1
 /distribution/leap/15.0/repo/oss/x86_64/libaudit1
+/distribution/leap/15.0/repo/oss/x86_64/libblkid1
+/distribution/leap/15.0/repo/oss/x86_64/libcap2
+/distribution/leap/15.0/repo/oss/x86_64/libcap-ng0
+/distribution/leap/15.0/repo/oss/x86_64/libcom_err2
 /distribution/leap/15.0/repo/oss/x86_64/libcrack2
 /distribution/leap/15.0/repo/oss/x86_64/libdw1
+/distribution/leap/15.0/repo/oss/x86_64/libebl-plugins
+/distribution/leap/15.0/repo/oss/x86_64/libelf1
 /distribution/leap/15.0/repo/oss/x86_64/libexpat1
+/distribution/leap/15.0/repo/oss/x86_64/libgcc_s1
 /distribution/leap/15.0/repo/oss/x86_64/libgcrypt20
+/distribution/leap/15.0/repo/oss/x86_64/libgdbm4
 /distribution/leap/15.0/repo/oss/x86_64/libkeyutils1
+/distribution/leap/15.0/repo/oss/x86_64/libkmod2
+/distribution/leap/15.0/repo/oss/x86_64/liblua5_3-5
+/distribution/leap/15.0/repo/oss/x86_64/liblz4-1
+/distribution/leap/15.0/repo/oss/x86_64/liblzma5
+/distribution/leap/15.0/repo/oss/x86_64/libmagic1
+/distribution/leap/15.0/repo/oss/x86_64/libmount1
+/distribution/leap/15.0/repo/oss/x86_64/libncurses6
+/distribution/leap/15.0/repo/oss/x86_64/libnghttp2-14
 /distribution/leap/15.0/repo/oss/x86_64/libopenssl1_0_0
+/distribution/leap/15.0/repo/oss/x86_64/libpcre1
+/distribution/leap/15.0/repo/oss/x86_64/libsepol1
 /distribution/leap/15.0/repo/oss/x86_64/libsmartcols1
+/distribution/leap/15.0/repo/oss/x86_64/libsystemd0
+/distribution/leap/15.0/repo/oss/x86_64/libuuid1
+/distribution/leap/15.0/repo/oss/x86_64/libz1
+/distribution/leap/15.0/repo/oss/x86_64/ncurses-utils
 /distribution/leap/15.0/repo/oss/x86_64/openssl-1_0_0
 /distribution/leap/15.0/repo/oss/x86_64/openSUSE-release-ftp
+/distribution/leap/15.0/repo/oss/x86_64/perl-base
 /distribution/leap/15.0/repo/oss/x86_64/pkg-config
+/distribution/leap/15.0/repo/oss/x86_64/shadow
+/distribution/leap/15.0/repo/oss/x86_64/terminfo-base
+/distribution/leap/15.0/repo/oss/x86_64/which
+/distribution/leap/15.0/repo/oss/x86_64/xz
 /distribution/leap/42.2/iso/openSUSE-Leap-42.2-NET-x86_64.iso
 /distribution/leap/42.2/repo/non-oss/suse/noarch/AdobeICCProfiles
 /distribution/leap/42.2/repo/non-oss/suse/noarch/perlref
@@ -79,6 +112,7 @@
 /distribution/leap/42.2/repo/oss/boot/x86_64/cracklib-dict-full.rpm
 /distribution/leap/42.2/repo/oss/boot/x86_64/yast2-trans-de.rpm
 /distribution/leap/42.2/repo/oss/boot/x86_64/yast2-trans-en_US.rpm
+/distribution/leap/42.2/repo/oss/boot/x86_64/yast2-trans-ru.rpm
 /distribution/leap/42.2/repo/oss/suse/noarch/abiword-docs
 /distribution/leap/42.2/repo/oss/suse/noarch/accountsservice-lang
 /distribution/leap/42.2/repo/oss/suse/noarch/adaptec-firmware
@@ -195,6 +229,7 @@
 /distribution/leap/42.2/repo/oss/suse/noarch/color-filesystem
 /distribution/leap/42.2/repo/oss/suse/noarch/command-not-found
 /distribution/leap/42.2/repo/oss/suse/noarch/compizconfig-settings-manager
+/distribution/leap/42.2/repo/oss/suse/noarch/compizconfig-settings-manager-lang
 /distribution/leap/42.2/repo/oss/suse/noarch/compiz-emerald-themes
 /distribution/leap/42.2/repo/oss/suse/noarch/compiz-lang
 /distribution/leap/42.2/repo/oss/suse/noarch/compiz-plugins-main-lang
@@ -222,6 +257,7 @@
 /distribution/leap/42.2/repo/oss/suse/noarch/deja-dup-lang
 /distribution/leap/42.2/repo/oss/suse/noarch/dejavu-fonts
 /distribution/leap/42.2/repo/oss/suse/noarch/desktop-data-openSUSE
+/distribution/leap/42.2/repo/oss/suse/noarch/desktop-data-openSUSE-extra
 /distribution/leap/42.2/repo/oss/suse/noarch/desktop-translations
 /distribution/leap/42.2/repo/oss/suse/noarch/devhelp-lang
 /distribution/leap/42.2/repo/oss/suse/noarch/dia-lang
@@ -318,7 +354,6 @@
 /distribution/leap/42.2/repo/oss/suse/noarch/gimp-help-pl
 /distribution/leap/42.2/repo/oss/suse/noarch/gimp-help-pt_BR
 /distribution/leap/42.2/repo/oss/suse/noarch/gimp-help-ru
-/distribution/leap/42.2/repo/oss/suse/noarch/gimp-help-zh
 /distribution/leap/42.2/repo/oss/suse/noarch/gimp-lang
 /distribution/leap/42.2/repo/oss/suse/noarch/gio-branding-openSUSE
 /distribution/leap/42.2/repo/oss/suse/noarch/gitg-lang
@@ -559,11 +594,14 @@
 /distribution/leap/42.2/repo/oss/suse/noarch/kernel-devel
 /distribution/leap/42.2/repo/oss/suse/noarch/kernel-firmware
 /distribution/leap/42.2/repo/oss/suse/noarch/kernel-macros
+/distribution/leap/42.2/repo/oss/suse/noarch/kernel-source
 /distribution/leap/42.2/repo/oss/suse/noarch/kfilemetadata5-lang
 /distribution/leap/42.2/repo/oss/suse/noarch/kgamma5-lang
 /distribution/leap/42.2/repo/oss/suse/noarch/khotkeys5-lang
 /distribution/leap/42.2/repo/oss/suse/noarch/kicad-doc
+/distribution/leap/42.2/repo/oss/suse/noarch/kicad-doc-en
 /distribution/leap/42.2/repo/oss/suse/noarch/kicad-footprints
+/distribution/leap/42.2/repo/oss/suse/noarch/kicad-library
 /distribution/leap/42.2/repo/oss/suse/noarch/kile-lang
 /distribution/leap/42.2/repo/oss/suse/noarch/kinfocenter5-lang
 /distribution/leap/42.2/repo/oss/suse/noarch/kinit-lang
@@ -678,7 +716,9 @@
 /distribution/leap/42.2/repo/oss/suse/noarch/libpurple-lang
 /distribution/leap/42.2/repo/oss/suse/noarch/libpurple-plugin-skype-lang
 /distribution/leap/42.2/repo/oss/suse/noarch/libpwquality-lang
+/distribution/leap/42.2/repo/oss/suse/noarch/libqt4-devel-doc-data
 /distribution/leap/42.2/repo/oss/suse/noarch/libqt5keychain1-lang
+/distribution/leap/42.2/repo/oss/suse/noarch/libqt5-qtdoc
 /distribution/leap/42.2/repo/oss/suse/noarch/librecad-parts
 /distribution/leap/42.2/repo/oss/suse/noarch/libreoffice-branding-upstream
 /distribution/leap/42.2/repo/oss/suse/noarch/libreoffice-icon-theme-breeze
@@ -1005,7 +1045,6 @@
 /distribution/leap/42.2/repo/oss/suse/noarch/perl-Net-SMTP-SSL
 /distribution/leap/42.2/repo/oss/suse/noarch/perl-Net-SNMP
 /distribution/leap/42.2/repo/oss/suse/noarch/perl-Number-Compare
-/distribution/leap/42.2/repo/oss/suse/noarch/perl-OLE-Storage_Lite
 /distribution/leap/42.2/repo/oss/suse/noarch/perl-Package-DeprecationManager
 /distribution/leap/42.2/repo/oss/suse/noarch/perl-Package-Stash
 /distribution/leap/42.2/repo/oss/suse/noarch/perl-Path-Class
@@ -1038,11 +1077,11 @@
 /distribution/leap/42.2/repo/oss/suse/noarch/perl-Test-Script
 /distribution/leap/42.2/repo/oss/suse/noarch/perl-Test-Warn
 /distribution/leap/42.2/repo/oss/suse/noarch/perl-Text-CSV
-/distribution/leap/42.2/repo/oss/suse/noarch/perl-Text-Diff
 /distribution/leap/42.2/repo/oss/suse/noarch/perl-Text-Roman
 /distribution/leap/42.2/repo/oss/suse/noarch/perl-Text-Wrapper
 /distribution/leap/42.2/repo/oss/suse/noarch/perl-Tie-Cycle
 /distribution/leap/42.2/repo/oss/suse/noarch/perl-Tie-IxHash
+/distribution/leap/42.2/repo/oss/suse/noarch/perl-Tie-Simple
 /distribution/leap/42.2/repo/oss/suse/noarch/perl-TimeDate
 /distribution/leap/42.2/repo/oss/suse/noarch/perl-Time-Duration
 /distribution/leap/42.2/repo/oss/suse/noarch/perl-Try-Tiny
@@ -1062,11 +1101,13 @@
 /distribution/leap/42.2/repo/oss/suse/noarch/perl-XML-XPathEngine
 /distribution/leap/42.2/repo/oss/suse/noarch/perl-YAML
 /distribution/leap/42.2/repo/oss/suse/noarch/php5-pear-channel-symfony2
+/distribution/leap/42.2/repo/oss/suse/noarch/php5-pear-MDB2
 /distribution/leap/42.2/repo/oss/suse/noarch/php5-pear-symfony2-Console
 /distribution/leap/42.2/repo/oss/suse/noarch/php5-pear-symfony2-Finder
 /distribution/leap/42.2/repo/oss/suse/noarch/php-composer
 /distribution/leap/42.2/repo/oss/suse/noarch/phpMyAdmin
 /distribution/leap/42.2/repo/oss/suse/noarch/pidgin-indicator-lang
+/distribution/leap/42.2/repo/oss/suse/noarch/pinta
 /distribution/leap/42.2/repo/oss/suse/noarch/pitivi-lang
 /distribution/leap/42.2/repo/oss/suse/noarch/pk-update-icon-lang
 /distribution/leap/42.2/repo/oss/suse/noarch/planner-lang
@@ -1129,7 +1170,6 @@
 /distribution/leap/42.2/repo/oss/suse/noarch/python3-IPython
 /distribution/leap/42.2/repo/oss/suse/noarch/python3-Jinja2
 /distribution/leap/42.2/repo/oss/suse/noarch/python3-jsonschema
-/distribution/leap/42.2/repo/oss/suse/noarch/python3-logilab-astng
 /distribution/leap/42.2/repo/oss/suse/noarch/python3-logilab-common
 /distribution/leap/42.2/repo/oss/suse/noarch/python3-mistune
 /distribution/leap/42.2/repo/oss/suse/noarch/python3-nose
@@ -1150,7 +1190,6 @@
 /distribution/leap/42.2/repo/oss/suse/noarch/python3-pytz
 /distribution/leap/42.2/repo/oss/suse/noarch/python3-pyxdg
 /distribution/leap/42.2/repo/oss/suse/noarch/python3-requests
-/distribution/leap/42.2/repo/oss/suse/noarch/python3-requests-toolbelt
 /distribution/leap/42.2/repo/oss/suse/noarch/python3-rope
 /distribution/leap/42.2/repo/oss/suse/noarch/python3-setuptools
 /distribution/leap/42.2/repo/oss/suse/noarch/python3-six
@@ -1196,7 +1235,6 @@
 /distribution/leap/42.2/repo/oss/suse/noarch/python-docutils
 /distribution/leap/42.2/repo/oss/suse/noarch/python-ecdsa
 /distribution/leap/42.2/repo/oss/suse/noarch/python-enum34
-/distribution/leap/42.2/repo/oss/suse/noarch/python-evtx
 /distribution/leap/42.2/repo/oss/suse/noarch/python-extras
 /distribution/leap/42.2/repo/oss/suse/noarch/python-eyeD3
 /distribution/leap/42.2/repo/oss/suse/noarch/python-Flask
@@ -1325,12 +1363,12 @@
 /distribution/leap/42.2/repo/oss/suse/noarch/regexp
 /distribution/leap/42.2/repo/oss/suse/noarch/release-notes-openSUSE
 /distribution/leap/42.2/repo/oss/suse/noarch/remmina-lang
-/distribution/leap/42.2/repo/oss/suse/noarch/RemoteBox
 /distribution/leap/42.2/repo/oss/suse/noarch/rhino
 /distribution/leap/42.2/repo/oss/suse/noarch/rhythmbox-lang
 /distribution/leap/42.2/repo/oss/suse/noarch/ristretto-lang
 /distribution/leap/42.2/repo/oss/suse/noarch/rpmlint-Factory
 /distribution/leap/42.2/repo/oss/suse/noarch/ruby-common
+/distribution/leap/42.2/repo/oss/suse/noarch/runvdr-extreme-systemd
 /distribution/leap/42.2/repo/oss/suse/noarch/sac
 /distribution/leap/42.2/repo/oss/suse/noarch/saxon6
 /distribution/leap/42.2/repo/oss/suse/noarch/saxon9
@@ -1402,6 +1440,7 @@
 /distribution/leap/42.2/repo/oss/suse/noarch/texlive-a4wide-doc
 /distribution/leap/42.2/repo/oss/suse/noarch/texlive-accfonts
 /distribution/leap/42.2/repo/oss/suse/noarch/texlive-accfonts-doc
+/distribution/leap/42.2/repo/oss/suse/noarch/texlive-achemso
 /distribution/leap/42.2/repo/oss/suse/noarch/texlive-achemso-doc
 /distribution/leap/42.2/repo/oss/suse/noarch/texlive-acronym
 /distribution/leap/42.2/repo/oss/suse/noarch/texlive-acronym-doc
@@ -1419,7 +1458,6 @@
 /distribution/leap/42.2/repo/oss/suse/noarch/texlive-afm2pl
 /distribution/leap/42.2/repo/oss/suse/noarch/texlive-afm2pl-doc
 /distribution/leap/42.2/repo/oss/suse/noarch/texlive-aleph
-/distribution/leap/42.2/repo/oss/suse/noarch/texlive-algorithm2e-doc
 /distribution/leap/42.2/repo/oss/suse/noarch/texlive-algorithmicx
 /distribution/leap/42.2/repo/oss/suse/noarch/texlive-algorithmicx-doc
 /distribution/leap/42.2/repo/oss/suse/noarch/texlive-algorithms
@@ -2714,6 +2752,7 @@
 /distribution/leap/42.2/repo/oss/suse/noarch/texlive-mattens-doc
 /distribution/leap/42.2/repo/oss/suse/noarch/texlive-mcf2graph
 /distribution/leap/42.2/repo/oss/suse/noarch/texlive-mcf2graph-doc
+/distribution/leap/42.2/repo/oss/suse/noarch/texlive-mciteplus-doc
 /distribution/leap/42.2/repo/oss/suse/noarch/texlive-mdframed
 /distribution/leap/42.2/repo/oss/suse/noarch/texlive-mdframed-doc
 /distribution/leap/42.2/repo/oss/suse/noarch/texlive-mdwtools
@@ -3567,7 +3606,6 @@
 /distribution/leap/42.2/repo/oss/suse/noarch/texlive-tqft
 /distribution/leap/42.2/repo/oss/suse/noarch/texlive-tqft-doc
 /distribution/leap/42.2/repo/oss/suse/noarch/texlive-tracklang
-/distribution/leap/42.2/repo/oss/suse/noarch/texlive-tracklang-doc
 /distribution/leap/42.2/repo/oss/suse/noarch/texlive-translation-array-fr
 /distribution/leap/42.2/repo/oss/suse/noarch/texlive-translation-arsclassica-de
 /distribution/leap/42.2/repo/oss/suse/noarch/texlive-translation-biblatex-de
@@ -3877,7 +3915,6 @@
 /distribution/leap/42.2/repo/oss/suse/noarch/xemacs-packages-info
 /distribution/leap/42.2/repo/oss/suse/noarch/xerces-j2
 /distribution/leap/42.2/repo/oss/suse/noarch/xerces-j2-xml-apis
-/distribution/leap/42.2/repo/oss/suse/noarch/xerces-j2-xml-resolver
 /distribution/leap/42.2/repo/oss/suse/noarch/xfce4-appfinder-lang
 /distribution/leap/42.2/repo/oss/suse/noarch/xfce4-dict-lang
 /distribution/leap/42.2/repo/oss/suse/noarch/xfce4-mixer-lang
@@ -3953,6 +3990,7 @@
 /distribution/leap/42.2/repo/oss/suse/noarch/xplayer-plparser-lang
 /distribution/leap/42.2/repo/oss/suse/noarch/xslide
 /distribution/leap/42.2/repo/oss/suse/noarch/xtrans
+/distribution/leap/42.2/repo/oss/suse/noarch/xviewer-lang
 /distribution/leap/42.2/repo/oss/suse/noarch/xz-lang
 /distribution/leap/42.2/repo/oss/suse/noarch/yakuake-lang
 /distribution/leap/42.2/repo/oss/suse/noarch/yast2-add-on
@@ -4018,7 +4056,6 @@
 /distribution/leap/42.2/repo/oss/suse/noarch/yelp-tools
 /distribution/leap/42.2/repo/oss/suse/noarch/yelp-xsl
 /distribution/leap/42.2/repo/oss/suse/noarch/youtube-dl
-/distribution/leap/42.2/repo/oss/suse/noarch/yum-utils
 /distribution/leap/42.2/repo/oss/suse/noarch/zd1211-firmware
 /distribution/leap/42.2/repo/oss/suse/noarch/zenity-lang
 /distribution/leap/42.2/repo/oss/suse/noarch/zypper-aptitude
@@ -4064,7 +4101,6 @@
 /distribution/leap/42.2/repo/oss/suse/x86_64/apache2
 /distribution/leap/42.2/repo/oss/suse/x86_64/apache2-example-pages
 /distribution/leap/42.2/repo/oss/suse/x86_64/apache2-mod_dnssd
-/distribution/leap/42.2/repo/oss/suse/x86_64/apache2-mod_fastcgi
 /distribution/leap/42.2/repo/oss/suse/x86_64/apache2-mod_fcgid
 /distribution/leap/42.2/repo/oss/suse/x86_64/apache2-mod_mono
 /distribution/leap/42.2/repo/oss/suse/x86_64/apache2-mod_nss
@@ -4232,6 +4268,7 @@
 /distribution/leap/42.2/repo/oss/suse/x86_64/cinnamon-settings-daemon
 /distribution/leap/42.2/repo/oss/suse/x86_64/cjs
 /distribution/leap/42.2/repo/oss/suse/x86_64/ckermit
+/distribution/leap/42.2/repo/oss/suse/x86_64/clamav
 /distribution/leap/42.2/repo/oss/suse/x86_64/clamav-nodb
 /distribution/leap/42.2/repo/oss/suse/x86_64/clamz
 /distribution/leap/42.2/repo/oss/suse/x86_64/claws-mail
@@ -4243,6 +4280,7 @@
 /distribution/leap/42.2/repo/oss/suse/x86_64/cluster-glue
 /distribution/leap/42.2/repo/oss/suse/x86_64/clutter-devel
 /distribution/leap/42.2/repo/oss/suse/x86_64/clutter-gst-devel
+/distribution/leap/42.2/repo/oss/suse/x86_64/clutter-gtk-devel
 /distribution/leap/42.2/repo/oss/suse/x86_64/cmake
 /distribution/leap/42.2/repo/oss/suse/x86_64/cmake-gui
 /distribution/leap/42.2/repo/oss/suse/x86_64/cmake-man
@@ -4283,7 +4321,6 @@
 /distribution/leap/42.2/repo/oss/suse/x86_64/cups-client
 /distribution/leap/42.2/repo/oss/suse/x86_64/cups-filters
 /distribution/leap/42.2/repo/oss/suse/x86_64/cups-filters-cups-browsed
-/distribution/leap/42.2/repo/oss/suse/x86_64/cups-filters-devel
 /distribution/leap/42.2/repo/oss/suse/x86_64/cups-filters-foomatic-rip
 /distribution/leap/42.2/repo/oss/suse/x86_64/cups-filters-ghostscript
 /distribution/leap/42.2/repo/oss/suse/x86_64/cups-libs
@@ -4511,7 +4548,6 @@
 /distribution/leap/42.2/repo/oss/suse/x86_64/gcolor2
 /distribution/leap/42.2/repo/oss/suse/x86_64/gconf2
 /distribution/leap/42.2/repo/oss/suse/x86_64/gconf2-32bit
-/distribution/leap/42.2/repo/oss/suse/x86_64/gconf2-devel
 /distribution/leap/42.2/repo/oss/suse/x86_64/gconf-editor
 /distribution/leap/42.2/repo/oss/suse/x86_64/gconf-polkit
 /distribution/leap/42.2/repo/oss/suse/x86_64/gconf-sharp2
@@ -4558,6 +4594,7 @@
 /distribution/leap/42.2/repo/oss/suse/x86_64/gimp-plugin-aa
 /distribution/leap/42.2/repo/oss/suse/x86_64/gimp-plugins-python
 /distribution/leap/42.2/repo/oss/suse/x86_64/gimp-ufraw
+/distribution/leap/42.2/repo/oss/suse/x86_64/gio-sharp
 /distribution/leap/42.2/repo/oss/suse/x86_64/girepository-1_0
 /distribution/leap/42.2/repo/oss/suse/x86_64/git
 /distribution/leap/42.2/repo/oss/suse/x86_64/git-core
@@ -4731,7 +4768,6 @@
 /distribution/leap/42.2/repo/oss/suse/x86_64/gstreamer-utils
 /distribution/leap/42.2/repo/oss/suse/x86_64/gstreamer-validate
 /distribution/leap/42.2/repo/oss/suse/x86_64/gsynaptics
-/distribution/leap/42.2/repo/oss/suse/x86_64/gthumb
 /distribution/leap/42.2/repo/oss/suse/x86_64/gtk2-devel
 /distribution/leap/42.2/repo/oss/suse/x86_64/gtk2-engine-clearlooks
 /distribution/leap/42.2/repo/oss/suse/x86_64/gtk2-engine-crux
@@ -4875,7 +4911,6 @@
 /distribution/leap/42.2/repo/oss/suse/x86_64/javapackages-tools
 /distribution/leap/42.2/repo/oss/suse/x86_64/jfsutils
 /distribution/leap/42.2/repo/oss/suse/x86_64/joe
-/distribution/leap/42.2/repo/oss/suse/x86_64/jq
 /distribution/leap/42.2/repo/oss/suse/x86_64/json-glib-devel
 /distribution/leap/42.2/repo/oss/suse/x86_64/k3b
 /distribution/leap/42.2/repo/oss/suse/x86_64/kaccounts-integration
@@ -4976,7 +5011,6 @@
 /distribution/leap/42.2/repo/oss/suse/x86_64/keyutils
 /distribution/leap/42.2/repo/oss/suse/x86_64/keyutils-devel
 /distribution/leap/42.2/repo/oss/suse/x86_64/kf5-filesystem
-/distribution/leap/42.2/repo/oss/suse/x86_64/kf5-kcm-fcitx
 /distribution/leap/42.2/repo/oss/suse/x86_64/kfilemetadata
 /distribution/leap/42.2/repo/oss/suse/x86_64/kfilemetadata5
 /distribution/leap/42.2/repo/oss/suse/x86_64/kfilemetadata5-devel
@@ -5250,7 +5284,6 @@
 /distribution/leap/42.2/repo/oss/suse/x86_64/libbluray1
 /distribution/leap/42.2/repo/oss/suse/x86_64/libbluray1-32bit
 /distribution/leap/42.2/repo/oss/suse/x86_64/libbonobo
-/distribution/leap/42.2/repo/oss/suse/x86_64/libbonobo-32bit
 /distribution/leap/42.2/repo/oss/suse/x86_64/libbonoboui
 /distribution/leap/42.2/repo/oss/suse/x86_64/libboost_atomic1_54_0
 /distribution/leap/42.2/repo/oss/suse/x86_64/libboost_atomic1_61_0
@@ -5347,7 +5380,6 @@
 /distribution/leap/42.2/repo/oss/suse/x86_64/libcap-progs
 /distribution/leap/42.2/repo/oss/suse/x86_64/libcares2
 /distribution/leap/42.2/repo/oss/suse/x86_64/libcaribou0
-/distribution/leap/42.2/repo/oss/suse/x86_64/libcblas3
 /distribution/leap/42.2/repo/oss/suse/x86_64/libc-client2007e_suse
 /distribution/leap/42.2/repo/oss/suse/x86_64/libccolamd-2_9_1
 /distribution/leap/42.2/repo/oss/suse/x86_64/libcdata1
@@ -5469,7 +5501,6 @@
 /distribution/leap/42.2/repo/oss/suse/x86_64/libdiscid0
 /distribution/leap/42.2/repo/oss/suse/x86_64/libdjvulibre21
 /distribution/leap/42.2/repo/oss/suse/x86_64/libdleyna-core-1_0-4
-/distribution/leap/42.2/repo/oss/suse/x86_64/libdlm
 /distribution/leap/42.2/repo/oss/suse/x86_64/libdlm3
 /distribution/leap/42.2/repo/oss/suse/x86_64/libdm0
 /distribution/leap/42.2/repo/oss/suse/x86_64/libdmapsharing-3_0-2
@@ -5553,6 +5584,7 @@
 /distribution/leap/42.2/repo/oss/suse/x86_64/libexif12
 /distribution/leap/42.2/repo/oss/suse/x86_64/libexif12-32bit
 /distribution/leap/42.2/repo/oss/suse/x86_64/libexif-devel
+/distribution/leap/42.2/repo/oss/suse/x86_64/libexif-gtk
 /distribution/leap/42.2/repo/oss/suse/x86_64/libexif-gtk5
 /distribution/leap/42.2/repo/oss/suse/x86_64/libexiv2-14
 /distribution/leap/42.2/repo/oss/suse/x86_64/libexo-1-0
@@ -5640,6 +5672,7 @@
 /distribution/leap/42.2/repo/oss/suse/x86_64/libgcj-gcc6
 /distribution/leap/42.2/repo/oss/suse/x86_64/libgcj-jar-gcc6
 /distribution/leap/42.2/repo/oss/suse/x86_64/libgck-1-0
+/distribution/leap/42.2/repo/oss/suse/x86_64/libgck-devel
 /distribution/leap/42.2/repo/oss/suse/x86_64/libgck-modules-gnome-keyring
 /distribution/leap/42.2/repo/oss/suse/x86_64/libgconfmm-2_6-1
 /distribution/leap/42.2/repo/oss/suse/x86_64/libgcr-3-1
@@ -5873,6 +5906,7 @@
 /distribution/leap/42.2/repo/oss/suse/x86_64/libhdf5-10-32bit
 /distribution/leap/42.2/repo/oss/suse/x86_64/libhdf5_hl10
 /distribution/leap/42.2/repo/oss/suse/x86_64/libhdf5_hl10-32bit
+/distribution/leap/42.2/repo/oss/suse/x86_64/libhidapi-libusb0
 /distribution/leap/42.2/repo/oss/suse/x86_64/libhivex0
 /distribution/leap/42.2/repo/oss/suse/x86_64/libhogweed2
 /distribution/leap/42.2/repo/oss/suse/x86_64/libhogweed2-32bit
@@ -5900,7 +5934,6 @@
 /distribution/leap/42.2/repo/oss/suse/x86_64/libidn-devel
 /distribution/leap/42.2/repo/oss/suse/x86_64/libidn-tools
 /distribution/leap/42.2/repo/oss/suse/x86_64/libiec61883
-/distribution/leap/42.2/repo/oss/suse/x86_64/libiec61883-32bit
 /distribution/leap/42.2/repo/oss/suse/x86_64/libieee1284
 /distribution/leap/42.2/repo/oss/suse/x86_64/libieee1284-32bit
 /distribution/leap/42.2/repo/oss/suse/x86_64/libIex-2_1-11
@@ -5945,7 +5978,6 @@
 /distribution/leap/42.2/repo/oss/suse/x86_64/libjack-devel
 /distribution/leap/42.2/repo/oss/suse/x86_64/libjansson4
 /distribution/leap/42.2/repo/oss/suse/x86_64/libjasper1
-/distribution/leap/42.2/repo/oss/suse/x86_64/libjasper1-32bit
 /distribution/leap/42.2/repo/oss/suse/x86_64/libjavascriptcoregtk-1_0-0
 /distribution/leap/42.2/repo/oss/suse/x86_64/libjavascriptcoregtk-3_0-0
 /distribution/leap/42.2/repo/oss/suse/x86_64/libjavascriptcoregtk-4_0-18
@@ -5958,7 +5990,6 @@
 /distribution/leap/42.2/repo/oss/suse/x86_64/libjpeg8
 /distribution/leap/42.2/repo/oss/suse/x86_64/libjpeg8-32bit
 /distribution/leap/42.2/repo/oss/suse/x86_64/libjpeg-turbo
-/distribution/leap/42.2/repo/oss/suse/x86_64/libjq1
 /distribution/leap/42.2/repo/oss/suse/x86_64/libjson-c2
 /distribution/leap/42.2/repo/oss/suse/x86_64/libjson-c2-32bit
 /distribution/leap/42.2/repo/oss/suse/x86_64/libjson-glib-1_0-0
@@ -6215,6 +6246,7 @@
 /distribution/leap/42.2/repo/oss/suse/x86_64/liblua5_1-32bit
 /distribution/leap/42.2/repo/oss/suse/x86_64/liblua5_2
 /distribution/leap/42.2/repo/oss/suse/x86_64/libluajit-5_1-2
+/distribution/leap/42.2/repo/oss/suse/x86_64/liblucene++0
 /distribution/leap/42.2/repo/oss/suse/x86_64/liblxpanel0
 /distribution/leap/42.2/repo/oss/suse/x86_64/liblxqt0
 /distribution/leap/42.2/repo/oss/suse/x86_64/liblxqt-globalkeys0
@@ -6379,7 +6411,6 @@
 /distribution/leap/42.2/repo/oss/suse/x86_64/libntfs-3g84
 /distribution/leap/42.2/repo/oss/suse/x86_64/libntlm0
 /distribution/leap/42.2/repo/oss/suse/x86_64/libnuma1
-/distribution/leap/42.2/repo/oss/suse/x86_64/libnuma-devel
 /distribution/leap/42.2/repo/oss/suse/x86_64/liboauth0
 /distribution/leap/42.2/repo/oss/suse/x86_64/liboauth-devel
 /distribution/leap/42.2/repo/oss/suse/x86_64/libobrender32
@@ -6457,7 +6488,6 @@
 /distribution/leap/42.2/repo/oss/suse/x86_64/libpcap1
 /distribution/leap/42.2/repo/oss/suse/x86_64/libpcap1-32bit
 /distribution/leap/42.2/repo/oss/suse/x86_64/libpci3
-/distribution/leap/42.2/repo/oss/suse/x86_64/libpci3-32bit
 /distribution/leap/42.2/repo/oss/suse/x86_64/libpciaccess0
 /distribution/leap/42.2/repo/oss/suse/x86_64/libpciaccess0-32bit
 /distribution/leap/42.2/repo/oss/suse/x86_64/libpciaccess-devel
@@ -6740,7 +6770,6 @@
 /distribution/leap/42.2/repo/oss/suse/x86_64/libSDL2-2_0-0
 /distribution/leap/42.2/repo/oss/suse/x86_64/libSDL2_image-2_0-0
 /distribution/leap/42.2/repo/oss/suse/x86_64/libSDL2_mixer-2_0-0
-/distribution/leap/42.2/repo/oss/suse/x86_64/libSDL2_net-2_0-0
 /distribution/leap/42.2/repo/oss/suse/x86_64/libSDL2_ttf-2_0-0
 /distribution/leap/42.2/repo/oss/suse/x86_64/libSDL-devel
 /distribution/leap/42.2/repo/oss/suse/x86_64/libSDL_gfx15
@@ -6900,7 +6929,6 @@
 /distribution/leap/42.2/repo/oss/suse/x86_64/libtheora0-32bit
 /distribution/leap/42.2/repo/oss/suse/x86_64/libtheoradec1
 /distribution/leap/42.2/repo/oss/suse/x86_64/libtheoradec1-32bit
-/distribution/leap/42.2/repo/oss/suse/x86_64/libtheora-devel
 /distribution/leap/42.2/repo/oss/suse/x86_64/libtheoraenc1
 /distribution/leap/42.2/repo/oss/suse/x86_64/libtheoraenc1-32bit
 /distribution/leap/42.2/repo/oss/suse/x86_64/libthrift-0_9_2
@@ -7063,6 +7091,7 @@
 /distribution/leap/42.2/repo/oss/suse/x86_64/libwmf-tools
 /distribution/leap/42.2/repo/oss/suse/x86_64/libwnck-1-22
 /distribution/leap/42.2/repo/oss/suse/x86_64/libwnck-3-0
+/distribution/leap/42.2/repo/oss/suse/x86_64/libwnck-devel
 /distribution/leap/42.2/repo/oss/suse/x86_64/libwpd-0_10-10
 /distribution/leap/42.2/repo/oss/suse/x86_64/libwpg-0_3-3
 /distribution/leap/42.2/repo/oss/suse/x86_64/libwps-0_4-4
@@ -7336,6 +7365,7 @@
 /distribution/leap/42.2/repo/oss/suse/x86_64/libz1-32bit
 /distribution/leap/42.2/repo/oss/suse/x86_64/libzapojit-0_0-0
 /distribution/leap/42.2/repo/oss/suse/x86_64/libzbar0
+/distribution/leap/42.2/repo/oss/suse/x86_64/libzeitgeist-1_0-1
 /distribution/leap/42.2/repo/oss/suse/x86_64/libzeitgeist-2_0-0
 /distribution/leap/42.2/repo/oss/suse/x86_64/libzio1
 /distribution/leap/42.2/repo/oss/suse/x86_64/libzip2
@@ -7482,38 +7512,16 @@
 /distribution/leap/42.2/repo/oss/suse/x86_64/mobipocket
 /distribution/leap/42.2/repo/oss/suse/x86_64/ModemManager
 /distribution/leap/42.2/repo/oss/suse/x86_64/mokutil
-/distribution/leap/42.2/repo/oss/suse/x86_64/monitoring-plugins-breeze
-/distribution/leap/42.2/repo/oss/suse/x86_64/monitoring-plugins-by_ssh
-/distribution/leap/42.2/repo/oss/suse/x86_64/monitoring-plugins-cluster
 /distribution/leap/42.2/repo/oss/suse/x86_64/monitoring-plugins-common
 /distribution/leap/42.2/repo/oss/suse/x86_64/monitoring-plugins-dhcp
 /distribution/leap/42.2/repo/oss/suse/x86_64/monitoring-plugins-disk
-/distribution/leap/42.2/repo/oss/suse/x86_64/monitoring-plugins-disk_smb
-/distribution/leap/42.2/repo/oss/suse/x86_64/monitoring-plugins-dns
-/distribution/leap/42.2/repo/oss/suse/x86_64/monitoring-plugins-dummy
 /distribution/leap/42.2/repo/oss/suse/x86_64/monitoring-plugins-file_age
-/distribution/leap/42.2/repo/oss/suse/x86_64/monitoring-plugins-flexlm
 /distribution/leap/42.2/repo/oss/suse/x86_64/monitoring-plugins-http
-/distribution/leap/42.2/repo/oss/suse/x86_64/monitoring-plugins-ide_smart
-/distribution/leap/42.2/repo/oss/suse/x86_64/monitoring-plugins-ifoperstatus
-/distribution/leap/42.2/repo/oss/suse/x86_64/monitoring-plugins-ifstatus
 /distribution/leap/42.2/repo/oss/suse/x86_64/monitoring-plugins-load
-/distribution/leap/42.2/repo/oss/suse/x86_64/monitoring-plugins-log
-/distribution/leap/42.2/repo/oss/suse/x86_64/monitoring-plugins-mrtg
-/distribution/leap/42.2/repo/oss/suse/x86_64/monitoring-plugins-mrtgtraf
-/distribution/leap/42.2/repo/oss/suse/x86_64/monitoring-plugins-nt
-/distribution/leap/42.2/repo/oss/suse/x86_64/monitoring-plugins-ntp_peer
-/distribution/leap/42.2/repo/oss/suse/x86_64/monitoring-plugins-ntp_time
-/distribution/leap/42.2/repo/oss/suse/x86_64/monitoring-plugins-nwstat
 /distribution/leap/42.2/repo/oss/suse/x86_64/monitoring-plugins-oracle
-/distribution/leap/42.2/repo/oss/suse/x86_64/monitoring-plugins-ping
 /distribution/leap/42.2/repo/oss/suse/x86_64/monitoring-plugins-procs
-/distribution/leap/42.2/repo/oss/suse/x86_64/monitoring-plugins-rpc
 /distribution/leap/42.2/repo/oss/suse/x86_64/monitoring-plugins-sensors
-/distribution/leap/42.2/repo/oss/suse/x86_64/monitoring-plugins-ssh
 /distribution/leap/42.2/repo/oss/suse/x86_64/monitoring-plugins-swap
-/distribution/leap/42.2/repo/oss/suse/x86_64/monitoring-plugins-tcp
-/distribution/leap/42.2/repo/oss/suse/x86_64/monitoring-plugins-ups
 /distribution/leap/42.2/repo/oss/suse/x86_64/monitoring-plugins-users
 /distribution/leap/42.2/repo/oss/suse/x86_64/mono-complete
 /distribution/leap/42.2/repo/oss/suse/x86_64/mono-core
@@ -7587,7 +7595,6 @@
 /distribution/leap/42.2/repo/oss/suse/x86_64/nemo-extension-share
 /distribution/leap/42.2/repo/oss/suse/x86_64/netcat-openbsd
 /distribution/leap/42.2/repo/oss/suse/x86_64/netcdf
-/distribution/leap/42.2/repo/oss/suse/x86_64/nethogs
 /distribution/leap/42.2/repo/oss/suse/x86_64/netpbm
 /distribution/leap/42.2/repo/oss/suse/x86_64/net-snmp
 /distribution/leap/42.2/repo/oss/suse/x86_64/net-snmp-devel
@@ -8150,7 +8157,6 @@
 /distribution/leap/42.2/repo/oss/suse/x86_64/python-gnomevfs
 /distribution/leap/42.2/repo/oss/suse/x86_64/python-gobject
 /distribution/leap/42.2/repo/oss/suse/x86_64/python-gobject2
-/distribution/leap/42.2/repo/oss/suse/x86_64/python-gobject2-devel
 /distribution/leap/42.2/repo/oss/suse/x86_64/python-gobject-cairo
 /distribution/leap/42.2/repo/oss/suse/x86_64/python-gobject-Gdk
 /distribution/leap/42.2/repo/oss/suse/x86_64/python-goocanvas
@@ -8170,7 +8176,6 @@
 /distribution/leap/42.2/repo/oss/suse/x86_64/python-kde4-plasma
 /distribution/leap/42.2/repo/oss/suse/x86_64/python-kdebase4
 /distribution/leap/42.2/repo/oss/suse/x86_64/python-keybinder
-/distribution/leap/42.2/repo/oss/suse/x86_64/python-lcms
 /distribution/leap/42.2/repo/oss/suse/x86_64/python-ldap
 /distribution/leap/42.2/repo/oss/suse/x86_64/python-leveldb
 /distribution/leap/42.2/repo/oss/suse/x86_64/python-Levenshtein
@@ -8235,10 +8240,8 @@
 /distribution/leap/42.2/repo/oss/suse/x86_64/python-tornado
 /distribution/leap/42.2/repo/oss/suse/x86_64/python-vte
 /distribution/leap/42.2/repo/oss/suse/x86_64/python-webkitgtk
-/distribution/leap/42.2/repo/oss/suse/x86_64/python-wxWidgets
 /distribution/leap/42.2/repo/oss/suse/x86_64/python-wxWidgets-3_0
 /distribution/leap/42.2/repo/oss/suse/x86_64/python-wxWidgets-3_0-lang
-/distribution/leap/42.2/repo/oss/suse/x86_64/python-wxWidgets-lang
 /distribution/leap/42.2/repo/oss/suse/x86_64/python-xcb-proto-devel
 /distribution/leap/42.2/repo/oss/suse/x86_64/python-xlib
 /distribution/leap/42.2/repo/oss/suse/x86_64/python-xml
@@ -8355,7 +8358,6 @@
 /distribution/leap/42.2/repo/oss/suse/x86_64/ruby2.1-rubygem-cheetah
 /distribution/leap/42.2/repo/oss/suse/x86_64/ruby2.1-rubygem-docile
 /distribution/leap/42.2/repo/oss/suse/x86_64/ruby2.1-rubygem-erubis
-/distribution/leap/42.2/repo/oss/suse/x86_64/ruby2.1-rubygem-execjs
 /distribution/leap/42.2/repo/oss/suse/x86_64/ruby2.1-rubygem-fast_gettext
 /distribution/leap/42.2/repo/oss/suse/x86_64/ruby2.1-rubygem-fast_gettext-1_2
 /distribution/leap/42.2/repo/oss/suse/x86_64/ruby2.1-rubygem-gem2rpm
@@ -8375,7 +8377,6 @@
 /distribution/leap/42.2/repo/oss/suse/x86_64/ruby2.1-rubygem-railties-4_2
 /distribution/leap/42.2/repo/oss/suse/x86_64/ruby2.1-rubygem-ruby-augeas
 /distribution/leap/42.2/repo/oss/suse/x86_64/ruby2.1-rubygem-ruby-dbus
-/distribution/leap/42.2/repo/oss/suse/x86_64/ruby2.1-rubygem-sdoc
 /distribution/leap/42.2/repo/oss/suse/x86_64/ruby2.1-rubygem-simplecov-html
 /distribution/leap/42.2/repo/oss/suse/x86_64/ruby2.1-rubygem-term-ansicolor
 /distribution/leap/42.2/repo/oss/suse/x86_64/ruby2.1-rubygem-text
@@ -8403,7 +8404,6 @@
 /distribution/leap/42.2/repo/oss/suse/x86_64/sane-backends-autoconfig
 /distribution/leap/42.2/repo/oss/suse/x86_64/sane-backends-devel
 /distribution/leap/42.2/repo/oss/suse/x86_64/sash
-/distribution/leap/42.2/repo/oss/suse/x86_64/sax3
 /distribution/leap/42.2/repo/oss/suse/x86_64/sbc
 /distribution/leap/42.2/repo/oss/suse/x86_64/sbd
 /distribution/leap/42.2/repo/oss/suse/x86_64/screen
@@ -8479,6 +8479,7 @@
 /distribution/leap/42.2/repo/oss/suse/x86_64/sshpass
 /distribution/leap/42.2/repo/oss/suse/x86_64/star
 /distribution/leap/42.2/repo/oss/suse/x86_64/startup-notification-devel
+/distribution/leap/42.2/repo/oss/suse/x86_64/stellarium
 /distribution/leap/42.2/repo/oss/suse/x86_64/strace
 /distribution/leap/42.2/repo/oss/suse/x86_64/strongswan
 /distribution/leap/42.2/repo/oss/suse/x86_64/strongswan-ipsec
@@ -8824,7 +8825,6 @@
 /distribution/leap/42.2/repo/oss/suse/x86_64/ucode-intel
 /distribution/leap/42.2/repo/oss/suse/x86_64/udev
 /distribution/leap/42.2/repo/oss/suse/x86_64/udev-configure-printer
-/distribution/leap/42.2/repo/oss/suse/x86_64/udftools
 /distribution/leap/42.2/repo/oss/suse/x86_64/udhcp
 /distribution/leap/42.2/repo/oss/suse/x86_64/udisks2
 /distribution/leap/42.2/repo/oss/suse/x86_64/ufraw
@@ -8856,10 +8856,12 @@
 /distribution/leap/42.2/repo/oss/suse/x86_64/v4l-tools
 /distribution/leap/42.2/repo/oss/suse/x86_64/vaapi-dummy-driver
 /distribution/leap/42.2/repo/oss/suse/x86_64/vaapi-intel-driver
+/distribution/leap/42.2/repo/oss/suse/x86_64/vaapi-tools
 /distribution/leap/42.2/repo/oss/suse/x86_64/vacation
 /distribution/leap/42.2/repo/oss/suse/x86_64/vala
 /distribution/leap/42.2/repo/oss/suse/x86_64/valgrind
 /distribution/leap/42.2/repo/oss/suse/x86_64/vcdimager
+/distribution/leap/42.2/repo/oss/suse/x86_64/vdr
 /distribution/leap/42.2/repo/oss/suse/x86_64/videoproto-devel
 /distribution/leap/42.2/repo/oss/suse/x86_64/viewnior
 /distribution/leap/42.2/repo/oss/suse/x86_64/viewres
@@ -9029,6 +9031,7 @@
 /distribution/leap/42.2/repo/oss/suse/x86_64/xineramaproto-devel
 /distribution/leap/42.2/repo/oss/suse/x86_64/xinetd
 /distribution/leap/42.2/repo/oss/suse/x86_64/xine-ui
+/distribution/leap/42.2/repo/oss/suse/x86_64/xine-ui-32bit
 /distribution/leap/42.2/repo/oss/suse/x86_64/xinit
 /distribution/leap/42.2/repo/oss/suse/x86_64/xinput
 /distribution/leap/42.2/repo/oss/suse/x86_64/xkbcomp
@@ -9086,7 +9089,6 @@
 /distribution/leap/42.2/repo/oss/suse/x86_64/xscreensaver
 /distribution/leap/42.2/repo/oss/suse/x86_64/xscreensaver-data
 /distribution/leap/42.2/repo/oss/suse/x86_64/xscreensaver-data-extra
-/distribution/leap/42.2/repo/oss/suse/x86_64/xsel
 /distribution/leap/42.2/repo/oss/suse/x86_64/xset
 /distribution/leap/42.2/repo/oss/suse/x86_64/xsetmode
 /distribution/leap/42.2/repo/oss/suse/x86_64/xsetpointer
@@ -10034,6 +10036,7 @@
 /distribution/leap/42.3/repo/oss/suse/noarch/filelight-lang
 /distribution/leap/42.3/repo/oss/suse/noarch/file-roller-lang
 /distribution/leap/42.3/repo/oss/suse/noarch/filezilla-lang
+/distribution/leap/42.3/repo/oss/suse/noarch/fillets-ng-data
 /distribution/leap/42.3/repo/oss/suse/noarch/findbugs
 /distribution/leap/42.3/repo/oss/suse/noarch/findbugs-bcel
 /distribution/leap/42.3/repo/oss/suse/noarch/findbugs-bcel-javadoc
@@ -10047,9 +10050,11 @@
 /distribution/leap/42.3/repo/oss/suse/noarch/firewalld-lang
 /distribution/leap/42.3/repo/oss/suse/noarch/five-or-more-lang
 /distribution/leap/42.3/repo/oss/suse/noarch/flac-doc
+/distribution/leap/42.3/repo/oss/suse/noarch/flare-game
 /distribution/leap/42.3/repo/oss/suse/noarch/flexdock
 /distribution/leap/42.3/repo/oss/suse/noarch/flickrnet
 /distribution/leap/42.3/repo/oss/suse/noarch/flickrnet-devel
+/distribution/leap/42.3/repo/oss/suse/noarch/FlightGear-docs
 /distribution/leap/42.3/repo/oss/suse/noarch/flim-xemacs
 /distribution/leap/42.3/repo/oss/suse/noarch/florence-lang
 /distribution/leap/42.3/repo/oss/suse/noarch/fluid-soundfont-gm
@@ -10303,6 +10308,7 @@
 /distribution/leap/42.3/repo/oss/suse/noarch/gnome-games-extra-data
 /distribution/leap/42.3/repo/oss/suse/noarch/gnome-games-scripts
 /distribution/leap/42.3/repo/oss/suse/noarch/gnome-getting-started-docs
+/distribution/leap/42.3/repo/oss/suse/noarch/gnome-getting-started-docs-lang
 /distribution/leap/42.3/repo/oss/suse/noarch/gnome-gmail
 /distribution/leap/42.3/repo/oss/suse/noarch/gnome-gmail-lang
 /distribution/leap/42.3/repo/oss/suse/noarch/gnome-gmail-notifier-lang
@@ -12332,6 +12338,7 @@
 /distribution/leap/42.3/repo/oss/suse/noarch/owasp-modsecurity-crs-slr_rules
 /distribution/leap/42.3/repo/oss/suse/noarch/oxygen5-icon-theme
 /distribution/leap/42.3/repo/oss/suse/noarch/oxygen5-icon-theme-large
+/distribution/leap/42.3/repo/oss/suse/noarch/oxygen5-icon-theme-scalable
 /distribution/leap/42.3/repo/oss/suse/noarch/oxygen5-lang
 /distribution/leap/42.3/repo/oss/suse/noarch/PackageKit-branding-openSUSE
 /distribution/leap/42.3/repo/oss/suse/noarch/PackageKit-branding-upstream
@@ -14631,11 +14638,13 @@
 /distribution/leap/42.3/repo/oss/suse/noarch/RemoteBox
 /distribution/leap/42.3/repo/oss/suse/noarch/rescue
 /distribution/leap/42.3/repo/oss/suse/noarch/retext
+/distribution/leap/42.3/repo/oss/suse/noarch/rfc
 /distribution/leap/42.3/repo/oss/suse/noarch/rhino
 /distribution/leap/42.3/repo/oss/suse/noarch/rhino-demo
 /distribution/leap/42.3/repo/oss/suse/noarch/rhythmbox-lang
 /distribution/leap/42.3/repo/oss/suse/noarch/ripit
 /distribution/leap/42.3/repo/oss/suse/noarch/ristretto-lang
+/distribution/leap/42.3/repo/oss/suse/noarch/rnd_jue-data
 /distribution/leap/42.3/repo/oss/suse/noarch/rocksndiamonds-data
 /distribution/leap/42.3/repo/oss/suse/noarch/rocs-lang
 /distribution/leap/42.3/repo/oss/suse/noarch/rollback-helper
@@ -14885,6 +14894,7 @@
 /distribution/leap/42.3/repo/oss/suse/noarch/subversion-bash-completion
 /distribution/leap/42.3/repo/oss/suse/noarch/subversion-doc
 /distribution/leap/42.3/repo/oss/suse/noarch/sundanese-unicode-fonts
+/distribution/leap/42.3/repo/oss/suse/noarch/supertuxkart-data
 /distribution/leap/42.3/repo/oss/suse/noarch/Supybot
 /distribution/leap/42.3/repo/oss/suse/noarch/suse-build-key
 /distribution/leap/42.3/repo/oss/suse/noarch/susedoc-buildbook
@@ -14954,6 +14964,7 @@
 /distribution/leap/42.3/repo/oss/suse/noarch/terminology-theme-openSUSE-oliveleaf
 /distribution/leap/42.3/repo/oss/suse/noarch/terminus-bitmap-fonts
 /distribution/leap/42.3/repo/oss/suse/noarch/termsyn-bitmap-fonts
+/distribution/leap/42.3/repo/oss/suse/noarch/tesseract-data
 /distribution/leap/42.3/repo/oss/suse/noarch/tesseract-ocr-traineddata-afrikaans
 /distribution/leap/42.3/repo/oss/suse/noarch/tesseract-ocr-traineddata-albanian
 /distribution/leap/42.3/repo/oss/suse/noarch/tesseract-ocr-traineddata-amharic
@@ -21292,6 +21303,7 @@
 /distribution/leap/42.3/repo/oss/suse/noarch/vdr-devel-doc
 /distribution/leap/42.3/repo/oss/suse/noarch/vdr-lang
 /distribution/leap/42.3/repo/oss/suse/noarch/vegastrike-extra
+/distribution/leap/42.3/repo/oss/suse/noarch/vegastrike-music
 /distribution/leap/42.3/repo/oss/suse/noarch/vegastrike-speech
 /distribution/leap/42.3/repo/oss/suse/noarch/verilator-doc
 /distribution/leap/42.3/repo/oss/suse/noarch/verilator-doc-pdf
@@ -21365,6 +21377,7 @@
 /distribution/leap/42.3/repo/oss/suse/noarch/wallstreet
 /distribution/leap/42.3/repo/oss/suse/noarch/wammu
 /distribution/leap/42.3/repo/oss/suse/noarch/wammu-lang
+/distribution/leap/42.3/repo/oss/suse/noarch/wang-fonts
 /distribution/leap/42.3/repo/oss/suse/noarch/warzone2100-data
 /distribution/leap/42.3/repo/oss/suse/noarch/wcslib-doc
 /distribution/leap/42.3/repo/oss/suse/noarch/wdiff-lang
@@ -22243,6 +22256,7 @@
 /distribution/leap/42.3/repo/oss/suse/x86_64/blktrace
 /distribution/leap/42.3/repo/oss/suse/x86_64/bloaty
 /distribution/leap/42.3/repo/oss/suse/x86_64/blobAndConquer
+/distribution/leap/42.3/repo/oss/suse/x86_64/blobwars
 /distribution/leap/42.3/repo/oss/suse/x86_64/blockout
 /distribution/leap/42.3/repo/oss/suse/x86_64/blog
 /distribution/leap/42.3/repo/oss/suse/x86_64/blogbench
@@ -22723,6 +22737,7 @@
 /distribution/leap/42.3/repo/oss/suse/x86_64/cross-ia64-gcc48-icecream-backend
 /distribution/leap/42.3/repo/oss/suse/x86_64/cross-m68k-binutils
 /distribution/leap/42.3/repo/oss/suse/x86_64/cross-mips-binutils
+/distribution/leap/42.3/repo/oss/suse/x86_64/cross-nvptx-gcc7
 /distribution/leap/42.3/repo/oss/suse/x86_64/cross-ppc64-binutils
 /distribution/leap/42.3/repo/oss/suse/x86_64/cross-ppc64-gcc48-icecream-backend
 /distribution/leap/42.3/repo/oss/suse/x86_64/cross-ppc64le-binutils
@@ -23061,6 +23076,7 @@
 /distribution/leap/42.3/repo/oss/suse/x86_64/ecryptfs-utils
 /distribution/leap/42.3/repo/oss/suse/x86_64/ecryptfs-utils-32bit
 /distribution/leap/42.3/repo/oss/suse/x86_64/ed
+/distribution/leap/42.3/repo/oss/suse/x86_64/edgar
 /distribution/leap/42.3/repo/oss/suse/x86_64/editorconfig
 /distribution/leap/42.3/repo/oss/suse/x86_64/editres
 /distribution/leap/42.3/repo/oss/suse/x86_64/edje
@@ -24016,6 +24032,7 @@
 /distribution/leap/42.3/repo/oss/suse/x86_64/ghc-Boolean-devel
 /distribution/leap/42.3/repo/oss/suse/x86_64/ghc-boomerang
 /distribution/leap/42.3/repo/oss/suse/x86_64/ghc-boomerang-devel
+/distribution/leap/42.3/repo/oss/suse/x86_64/ghc-bootstrap
 /distribution/leap/42.3/repo/oss/suse/x86_64/ghc-BoundedChan
 /distribution/leap/42.3/repo/oss/suse/x86_64/ghc-BoundedChan-devel
 /distribution/leap/42.3/repo/oss/suse/x86_64/ghc-boxes
@@ -27221,6 +27238,7 @@
 /distribution/leap/42.3/repo/oss/suse/x86_64/kemoticons-devel
 /distribution/leap/42.3/repo/oss/suse/x86_64/kemoticons-devel-32bit
 /distribution/leap/42.3/repo/oss/suse/x86_64/kepas
+/distribution/leap/42.3/repo/oss/suse/x86_64/kernel-debug
 /distribution/leap/42.3/repo/oss/suse/x86_64/kernel-debug-base
 /distribution/leap/42.3/repo/oss/suse/x86_64/kernel-debug-devel
 /distribution/leap/42.3/repo/oss/suse/x86_64/kernel-default
@@ -27230,6 +27248,7 @@
 /distribution/leap/42.3/repo/oss/suse/x86_64/kernel-obs-qa
 /distribution/leap/42.3/repo/oss/suse/x86_64/kernelshark
 /distribution/leap/42.3/repo/oss/suse/x86_64/kernel-syms
+/distribution/leap/42.3/repo/oss/suse/x86_64/kernel-vanilla
 /distribution/leap/42.3/repo/oss/suse/x86_64/kernel-vanilla-base
 /distribution/leap/42.3/repo/oss/suse/x86_64/kernel-vanilla-devel
 /distribution/leap/42.3/repo/oss/suse/x86_64/kexec-tools
@@ -27563,6 +27582,7 @@
 /distribution/leap/42.3/repo/oss/suse/x86_64/kturtle
 /distribution/leap/42.3/repo/oss/suse/x86_64/kubernetes-client
 /distribution/leap/42.3/repo/oss/suse/x86_64/kubernetes-common
+/distribution/leap/42.3/repo/oss/suse/x86_64/kubernetes-extra
 /distribution/leap/42.3/repo/oss/suse/x86_64/kubernetes-master
 /distribution/leap/42.3/repo/oss/suse/x86_64/kubernetes-node
 /distribution/leap/42.3/repo/oss/suse/x86_64/kubrick
@@ -34798,6 +34818,7 @@
 /distribution/leap/42.3/repo/oss/suse/x86_64/opencc
 /distribution/leap/42.3/repo/oss/suse/x86_64/opencc-data
 /distribution/leap/42.3/repo/oss/suse/x86_64/opencc-devel
+/distribution/leap/42.3/repo/oss/suse/x86_64/openclonk
 /distribution/leap/42.3/repo/oss/suse/x86_64/openCOLLADA-devel
 /distribution/leap/42.3/repo/oss/suse/x86_64/openCOLLADA-utils
 /distribution/leap/42.3/repo/oss/suse/x86_64/OpenColorIO
@@ -40949,6 +40970,7 @@
 /distribution/leap/42.3/repo/oss/suse/x86_64/softhsm-devel
 /distribution/leap/42.3/repo/oss/suse/x86_64/solarus
 /distribution/leap/42.3/repo/oss/suse/x86_64/solarus-devel
+/distribution/leap/42.3/repo/oss/suse/x86_64/solarus-quest-editor
 /distribution/leap/42.3/repo/oss/suse/x86_64/solfege
 /distribution/leap/42.3/repo/oss/suse/x86_64/solid-devel
 /distribution/leap/42.3/repo/oss/suse/x86_64/solid-devel-32bit
@@ -42808,25 +42830,41 @@
 /source/distribution/leap/42.2/repo/oss/suse/repodata/-primary.xml.gz
 /source/distribution/leap/42.3/repo/non-oss/suse/repodata/-primary.xml.gz
 /source/distribution/leap/42.3/repo/oss/suse/repodata/-primary.xml.gz
-/tumbleweed/iso/openSUSE-Tumbleweed-NET-x86_64-Snapshot20171018-Media.iso
+/source/tumbleweed/repo/oss/suse/repodata/-primary.xml.gz
+/source/tumbleweed/repo/oss/suse/src/hwinfo
+/source/tumbleweed/repo/oss/suse/src/libgdata
+/tumbleweed/iso/openSUSE-Tumbleweed-NET-i586-Snapshot20171019-Media.iso
+/tumbleweed/iso/openSUSE-Tumbleweed-NET-i586-Snapshot20171102-Media.iso
 /tumbleweed/iso/openSUSE-Tumbleweed-NET-x86_64-Snapshot20171019-Media.iso
+/tumbleweed/iso/openSUSE-Tumbleweed-NET-x86_64-Snapshot20171022-Media.iso
 /tumbleweed/iso/openSUSE-Tumbleweed-NET-x86_64-Snapshot20171023-Media.iso
+/tumbleweed/iso/openSUSE-Tumbleweed-NET-x86_64-Snapshot20171025-Media.iso
 /tumbleweed/iso/openSUSE-Tumbleweed-NET-x86_64-Snapshot20171026-Media.iso
 /tumbleweed/iso/openSUSE-Tumbleweed-NET-x86_64-Snapshot20171027-Media.iso
 /tumbleweed/iso/openSUSE-Tumbleweed-NET-x86_64-Snapshot20171028-Media.iso
+/tumbleweed/iso/openSUSE-Tumbleweed-NET-x86_64-Snapshot20171029-Media.iso
+/tumbleweed/iso/openSUSE-Tumbleweed-NET-x86_64-Snapshot20171030-Media.iso
+/tumbleweed/iso/openSUSE-Tumbleweed-NET-x86_64-Snapshot20171031-Media.iso
 /tumbleweed/iso/openSUSE-Tumbleweed-NET-x86_64-Snapshot20171101-Media.iso
 /tumbleweed/iso/openSUSE-Tumbleweed-NET-x86_64-Snapshot20171102-Media.iso
 /tumbleweed/iso/openSUSE-Tumbleweed-NET-x86_64-Snapshot20171107-Media.iso
+/tumbleweed/iso/openSUSE-Tumbleweed-NET-x86_64-Snapshot20171108-Media.iso
+/tumbleweed/iso/openSUSE-Tumbleweed-NET-x86_64-Snapshot20171121-Media.iso
+/tumbleweed/iso/openSUSE-Tumbleweed-NET-x86_64-Snapshot20171122-Media.iso
 /tumbleweed/iso/openSUSE-Tumbleweed-NET-x86_64-Snapshot20171123-Media.iso
 /tumbleweed/iso/openSUSE-Tumbleweed-NET-x86_64-Snapshot20171125-Media.iso
 /tumbleweed/repo/non-oss/suse/i586/openSUSE-Addon-NonOss-release
 /tumbleweed/repo/non-oss/suse/i586/openSUSE-Addon-NonOss-release-addon-nonoss
 /tumbleweed/repo/non-oss/suse/i586/unrar
+/tumbleweed/repo/non-oss/suse/noarch/7kaa-music
+/tumbleweed/repo/non-oss/suse/noarch/adobe-cid-keyed-moe-fonts
+/tumbleweed/repo/non-oss/suse/noarch/adobe-cid-keyed-munhwa-fonts
 /tumbleweed/repo/non-oss/suse/noarch/adobe-cid-keyed-wada-fonts
 /tumbleweed/repo/non-oss/suse/noarch/adobe-cid-keyed-wadah-fonts
 /tumbleweed/repo/non-oss/suse/noarch/AdobeICCProfiles
 /tumbleweed/repo/non-oss/suse/noarch/bpg-fonts
 /tumbleweed/repo/non-oss/suse/noarch/mikachan-fonts
+/tumbleweed/repo/non-oss/suse/noarch/moneyplex-daten
 /tumbleweed/repo/non-oss/suse/noarch/openttd-opensfx
 /tumbleweed/repo/non-oss/suse/noarch/perlref
 /tumbleweed/repo/non-oss/suse/x86_64/cg
@@ -42986,10 +43024,13 @@
 /tumbleweed/repo/oss/suse/i586/caja-extension-sendto
 /tumbleweed/repo/oss/suse/i586/caja-gschemas
 /tumbleweed/repo/oss/suse/i586/calendarsupport
+/tumbleweed/repo/oss/suse/i586/calibre
+/tumbleweed/repo/oss/suse/i586/calligra
 /tumbleweed/repo/oss/suse/i586/calligra-extras-dolphin
 /tumbleweed/repo/oss/suse/i586/calligra-extras-okular
 /tumbleweed/repo/oss/suse/i586/calligra-lang
 /tumbleweed/repo/oss/suse/i586/calligra-sheets
+/tumbleweed/repo/oss/suse/i586/calligra-stage
 /tumbleweed/repo/oss/suse/i586/calligra-words
 /tumbleweed/repo/oss/suse/i586/canberra-gtk-play
 /tumbleweed/repo/oss/suse/i586/caribou
@@ -43010,6 +43051,7 @@
 /tumbleweed/repo/oss/suse/i586/cifs-utils
 /tumbleweed/repo/oss/suse/i586/clamz
 /tumbleweed/repo/oss/suse/i586/clang3_8-checker
+/tumbleweed/repo/oss/suse/i586/clang4
 /tumbleweed/repo/oss/suse/i586/claws-mail
 /tumbleweed/repo/oss/suse/i586/clementine
 /tumbleweed/repo/oss/suse/i586/cln
@@ -43101,6 +43143,7 @@
 /tumbleweed/repo/oss/suse/i586/elementary
 /tumbleweed/repo/oss/suse/i586/elfutils
 /tumbleweed/repo/oss/suse/i586/elua
+/tumbleweed/repo/oss/suse/i586/emacs
 /tumbleweed/repo/oss/suse/i586/emacs-nox
 /tumbleweed/repo/oss/suse/i586/embryo
 /tumbleweed/repo/oss/suse/i586/empathy
@@ -43183,6 +43226,7 @@
 /tumbleweed/repo/oss/suse/i586/gcc
 /tumbleweed/repo/oss/suse/i586/gcc7
 /tumbleweed/repo/oss/suse/i586/gcc7-c++
+/tumbleweed/repo/oss/suse/i586/gcc7-fortran
 /tumbleweed/repo/oss/suse/i586/gcc-c++
 /tumbleweed/repo/oss/suse/i586/gcc-info
 /tumbleweed/repo/oss/suse/i586/gcolor2
@@ -43438,7 +43482,6 @@
 /tumbleweed/repo/oss/suse/i586/icewm-lite
 /tumbleweed/repo/oss/suse/i586/ico
 /tumbleweed/repo/oss/suse/i586/icoutils
-/tumbleweed/repo/oss/suse/i586/id3lib
 /tumbleweed/repo/oss/suse/i586/idnkit
 /tumbleweed/repo/oss/suse/i586/ifplugd
 /tumbleweed/repo/oss/suse/i586/iftop
@@ -43471,6 +43514,7 @@
 /tumbleweed/repo/oss/suse/i586/ispell-ngerman
 /tumbleweed/repo/oss/suse/i586/iw
 /tumbleweed/repo/oss/suse/i586/java-1_7_0-openjdk
+/tumbleweed/repo/oss/suse/i586/java-1_7_0-openjdk-headless
 /tumbleweed/repo/oss/suse/i586/java-1_8_0-openjdk
 /tumbleweed/repo/oss/suse/i586/java-1_8_0-openjdk-headless
 /tumbleweed/repo/oss/suse/i586/java-9-openjdk
@@ -43550,8 +43594,8 @@
 /tumbleweed/repo/oss/suse/i586/kdoctools
 /tumbleweed/repo/oss/suse/i586/kdoctools-devel
 /tumbleweed/repo/oss/suse/i586/keditbookmarks
+/tumbleweed/repo/oss/suse/i586/kernel-default
 /tumbleweed/repo/oss/suse/i586/kernel-default-devel
-/tumbleweed/repo/oss/suse/i586/kernel-obs-qa
 /tumbleweed/repo/oss/suse/i586/kernel-syms
 /tumbleweed/repo/oss/suse/i586/kexec-tools
 /tumbleweed/repo/oss/suse/i586/keyutils
@@ -43690,7 +43734,6 @@
 /tumbleweed/repo/oss/suse/i586/libarchive13
 /tumbleweed/repo/oss/suse/i586/libaria2-0
 /tumbleweed/repo/oss/suse/i586/libart_lgpl_2-2
-/tumbleweed/repo/oss/suse/i586/libart_lgpl-devel
 /tumbleweed/repo/oss/suse/i586/libasan4
 /tumbleweed/repo/oss/suse/i586/libasm1
 /tumbleweed/repo/oss/suse/i586/libasound2
@@ -43726,7 +43769,6 @@
 /tumbleweed/repo/oss/suse/i586/libavfilter6
 /tumbleweed/repo/oss/suse/i586/libavformat56
 /tumbleweed/repo/oss/suse/i586/libavformat57
-/tumbleweed/repo/oss/suse/i586/libavresample2
 /tumbleweed/repo/oss/suse/i586/libavresample3
 /tumbleweed/repo/oss/suse/i586/libavutil54
 /tumbleweed/repo/oss/suse/i586/libavutil55
@@ -43864,7 +43906,6 @@
 /tumbleweed/repo/oss/suse/i586/libcolamd-2_9_6
 /tumbleweed/repo/oss/suse/i586/libcollection4
 /tumbleweed/repo/oss/suse/i586/libcolord2
-/tumbleweed/repo/oss/suse/i586/libcolord-devel
 /tumbleweed/repo/oss/suse/i586/libcolord-gtk1
 /tumbleweed/repo/oss/suse/i586/libcolorhug2
 /tumbleweed/repo/oss/suse/i586/libcom_err2
@@ -44043,6 +44084,7 @@
 /tumbleweed/repo/oss/suse/i586/libfuse2
 /tumbleweed/repo/oss/suse/i586/libgadu3
 /tumbleweed/repo/oss/suse/i586/libgarcon-1-0
+/tumbleweed/repo/oss/suse/i586/libgavl1
 /tumbleweed/repo/oss/suse/i586/libgbm1
 /tumbleweed/repo/oss/suse/i586/libgbm-devel
 /tumbleweed/repo/oss/suse/i586/libgc1
@@ -44146,7 +44188,6 @@
 /tumbleweed/repo/oss/suse/i586/libgrilo-0_3-0
 /tumbleweed/repo/oss/suse/i586/libgrlnet-0_3-0
 /tumbleweed/repo/oss/suse/i586/libgrlpls-0_3-0
-/tumbleweed/repo/oss/suse/i586/libgsasl7
 /tumbleweed/repo/oss/suse/i586/libgsf-1-114
 /tumbleweed/repo/oss/suse/i586/libgsl23
 /tumbleweed/repo/oss/suse/i586/libgslcblas0
@@ -44536,7 +44577,6 @@
 /tumbleweed/repo/oss/suse/i586/libmbedx509-0
 /tumbleweed/repo/oss/suse/i586/libmbim
 /tumbleweed/repo/oss/suse/i586/libmbim-glib4
-/tumbleweed/repo/oss/suse/i586/libmcrypt
 /tumbleweed/repo/oss/suse/i586/libmeanwhile1
 /tumbleweed/repo/oss/suse/i586/libmediaart-2_0-0
 /tumbleweed/repo/oss/suse/i586/libmediainfo0
@@ -44708,7 +44748,6 @@
 /tumbleweed/repo/oss/suse/i586/libply-splash-core4
 /tumbleweed/repo/oss/suse/i586/libply-splash-graphics4
 /tumbleweed/repo/oss/suse/i586/libpng12-0
-/tumbleweed/repo/oss/suse/i586/libpng12-devel
 /tumbleweed/repo/oss/suse/i586/libpng16-16
 /tumbleweed/repo/oss/suse/i586/libpng16-compat-devel
 /tumbleweed/repo/oss/suse/i586/libpng16-devel
@@ -44893,7 +44932,6 @@
 /tumbleweed/repo/oss/suse/i586/libreoffice-gnome
 /tumbleweed/repo/oss/suse/i586/libreoffice-gtk3
 /tumbleweed/repo/oss/suse/i586/libreoffice-impress
-/tumbleweed/repo/oss/suse/i586/libreoffice-kde4
 /tumbleweed/repo/oss/suse/i586/libreofficekit
 /tumbleweed/repo/oss/suse/i586/libreoffice-mailmerge
 /tumbleweed/repo/oss/suse/i586/libreoffice-math
@@ -45119,6 +45157,7 @@
 /tumbleweed/repo/oss/suse/i586/libverto-libev1
 /tumbleweed/repo/oss/suse/i586/libvigraimpex11
 /tumbleweed/repo/oss/suse/i586/libvirt-daemon
+/tumbleweed/repo/oss/suse/i586/libvirt-libs
 /tumbleweed/repo/oss/suse/i586/libvisio-0_1-1
 /tumbleweed/repo/oss/suse/i586/libvisual
 /tumbleweed/repo/oss/suse/i586/libvlc5
@@ -45423,6 +45462,7 @@
 /tumbleweed/repo/oss/suse/i586/mbox-importer
 /tumbleweed/repo/oss/suse/i586/mc
 /tumbleweed/repo/oss/suse/i586/mdadm
+/tumbleweed/repo/oss/suse/i586/memcached
 /tumbleweed/repo/oss/suse/i586/menu-cache
 /tumbleweed/repo/oss/suse/i586/mercurial
 /tumbleweed/repo/oss/suse/i586/Mesa
@@ -45460,6 +45500,7 @@
 /tumbleweed/repo/oss/suse/i586/mono-data-oracle
 /tumbleweed/repo/oss/suse/i586/mono-data-sqlite
 /tumbleweed/repo/oss/suse/i586/mono-devel
+/tumbleweed/repo/oss/suse/i586/monodoc-core
 /tumbleweed/repo/oss/suse/i586/mono-extras
 /tumbleweed/repo/oss/suse/i586/mono-locale-extras
 /tumbleweed/repo/oss/suse/i586/mono-mvc
@@ -45470,6 +45511,7 @@
 /tumbleweed/repo/oss/suse/i586/mono-winfxcore
 /tumbleweed/repo/oss/suse/i586/mosh
 /tumbleweed/repo/oss/suse/i586/mousetweaks
+/tumbleweed/repo/oss/suse/i586/MozillaFirefox
 /tumbleweed/repo/oss/suse/i586/MozillaFirefox-branding-openSUSE
 /tumbleweed/repo/oss/suse/i586/MozillaFirefox-translations-common
 /tumbleweed/repo/oss/suse/i586/mozilla-nspr
@@ -45488,6 +45530,7 @@
 /tumbleweed/repo/oss/suse/i586/mtr
 /tumbleweed/repo/oss/suse/i586/mt-st
 /tumbleweed/repo/oss/suse/i586/multipath-tools
+/tumbleweed/repo/oss/suse/i586/mupdf
 /tumbleweed/repo/oss/suse/i586/mutter
 /tumbleweed/repo/oss/suse/i586/mutter-data
 /tumbleweed/repo/oss/suse/i586/myspell-dictionaries
@@ -45541,7 +45584,6 @@
 /tumbleweed/repo/oss/suse/i586/okular
 /tumbleweed/repo/oss/suse/i586/openal-soft
 /tumbleweed/repo/oss/suse/i586/openbox
-/tumbleweed/repo/oss/suse/i586/opencc-data
 /tumbleweed/repo/oss/suse/i586/openconnect
 /tumbleweed/repo/oss/suse/i586/open-iscsi
 /tumbleweed/repo/oss/suse/i586/openjade
@@ -45567,7 +45609,6 @@
 /tumbleweed/repo/oss/suse/i586/open-vm-tools-desktop
 /tumbleweed/repo/oss/suse/i586/openvpn
 /tumbleweed/repo/oss/suse/i586/optipng
-/tumbleweed/repo/oss/suse/i586/opus-tools
 /tumbleweed/repo/oss/suse/i586/orage
 /tumbleweed/repo/oss/suse/i586/orbit2
 /tumbleweed/repo/oss/suse/i586/os-prober
@@ -45671,6 +45712,7 @@
 /tumbleweed/repo/oss/suse/i586/perl-common-sense
 /tumbleweed/repo/oss/suse/i586/perl-Crypt-SmbHash
 /tumbleweed/repo/oss/suse/i586/perl-Crypt-SSLeay
+/tumbleweed/repo/oss/suse/i586/perl-Cyrus-IMAP
 /tumbleweed/repo/oss/suse/i586/perl-Cyrus-SIEVE-managesieve
 /tumbleweed/repo/oss/suse/i586/perl-DateTime
 /tumbleweed/repo/oss/suse/i586/perl-DBD-mysql
@@ -45723,7 +45765,6 @@
 /tumbleweed/repo/oss/suse/i586/permissions
 /tumbleweed/repo/oss/suse/i586/pesign
 /tumbleweed/repo/oss/suse/i586/pesign-obs-integration
-/tumbleweed/repo/oss/suse/i586/phalanx
 /tumbleweed/repo/oss/suse/i586/phonon4qt5-backend-gstreamer
 /tumbleweed/repo/oss/suse/i586/phonon-backend-gstreamer
 /tumbleweed/repo/oss/suse/i586/phonon-backend-vlc
@@ -45831,7 +45872,7 @@
 /tumbleweed/repo/oss/suse/i586/python2-libxml2-python
 /tumbleweed/repo/oss/suse/i586/python2-lxml
 /tumbleweed/repo/oss/suse/i586/python2-M2Crypto
-/tumbleweed/repo/oss/suse/i586/python2-matplotlib-tk
+/tumbleweed/repo/oss/suse/i586/python2-matplotlib
 /tumbleweed/repo/oss/suse/i586/python2-numpy
 /tumbleweed/repo/oss/suse/i586/python2-Pillow
 /tumbleweed/repo/oss/suse/i586/python2-psutil
@@ -45925,7 +45966,6 @@
 /tumbleweed/repo/oss/suse/i586/qupzilla-kwallet
 /tumbleweed/repo/oss/suse/i586/randrproto-devel
 /tumbleweed/repo/oss/suse/i586/rcc-runtime
-/tumbleweed/repo/oss/suse/i586/rdesktop
 /tumbleweed/repo/oss/suse/i586/rdma-core
 /tumbleweed/repo/oss/suse/i586/rdma-core-devel
 /tumbleweed/repo/oss/suse/i586/re2c
@@ -46022,7 +46062,6 @@
 /tumbleweed/repo/oss/suse/i586/spectacle
 /tumbleweed/repo/oss/suse/i586/speech-dispatcher
 /tumbleweed/repo/oss/suse/i586/speech-dispatcher-module-espeak
-/tumbleweed/repo/oss/suse/i586/splix
 /tumbleweed/repo/oss/suse/i586/sqlite3
 /tumbleweed/repo/oss/suse/i586/sqlite3-devel
 /tumbleweed/repo/oss/suse/i586/sshfs
@@ -46086,7 +46125,6 @@
 /tumbleweed/repo/oss/suse/i586/texlive-accfonts-bin
 /tumbleweed/repo/oss/suse/i586/texlive-adhocfilelist-bin
 /tumbleweed/repo/oss/suse/i586/texlive-afm2pl-bin
-/tumbleweed/repo/oss/suse/i586/texlive-aleph-bin
 /tumbleweed/repo/oss/suse/i586/texlive-amstex-bin
 /tumbleweed/repo/oss/suse/i586/texlive-arara-bin
 /tumbleweed/repo/oss/suse/i586/texlive-asymptote-bin
@@ -46168,7 +46206,6 @@
 /tumbleweed/repo/oss/suse/i586/texlive-mfware-bin
 /tumbleweed/repo/oss/suse/i586/texlive-mkjobtexmf-bin
 /tumbleweed/repo/oss/suse/i586/texlive-mkpic-bin
-/tumbleweed/repo/oss/suse/i586/texlive-mltex-bin
 /tumbleweed/repo/oss/suse/i586/texlive-mptopdf-bin
 /tumbleweed/repo/oss/suse/i586/texlive-omegaware-bin
 /tumbleweed/repo/oss/suse/i586/texlive-patgen-bin
@@ -46354,10 +46391,12 @@
 /tumbleweed/repo/oss/suse/i586/vim
 /tumbleweed/repo/oss/suse/i586/vinagre
 /tumbleweed/repo/oss/suse/i586/vino
+/tumbleweed/repo/oss/suse/i586/virtualbox
 /tumbleweed/repo/oss/suse/i586/virtualbox-guest-kmp-default
 /tumbleweed/repo/oss/suse/i586/virtualbox-guest-tools
 /tumbleweed/repo/oss/suse/i586/virtualbox-guest-x11
 /tumbleweed/repo/oss/suse/i586/virtualbox-host-kmp-default
+/tumbleweed/repo/oss/suse/i586/virtualbox-qt
 /tumbleweed/repo/oss/suse/i586/vlan
 /tumbleweed/repo/oss/suse/i586/vlc
 /tumbleweed/repo/oss/suse/i586/vlc-codec-gstreamer
@@ -46568,6 +46607,7 @@
 /tumbleweed/repo/oss/suse/i586/zypp-plugin-python
 /tumbleweed/repo/oss/suse/i686/glibc
 /tumbleweed/repo/oss/suse/i686/glibc-devel
+/tumbleweed/repo/oss/suse/i686/kernel-pae
 /tumbleweed/repo/oss/suse/i686/kernel-pae-devel
 /tumbleweed/repo/oss/suse/noarch/abcde
 /tumbleweed/repo/oss/suse/noarch/abiword-docs
@@ -46702,7 +46742,6 @@
 /tumbleweed/repo/oss/suse/noarch/bea-stax-api
 /tumbleweed/repo/oss/suse/noarch/bijiben-lang
 /tumbleweed/repo/oss/suse/noarch/bind-doc
-/tumbleweed/repo/oss/suse/noarch/binwalk
 /tumbleweed/repo/oss/suse/noarch/bison-lang
 /tumbleweed/repo/oss/suse/noarch/bitstream-vera-fonts
 /tumbleweed/repo/oss/suse/noarch/bleachbit
@@ -46727,7 +46766,6 @@
 /tumbleweed/repo/oss/suse/noarch/boo-2_0_9_3
 /tumbleweed/repo/oss/suse/noarch/boost-license1_65_1
 /tumbleweed/repo/oss/suse/noarch/bootsplash-branding-KDE
-/tumbleweed/repo/oss/suse/noarch/bootsplash-branding-upstream
 /tumbleweed/repo/oss/suse/noarch/borgbackup-bash-completion
 /tumbleweed/repo/oss/suse/noarch/borgbackup-zsh-completion
 /tumbleweed/repo/oss/suse/noarch/bovo-lang
@@ -46834,8 +46872,6 @@
 /tumbleweed/repo/oss/suse/noarch/cantata-lang
 /tumbleweed/repo/oss/suse/noarch/cantor-lang
 /tumbleweed/repo/oss/suse/noarch/caribou-lang
-/tumbleweed/repo/oss/suse/noarch/caslon-fonts
-/tumbleweed/repo/oss/suse/noarch/catfish
 /tumbleweed/repo/oss/suse/noarch/certbot
 /tumbleweed/repo/oss/suse/noarch/cervisia-lang
 /tumbleweed/repo/oss/suse/noarch/cglib
@@ -46890,7 +46926,6 @@
 /tumbleweed/repo/oss/suse/noarch/coreutils-lang
 /tumbleweed/repo/oss/suse/noarch/cowsay
 /tumbleweed/repo/oss/suse/noarch/cpio-lang
-/tumbleweed/repo/oss/suse/noarch/cpmono_v07-fonts
 /tumbleweed/repo/oss/suse/noarch/cpuset
 /tumbleweed/repo/oss/suse/noarch/create-resources
 /tumbleweed/repo/oss/suse/noarch/crmsh
@@ -46901,12 +46936,9 @@
 /tumbleweed/repo/oss/suse/noarch/cups-airprint
 /tumbleweed/repo/oss/suse/noarch/cups-backends
 /tumbleweed/repo/oss/suse/noarch/cups-pk-helper-lang
-/tumbleweed/repo/oss/suse/noarch/cyreal-alice-fonts
 /tumbleweed/repo/oss/suse/noarch/cyreal-junge-fonts
 /tumbleweed/repo/oss/suse/noarch/cyreal-lobster-cyrillic-fonts
-/tumbleweed/repo/oss/suse/noarch/cyreal-wire-fonts
 /tumbleweed/repo/oss/suse/noarch/daps
-/tumbleweed/repo/oss/suse/noarch/dar-lang
 /tumbleweed/repo/oss/suse/noarch/dasher-data-recommended
 /tumbleweed/repo/oss/suse/noarch/dasher-lang
 /tumbleweed/repo/oss/suse/noarch/dblatex
@@ -46988,8 +47020,8 @@
 /tumbleweed/repo/oss/suse/noarch/emacs-apel
 /tumbleweed/repo/oss/suse/noarch/emacs-auctex
 /tumbleweed/repo/oss/suse/noarch/emacs-color-theme
+/tumbleweed/repo/oss/suse/noarch/emacs-el
 /tumbleweed/repo/oss/suse/noarch/emacs-info
-/tumbleweed/repo/oss/suse/noarch/emojione-color-font
 /tumbleweed/repo/oss/suse/noarch/empathy-lang
 /tumbleweed/repo/oss/suse/noarch/encfs-lang
 /tumbleweed/repo/oss/suse/noarch/engrampa-lang
@@ -47117,8 +47149,10 @@
 /tumbleweed/repo/oss/suse/noarch/ghostwriter-lang
 /tumbleweed/repo/oss/suse/noarch/gimp-gap-lang
 /tumbleweed/repo/oss/suse/noarch/gimp-help
+/tumbleweed/repo/oss/suse/noarch/gimp-help-ca
 /tumbleweed/repo/oss/suse/noarch/gimp-help-da
 /tumbleweed/repo/oss/suse/noarch/gimp-help-de
+/tumbleweed/repo/oss/suse/noarch/gimp-help-el
 /tumbleweed/repo/oss/suse/noarch/gimp-help-en_GB
 /tumbleweed/repo/oss/suse/noarch/gimp-help-es
 /tumbleweed/repo/oss/suse/noarch/gimp-help-fi
@@ -47405,7 +47439,6 @@
 /tumbleweed/repo/oss/suse/noarch/icc-profiles
 /tumbleweed/repo/oss/suse/noarch/icc-profiles-basiccolor-lstarrgb
 /tumbleweed/repo/oss/suse/noarch/icc-profiles-basiccolor-printing2009-coat2
-/tumbleweed/repo/oss/suse/noarch/icc-profiles-basiccolor-printing2009-extra
 /tumbleweed/repo/oss/suse/noarch/icc-profiles-lcms-lab
 /tumbleweed/repo/oss/suse/noarch/icc-profiles-mini
 /tumbleweed/repo/oss/suse/noarch/icc-profiles-openicc-rgb
@@ -47443,7 +47476,6 @@
 /tumbleweed/repo/oss/suse/noarch/ipa-ex-mincho-fonts
 /tumbleweed/repo/oss/suse/noarch/ipa-gothic-fonts
 /tumbleweed/repo/oss/suse/noarch/ipa-mincho-fonts
-/tumbleweed/repo/oss/suse/noarch/ipa-pgothic-bolditalic-fonts
 /tumbleweed/repo/oss/suse/noarch/ipa-pgothic-fonts
 /tumbleweed/repo/oss/suse/noarch/ipa-pmincho-fonts
 /tumbleweed/repo/oss/suse/noarch/ipa-uigothic-fonts
@@ -47480,7 +47512,6 @@
 /tumbleweed/repo/oss/suse/noarch/jline
 /tumbleweed/repo/oss/suse/noarch/jna
 /tumbleweed/repo/oss/suse/noarch/jomolhari-fonts
-/tumbleweed/repo/oss/suse/noarch/jondo
 /tumbleweed/repo/oss/suse/noarch/jondofox
 /tumbleweed/repo/oss/suse/noarch/jrosetta
 /tumbleweed/repo/oss/suse/noarch/json-glib-lang
@@ -47525,6 +47556,7 @@
 /tumbleweed/repo/oss/suse/noarch/kde3-i18n-de-base
 /tumbleweed/repo/oss/suse/noarch/kde3-i18n-en_GB
 /tumbleweed/repo/oss/suse/noarch/kde3-i18n-en_GB-base
+/tumbleweed/repo/oss/suse/noarch/kde3-i18n-es
 /tumbleweed/repo/oss/suse/noarch/kde3-i18n-es-base
 /tumbleweed/repo/oss/suse/noarch/kde3-i18n-fr
 /tumbleweed/repo/oss/suse/noarch/kde3-i18n-fr-base
@@ -47664,6 +47696,7 @@
 /tumbleweed/repo/oss/suse/noarch/kiwi-doc
 /tumbleweed/repo/oss/suse/noarch/kiwi-media-requires
 /tumbleweed/repo/oss/suse/noarch/kiwi-requires
+/tumbleweed/repo/oss/suse/noarch/kiwi-test
 /tumbleweed/repo/oss/suse/noarch/kjots-lang
 /tumbleweed/repo/oss/suse/noarch/kjs-devel-lang
 /tumbleweed/repo/oss/suse/noarch/kjumpingcube-lang
@@ -47755,7 +47788,6 @@
 /tumbleweed/repo/oss/suse/noarch/libcinnamon-desktop-lang
 /tumbleweed/repo/oss/suse/noarch/libconfuse0-lang
 /tumbleweed/repo/oss/suse/noarch/libcryptui-lang
-/tumbleweed/repo/oss/suse/noarch/libepc-lang
 /tumbleweed/repo/oss/suse/noarch/liberation2-fonts
 /tumbleweed/repo/oss/suse/noarch/liberation-fonts
 /tumbleweed/repo/oss/suse/noarch/libfm-lang
@@ -47866,6 +47898,7 @@
 /tumbleweed/repo/oss/suse/noarch/libpurple-plugin-skype-lang
 /tumbleweed/repo/oss/suse/noarch/libpurple-plugin-telegram-lang
 /tumbleweed/repo/oss/suse/noarch/libpwquality-lang
+/tumbleweed/repo/oss/suse/noarch/libqt4-devel-doc-data
 /tumbleweed/repo/oss/suse/noarch/libQt5Core-private-headers-devel
 /tumbleweed/repo/oss/suse/noarch/libQt5DBus-private-headers-devel
 /tumbleweed/repo/oss/suse/noarch/libQt5Gui-private-headers-devel
@@ -47883,6 +47916,7 @@
 /tumbleweed/repo/oss/suse/noarch/libqt5-qtmultimedia-private-headers-devel
 /tumbleweed/repo/oss/suse/noarch/libqt5-qtscript-private-headers-devel
 /tumbleweed/repo/oss/suse/noarch/libqt5-qtsensors-private-headers-devel
+/tumbleweed/repo/oss/suse/noarch/libqt5-qtserialbus-private-headers-devel
 /tumbleweed/repo/oss/suse/noarch/libqt5-qtserialport-private-headers-devel
 /tumbleweed/repo/oss/suse/noarch/libqt5-qtsvg-private-headers-devel
 /tumbleweed/repo/oss/suse/noarch/libqt5-qttools-private-headers-devel
@@ -47917,6 +47951,7 @@
 /tumbleweed/repo/oss/suse/noarch/libreoffice-l10n-es
 /tumbleweed/repo/oss/suse/noarch/libreoffice-l10n-fi
 /tumbleweed/repo/oss/suse/noarch/libreoffice-l10n-fr
+/tumbleweed/repo/oss/suse/noarch/libreoffice-l10n-gl
 /tumbleweed/repo/oss/suse/noarch/libreoffice-l10n-he
 /tumbleweed/repo/oss/suse/noarch/libreoffice-l10n-hr
 /tumbleweed/repo/oss/suse/noarch/libreoffice-l10n-hu
@@ -47976,7 +48011,6 @@
 /tumbleweed/repo/oss/suse/noarch/live-grub-stick
 /tumbleweed/repo/oss/suse/noarch/live-usb-gui
 /tumbleweed/repo/oss/suse/noarch/lklug-fonts
-/tumbleweed/repo/oss/suse/noarch/llvm3_8-vim-plugins
 /tumbleweed/repo/oss/suse/noarch/llvm4-vim-plugins
 /tumbleweed/repo/oss/suse/noarch/llvm-vim-plugins
 /tumbleweed/repo/oss/suse/noarch/log4j
@@ -47984,11 +48018,6 @@
 /tumbleweed/repo/oss/suse/noarch/lokalize-lang
 /tumbleweed/repo/oss/suse/noarch/lollypop
 /tumbleweed/repo/oss/suse/noarch/lollypop-portal
-/tumbleweed/repo/oss/suse/noarch/lomt-blackout-fonts
-/tumbleweed/repo/oss/suse/noarch/lomt-chunk-fonts
-/tumbleweed/repo/oss/suse/noarch/lomt-fanwood-fonts
-/tumbleweed/repo/oss/suse/noarch/lomt-goudybookletter-fonts
-/tumbleweed/repo/oss/suse/noarch/lomt-knewave-fonts
 /tumbleweed/repo/oss/suse/noarch/lsb-release
 /tumbleweed/repo/oss/suse/noarch/lshw-lang
 /tumbleweed/repo/oss/suse/noarch/lskat-lang
@@ -48141,7 +48170,6 @@
 /tumbleweed/repo/oss/suse/noarch/minicom-lang
 /tumbleweed/repo/oss/suse/noarch/minitube-lang
 /tumbleweed/repo/oss/suse/noarch/minuet-lang
-/tumbleweed/repo/oss/suse/noarch/mirror
 /tumbleweed/repo/oss/suse/noarch/mlocate-lang
 /tumbleweed/repo/oss/suse/noarch/mobile-broadband-provider-info
 /tumbleweed/repo/oss/suse/noarch/ModemManager-lang
@@ -48149,7 +48177,6 @@
 /tumbleweed/repo/oss/suse/noarch/monapo-fonts
 /tumbleweed/repo/oss/suse/noarch/monitoring-plugins-clamav
 /tumbleweed/repo/oss/suse/noarch/monitoring-plugins-fail2ban
-/tumbleweed/repo/oss/suse/noarch/monitoring-plugins-openvpn
 /tumbleweed/repo/oss/suse/noarch/mono-addins
 /tumbleweed/repo/oss/suse/noarch/mono-basic
 /tumbleweed/repo/oss/suse/noarch/mono-zeroconf
@@ -48168,6 +48195,7 @@
 /tumbleweed/repo/oss/suse/noarch/mutt-doc
 /tumbleweed/repo/oss/suse/noarch/mutter-lang
 /tumbleweed/repo/oss/suse/noarch/mutt-lang
+/tumbleweed/repo/oss/suse/noarch/mypaint-lang
 /tumbleweed/repo/oss/suse/noarch/myspell-ar
 /tumbleweed/repo/oss/suse/noarch/myspell-ca
 /tumbleweed/repo/oss/suse/noarch/myspell-ca_ES
@@ -48182,7 +48210,6 @@
 /tumbleweed/repo/oss/suse/noarch/myspell-en_US
 /tumbleweed/repo/oss/suse/noarch/myspell-es
 /tumbleweed/repo/oss/suse/noarch/myspell-es_ES
-/tumbleweed/repo/oss/suse/noarch/myspell-es_MX
 /tumbleweed/repo/oss/suse/noarch/myspell-fr_FR
 /tumbleweed/repo/oss/suse/noarch/myspell-german-old
 /tumbleweed/repo/oss/suse/noarch/myspell-hu_HU
@@ -48198,6 +48225,7 @@
 /tumbleweed/repo/oss/suse/noarch/myspell-sv_SE
 /tumbleweed/repo/oss/suse/noarch/myspell-uk_UA
 /tumbleweed/repo/oss/suse/noarch/mysql-connector-java
+/tumbleweed/repo/oss/suse/noarch/mytop
 /tumbleweed/repo/oss/suse/noarch/nano-lang
 /tumbleweed/repo/oss/suse/noarch/nanum-fonts
 /tumbleweed/repo/oss/suse/noarch/nanum-gothic-coding-fonts
@@ -48232,6 +48260,7 @@
 /tumbleweed/repo/oss/suse/noarch/NetworkManager-pptp-lang
 /tumbleweed/repo/oss/suse/noarch/NetworkManager-strongswan-lang
 /tumbleweed/repo/oss/suse/noarch/NetworkManager-vpnc-lang
+/tumbleweed/repo/oss/suse/noarch/nextcloud
 /tumbleweed/repo/oss/suse/noarch/nextcloud-client-lang
 /tumbleweed/repo/oss/suse/noarch/nimbus-icon-theme
 /tumbleweed/repo/oss/suse/noarch/nma-data
@@ -48286,14 +48315,9 @@
 /tumbleweed/repo/oss/suse/noarch/noto-sans-inscriptionalpahlavi-fonts
 /tumbleweed/repo/oss/suse/noarch/noto-sans-inscriptionalparthian-fonts
 /tumbleweed/repo/oss/suse/noarch/noto-sans-javanese-fonts
-/tumbleweed/repo/oss/suse/noarch/noto-sans-jp-black-fonts
 /tumbleweed/repo/oss/suse/noarch/noto-sans-jp-bold-fonts
-/tumbleweed/repo/oss/suse/noarch/noto-sans-jp-demilight-fonts
 /tumbleweed/repo/oss/suse/noarch/noto-sans-jp-fonts
-/tumbleweed/repo/oss/suse/noarch/noto-sans-jp-light-fonts
-/tumbleweed/repo/oss/suse/noarch/noto-sans-jp-medium-fonts
 /tumbleweed/repo/oss/suse/noarch/noto-sans-jp-regular-fonts
-/tumbleweed/repo/oss/suse/noarch/noto-sans-jp-thin-fonts
 /tumbleweed/repo/oss/suse/noarch/noto-sans-kaithi-fonts
 /tumbleweed/repo/oss/suse/noarch/noto-sans-kannada-fonts
 /tumbleweed/repo/oss/suse/noarch/noto-sans-kannada-ui-fonts
@@ -48343,6 +48367,7 @@
 /tumbleweed/repo/oss/suse/noarch/noto-sans-sc-fonts-full
 /tumbleweed/repo/oss/suse/noarch/noto-sans-sc-light-fonts
 /tumbleweed/repo/oss/suse/noarch/noto-sans-sc-medium-fonts
+/tumbleweed/repo/oss/suse/noarch/noto-sans-sc-mono-fonts
 /tumbleweed/repo/oss/suse/noarch/noto-sans-sc-regular-fonts
 /tumbleweed/repo/oss/suse/noarch/noto-sans-sc-thin-fonts
 /tumbleweed/repo/oss/suse/noarch/noto-sans-shavian-fonts
@@ -48371,7 +48396,6 @@
 /tumbleweed/repo/oss/suse/noarch/noto-sans-tibetan-fonts
 /tumbleweed/repo/oss/suse/noarch/noto-sans-tifinagh-fonts
 /tumbleweed/repo/oss/suse/noarch/noto-sans-ugaritic-fonts
-/tumbleweed/repo/oss/suse/noarch/noto-sans-ui-fonts
 /tumbleweed/repo/oss/suse/noarch/noto-sans-vai-fonts
 /tumbleweed/repo/oss/suse/noarch/noto-sans-yi-fonts
 /tumbleweed/repo/oss/suse/noarch/noto-serif-armenian-fonts
@@ -48438,11 +48462,15 @@
 /tumbleweed/repo/oss/suse/noarch/openssl-1_1_0-doc
 /tumbleweed/repo/oss/suse/noarch/openSUSE-build-key
 /tumbleweed/repo/oss/suse/noarch/openSUSE-release-tools
+/tumbleweed/repo/oss/suse/noarch/openSUSE-release-tools-abichecker
 /tumbleweed/repo/oss/suse/noarch/openSUSE-release-tools-announcer
 /tumbleweed/repo/oss/suse/noarch/openSUSE-release-tools-check-source
 /tumbleweed/repo/oss/suse/noarch/openSUSE-release-tools-leaper
+/tumbleweed/repo/oss/suse/noarch/openSUSE-release-tools-maintenance
 /tumbleweed/repo/oss/suse/noarch/openSUSE-release-tools-metrics
+/tumbleweed/repo/oss/suse/noarch/openSUSE-release-tools-pkglistgen
 /tumbleweed/repo/oss/suse/noarch/openSUSE-release-tools-repo-checker
+/tumbleweed/repo/oss/suse/noarch/openSUSE-release-tools-staging-bot
 /tumbleweed/repo/oss/suse/noarch/openSUSE-release-tools-totest-manager
 /tumbleweed/repo/oss/suse/noarch/openSUSE-xfce-icon-theme
 /tumbleweed/repo/oss/suse/noarch/openttd-data
@@ -48456,7 +48484,6 @@
 /tumbleweed/repo/oss/suse/noarch/osc
 /tumbleweed/repo/oss/suse/noarch/osclib
 /tumbleweed/repo/oss/suse/noarch/osc-plugin-check_dups
-/tumbleweed/repo/oss/suse/noarch/osc-plugin-collab
 /tumbleweed/repo/oss/suse/noarch/osc-plugin-cycle
 /tumbleweed/repo/oss/suse/noarch/osc-plugin-staging
 /tumbleweed/repo/oss/suse/noarch/osinfo-db
@@ -48508,7 +48535,6 @@
 /tumbleweed/repo/oss/suse/noarch/pdfmod-lang
 /tumbleweed/repo/oss/suse/noarch/pdfshuffler
 /tumbleweed/repo/oss/suse/noarch/pdfshuffler-lang
-/tumbleweed/repo/oss/suse/noarch/pencil
 /tumbleweed/repo/oss/suse/noarch/pentaho-libxml
 /tumbleweed/repo/oss/suse/noarch/pentaho-reporting-flow-engine
 /tumbleweed/repo/oss/suse/noarch/perl-Algorithm-C3
@@ -48709,6 +48735,7 @@
 /tumbleweed/repo/oss/suse/noarch/perl-Path-Class
 /tumbleweed/repo/oss/suse/noarch/perl-Perl-Tidy
 /tumbleweed/repo/oss/suse/noarch/perl-Pod-Coverage
+/tumbleweed/repo/oss/suse/noarch/perl-Pod-POM
 /tumbleweed/repo/oss/suse/noarch/perl-PPI
 /tumbleweed/repo/oss/suse/noarch/perl-Probe-Perl
 /tumbleweed/repo/oss/suse/noarch/perl-Proc-Simple
@@ -48747,6 +48774,7 @@
 /tumbleweed/repo/oss/suse/noarch/perl-Test-Manifest
 /tumbleweed/repo/oss/suse/noarch/perl-Test-MockModule
 /tumbleweed/repo/oss/suse/noarch/perl-Test-Mock-Time
+/tumbleweed/repo/oss/suse/noarch/perl-Test-Output
 /tumbleweed/repo/oss/suse/noarch/perl-Test-PerlTidy
 /tumbleweed/repo/oss/suse/noarch/perl-Test-Pod
 /tumbleweed/repo/oss/suse/noarch/perl-Test-Pod-Coverage
@@ -48872,7 +48900,6 @@
 /tumbleweed/repo/oss/suse/noarch/psi+-data
 /tumbleweed/repo/oss/suse/noarch/psi+-lang
 /tumbleweed/repo/oss/suse/noarch/psmisc-lang
-/tumbleweed/repo/oss/suse/noarch/pssh
 /tumbleweed/repo/oss/suse/noarch/publicsuffix
 /tumbleweed/repo/oss/suse/noarch/puddletag
 /tumbleweed/repo/oss/suse/noarch/pullin-bcm43xx-firmware
@@ -48969,6 +48996,7 @@
 /tumbleweed/repo/oss/suse/noarch/python2-jupyter_widgetsnbextension
 /tumbleweed/repo/oss/suse/noarch/python2-keyczar
 /tumbleweed/repo/oss/suse/noarch/python2-keyring
+/tumbleweed/repo/oss/suse/noarch/python2-kombu
 /tumbleweed/repo/oss/suse/noarch/python2-lockfile
 /tumbleweed/repo/oss/suse/noarch/python2-Mako
 /tumbleweed/repo/oss/suse/noarch/python2-mccabe
@@ -49034,6 +49062,7 @@
 /tumbleweed/repo/oss/suse/noarch/python2-python-xlib
 /tumbleweed/repo/oss/suse/noarch/python2-pytz
 /tumbleweed/repo/oss/suse/noarch/python2-pyudev
+/tumbleweed/repo/oss/suse/noarch/python2-pywbem
 /tumbleweed/repo/oss/suse/noarch/python2-pyxdg
 /tumbleweed/repo/oss/suse/noarch/python2-qrcode
 /tumbleweed/repo/oss/suse/noarch/python2-QtAwesome
@@ -49070,13 +49099,13 @@
 /tumbleweed/repo/oss/suse/noarch/python2-twodict
 /tumbleweed/repo/oss/suse/noarch/python2-typing
 /tumbleweed/repo/oss/suse/noarch/python2-Unidecode
+/tumbleweed/repo/oss/suse/noarch/python2-unittest2
 /tumbleweed/repo/oss/suse/noarch/python2-uritemplate
 /tumbleweed/repo/oss/suse/noarch/python2-urllib3
 /tumbleweed/repo/oss/suse/noarch/python2-usb
 /tumbleweed/repo/oss/suse/noarch/python2-virtualenv
 /tumbleweed/repo/oss/suse/noarch/python2-virtualenv-clone
 /tumbleweed/repo/oss/suse/noarch/python2-vobject
-/tumbleweed/repo/oss/suse/noarch/python2-waitress
 /tumbleweed/repo/oss/suse/noarch/python2-watchdog
 /tumbleweed/repo/oss/suse/noarch/python2-wcwidth
 /tumbleweed/repo/oss/suse/noarch/python2-webencodings
@@ -49105,6 +49134,7 @@
 /tumbleweed/repo/oss/suse/noarch/python3-bleach
 /tumbleweed/repo/oss/suse/noarch/python3-blinker
 /tumbleweed/repo/oss/suse/noarch/python3-boto
+/tumbleweed/repo/oss/suse/noarch/python3-boto3
 /tumbleweed/repo/oss/suse/noarch/python3-botocore
 /tumbleweed/repo/oss/suse/noarch/python3-bottle
 /tumbleweed/repo/oss/suse/noarch/python3-cairocffi
@@ -49235,7 +49265,6 @@
 /tumbleweed/repo/oss/suse/noarch/python3-python-dateutil
 /tumbleweed/repo/oss/suse/noarch/python3-python-gflags
 /tumbleweed/repo/oss/suse/noarch/python3-python-sql
-/tumbleweed/repo/oss/suse/noarch/python3-python-stdnum
 /tumbleweed/repo/oss/suse/noarch/python3-python-xlib
 /tumbleweed/repo/oss/suse/noarch/python3-pytz
 /tumbleweed/repo/oss/suse/noarch/python3-pyudev
@@ -49276,7 +49305,6 @@
 /tumbleweed/repo/oss/suse/noarch/python3-unittest2
 /tumbleweed/repo/oss/suse/noarch/python3-uritemplate
 /tumbleweed/repo/oss/suse/noarch/python3-urllib3
-/tumbleweed/repo/oss/suse/noarch/python3-usb
 /tumbleweed/repo/oss/suse/noarch/python3-virt-bootstrap
 /tumbleweed/repo/oss/suse/noarch/python3-virtualenv
 /tumbleweed/repo/oss/suse/noarch/python3-vobject
@@ -49295,7 +49323,6 @@
 /tumbleweed/repo/oss/suse/noarch/python3-youtube-dl
 /tumbleweed/repo/oss/suse/noarch/python3-zypp-plugin
 /tumbleweed/repo/oss/suse/noarch/python-antlr3_runtime
-/tumbleweed/repo/oss/suse/noarch/python-augeas
 /tumbleweed/repo/oss/suse/noarch/python-backports.functools_lru_cache
 /tumbleweed/repo/oss/suse/noarch/python-backports.shutil_get_terminal_size
 /tumbleweed/repo/oss/suse/noarch/python-beautifulsoup
@@ -49331,6 +49358,7 @@
 /tumbleweed/repo/oss/suse/noarch/python-novaclient
 /tumbleweed/repo/oss/suse/noarch/python-oauth
 /tumbleweed/repo/oss/suse/noarch/python-oauth2
+/tumbleweed/repo/oss/suse/noarch/python-openstackclient
 /tumbleweed/repo/oss/suse/noarch/python-osc-lib
 /tumbleweed/repo/oss/suse/noarch/python-oslo.i18n
 /tumbleweed/repo/oss/suse/noarch/python-oslo.serialization
@@ -49452,7 +49480,6 @@
 /tumbleweed/repo/oss/suse/noarch/skkdic
 /tumbleweed/repo/oss/suse/noarch/slf4j
 /tumbleweed/repo/oss/suse/noarch/slib
-/tumbleweed/repo/oss/suse/noarch/slrn-lang
 /tumbleweed/repo/oss/suse/noarch/smplayer-lang
 /tumbleweed/repo/oss/suse/noarch/smtube-lang
 /tumbleweed/repo/oss/suse/noarch/snapper-zypp-plugin
@@ -49501,7 +49528,6 @@
 /tumbleweed/repo/oss/suse/noarch/svgpart-lang
 /tumbleweed/repo/oss/suse/noarch/svg-schema
 /tumbleweed/repo/oss/suse/noarch/swell-foop-lang
-/tumbleweed/repo/oss/suse/noarch/synapse-lang
 /tumbleweed/repo/oss/suse/noarch/syncthing-gtk
 /tumbleweed/repo/oss/suse/noarch/syncthing-gtk-lang
 /tumbleweed/repo/oss/suse/noarch/syslog-service
@@ -55933,6 +55959,7 @@
 /tumbleweed/repo/oss/suse/noarch/tkdiff
 /tumbleweed/repo/oss/suse/noarch/tlp
 /tumbleweed/repo/oss/suse/noarch/tlp-rdw
+/tumbleweed/repo/oss/suse/noarch/tmux-powerline
 /tumbleweed/repo/oss/suse/noarch/tomboy-lang
 /tumbleweed/repo/oss/suse/noarch/tomcat
 /tumbleweed/repo/oss/suse/noarch/tomcat-admin-webapps
@@ -55976,6 +56003,7 @@
 /tumbleweed/repo/oss/suse/noarch/trytond_stock_lot
 /tumbleweed/repo/oss/suse/noarch/trytond_stock_supply
 /tumbleweed/repo/oss/suse/noarch/tumbler-lang
+/tumbleweed/repo/oss/suse/noarch/tumbleweed-cli
 /tumbleweed/repo/oss/suse/noarch/tuned
 /tumbleweed/repo/oss/suse/noarch/tuxpaint-config-lang
 /tumbleweed/repo/oss/suse/noarch/tuxpaint-stamps
@@ -56001,6 +56029,7 @@
 /tumbleweed/repo/oss/suse/noarch/twemoji-color-font
 /tumbleweed/repo/oss/suse/noarch/ubuntu-fonts
 /tumbleweed/repo/oss/suse/noarch/ubuntu-mate-icon-theme
+/tumbleweed/repo/oss/suse/noarch/ubuntu-mate-wallpapers
 /tumbleweed/repo/oss/suse/noarch/ubuntu-mono-icon-theme
 /tumbleweed/repo/oss/suse/noarch/ucode-amd
 /tumbleweed/repo/oss/suse/noarch/udisks2-lang
@@ -56032,6 +56061,7 @@
 /tumbleweed/repo/oss/suse/noarch/vim-plugin-NERDtree
 /tumbleweed/repo/oss/suse/noarch/vim-plugin-nginx
 /tumbleweed/repo/oss/suse/noarch/vim-plugin-searchcomplete
+/tumbleweed/repo/oss/suse/noarch/vim-plugin-tlib
 /tumbleweed/repo/oss/suse/noarch/vim-plugin-vimwiki
 /tumbleweed/repo/oss/suse/noarch/vinagre-lang
 /tumbleweed/repo/oss/suse/noarch/vino-lang
@@ -56250,7 +56280,6 @@
 /tumbleweed/repo/oss/suse/noarch/yast2-trans-bs
 /tumbleweed/repo/oss/suse/noarch/yast2-trans-ca
 /tumbleweed/repo/oss/suse/noarch/yast2-trans-cs
-/tumbleweed/repo/oss/suse/noarch/yast2-trans-cy
 /tumbleweed/repo/oss/suse/noarch/yast2-trans-da
 /tumbleweed/repo/oss/suse/noarch/yast2-trans-de
 /tumbleweed/repo/oss/suse/noarch/yast2-trans-el
@@ -56262,7 +56291,6 @@
 /tumbleweed/repo/oss/suse/noarch/yast2-trans-fi
 /tumbleweed/repo/oss/suse/noarch/yast2-trans-fr
 /tumbleweed/repo/oss/suse/noarch/yast2-trans-gl
-/tumbleweed/repo/oss/suse/noarch/yast2-trans-gu
 /tumbleweed/repo/oss/suse/noarch/yast2-trans-he
 /tumbleweed/repo/oss/suse/noarch/yast2-trans-hi
 /tumbleweed/repo/oss/suse/noarch/yast2-trans-hr
@@ -56271,23 +56299,16 @@
 /tumbleweed/repo/oss/suse/noarch/yast2-trans-it
 /tumbleweed/repo/oss/suse/noarch/yast2-trans-ja
 /tumbleweed/repo/oss/suse/noarch/yast2-trans-jv
-/tumbleweed/repo/oss/suse/noarch/yast2-trans-ka
-/tumbleweed/repo/oss/suse/noarch/yast2-trans-km
 /tumbleweed/repo/oss/suse/noarch/yast2-trans-ko
-/tumbleweed/repo/oss/suse/noarch/yast2-trans-lo
 /tumbleweed/repo/oss/suse/noarch/yast2-trans-lt
-/tumbleweed/repo/oss/suse/noarch/yast2-trans-mk
-/tumbleweed/repo/oss/suse/noarch/yast2-trans-mr
 /tumbleweed/repo/oss/suse/noarch/yast2-trans-nb
 /tumbleweed/repo/oss/suse/noarch/yast2-trans-nl
-/tumbleweed/repo/oss/suse/noarch/yast2-trans-nn
 /tumbleweed/repo/oss/suse/noarch/yast2-trans-pa
 /tumbleweed/repo/oss/suse/noarch/yast2-trans-pl
 /tumbleweed/repo/oss/suse/noarch/yast2-trans-pt
 /tumbleweed/repo/oss/suse/noarch/yast2-trans-pt_BR
 /tumbleweed/repo/oss/suse/noarch/yast2-trans-ro
 /tumbleweed/repo/oss/suse/noarch/yast2-trans-ru
-/tumbleweed/repo/oss/suse/noarch/yast2-trans-si
 /tumbleweed/repo/oss/suse/noarch/yast2-trans-sk
 /tumbleweed/repo/oss/suse/noarch/yast2-trans-sl
 /tumbleweed/repo/oss/suse/noarch/yast2-trans-sr
@@ -56298,8 +56319,6 @@
 /tumbleweed/repo/oss/suse/noarch/yast2-trans-tr
 /tumbleweed/repo/oss/suse/noarch/yast2-trans-uk
 /tumbleweed/repo/oss/suse/noarch/yast2-trans-vi
-/tumbleweed/repo/oss/suse/noarch/yast2-trans-wa
-/tumbleweed/repo/oss/suse/noarch/yast2-trans-xh
 /tumbleweed/repo/oss/suse/noarch/yast2-trans-zh_CN
 /tumbleweed/repo/oss/suse/noarch/yast2-trans-zh_TW
 /tumbleweed/repo/oss/suse/noarch/yast2-trans-zu
@@ -56323,6 +56342,7 @@
 /tumbleweed/repo/oss/suse/noarch/zypp-plugin-python
 /tumbleweed/repo/oss/suse/repodata/-primary.xml.gz
 /tumbleweed/repo/oss/suse/x86_64/0ad
+/tumbleweed/repo/oss/suse/x86_64/7kaa
 /tumbleweed/repo/oss/suse/x86_64/a2ps
 /tumbleweed/repo/oss/suse/x86_64/a52dec
 /tumbleweed/repo/oss/suse/x86_64/aaa_base
@@ -56526,6 +56546,7 @@
 /tumbleweed/repo/oss/suse/x86_64/bind-utils
 /tumbleweed/repo/oss/suse/x86_64/binutils
 /tumbleweed/repo/oss/suse/x86_64/binutils-devel
+/tumbleweed/repo/oss/suse/x86_64/binutils-devel-32bit
 /tumbleweed/repo/oss/suse/x86_64/binutils-gold
 /tumbleweed/repo/oss/suse/x86_64/biosdevname
 /tumbleweed/repo/oss/suse/x86_64/bison
@@ -56601,7 +56622,6 @@
 /tumbleweed/repo/oss/suse/x86_64/cairo-tools
 /tumbleweed/repo/oss/suse/x86_64/caja
 /tumbleweed/repo/oss/suse/x86_64/caja-engrampa
-/tumbleweed/repo/oss/suse/x86_64/caja-extension-actions
 /tumbleweed/repo/oss/suse/x86_64/caja-extension-atril
 /tumbleweed/repo/oss/suse/x86_64/caja-extension-dropbox
 /tumbleweed/repo/oss/suse/x86_64/caja-extension-gksu
@@ -56642,7 +56662,6 @@
 /tumbleweed/repo/oss/suse/x86_64/caribou-gtk3-module
 /tumbleweed/repo/oss/suse/x86_64/caribou-gtk-module-common
 /tumbleweed/repo/oss/suse/x86_64/carla
-/tumbleweed/repo/oss/suse/x86_64/carla-vst
 /tumbleweed/repo/oss/suse/x86_64/cblas-devel
 /tumbleweed/repo/oss/suse/x86_64/ccache
 /tumbleweed/repo/oss/suse/x86_64/cdda2wav
@@ -56659,9 +56678,11 @@
 /tumbleweed/repo/oss/suse/x86_64/cellwriter
 /tumbleweed/repo/oss/suse/x86_64/celt
 /tumbleweed/repo/oss/suse/x86_64/ceph
+/tumbleweed/repo/oss/suse/x86_64/ceph-base
 /tumbleweed/repo/oss/suse/x86_64/ceph-common
 /tumbleweed/repo/oss/suse/x86_64/ceph-fuse
 /tumbleweed/repo/oss/suse/x86_64/ceph-mds
+/tumbleweed/repo/oss/suse/x86_64/ceph-mgr
 /tumbleweed/repo/oss/suse/x86_64/ceph-mon
 /tumbleweed/repo/oss/suse/x86_64/cervisia
 /tumbleweed/repo/oss/suse/x86_64/cfitsio-devel
@@ -56674,7 +56695,6 @@
 /tumbleweed/repo/oss/suse/x86_64/cheese
 /tumbleweed/repo/oss/suse/x86_64/chewing-data
 /tumbleweed/repo/oss/suse/x86_64/chewing-utils
-/tumbleweed/repo/oss/suse/x86_64/chmlib-devel
 /tumbleweed/repo/oss/suse/x86_64/choqok
 /tumbleweed/repo/oss/suse/x86_64/chromaprint-fpcalc
 /tumbleweed/repo/oss/suse/x86_64/chromedriver
@@ -56713,7 +56733,6 @@
 /tumbleweed/repo/oss/suse/x86_64/clutter-devel
 /tumbleweed/repo/oss/suse/x86_64/clutter-gst-devel
 /tumbleweed/repo/oss/suse/x86_64/clutter-gtk-devel
-/tumbleweed/repo/oss/suse/x86_64/clzip
 /tumbleweed/repo/oss/suse/x86_64/cmake
 /tumbleweed/repo/oss/suse/x86_64/cmake-gui
 /tumbleweed/repo/oss/suse/x86_64/cmake-man
@@ -56754,7 +56773,6 @@
 /tumbleweed/repo/oss/suse/x86_64/compton
 /tumbleweed/repo/oss/suse/x86_64/compton-conf
 /tumbleweed/repo/oss/suse/x86_64/conky
-/tumbleweed/repo/oss/suse/x86_64/conky-doc
 /tumbleweed/repo/oss/suse/x86_64/conntrack-tools
 /tumbleweed/repo/oss/suse/x86_64/containerd
 /tumbleweed/repo/oss/suse/x86_64/containerd-ctr
@@ -56802,6 +56820,7 @@
 /tumbleweed/repo/oss/suse/x86_64/cups-devel
 /tumbleweed/repo/oss/suse/x86_64/cups-devel-32bit
 /tumbleweed/repo/oss/suse/x86_64/cups-filters
+/tumbleweed/repo/oss/suse/x86_64/cups-filters-devel
 /tumbleweed/repo/oss/suse/x86_64/cups-libs
 /tumbleweed/repo/oss/suse/x86_64/cups-libs-32bit
 /tumbleweed/repo/oss/suse/x86_64/cups-pdf
@@ -56844,6 +56863,7 @@
 /tumbleweed/repo/oss/suse/x86_64/dbus-1-qt3
 /tumbleweed/repo/oss/suse/x86_64/dbus-1-qt3-devel
 /tumbleweed/repo/oss/suse/x86_64/dbus-1-x11
+/tumbleweed/repo/oss/suse/x86_64/dcmtk
 /tumbleweed/repo/oss/suse/x86_64/dconf
 /tumbleweed/repo/oss/suse/x86_64/dconf-devel
 /tumbleweed/repo/oss/suse/x86_64/dconf-editor
@@ -56879,6 +56899,7 @@
 /tumbleweed/repo/oss/suse/x86_64/discover
 /tumbleweed/repo/oss/suse/x86_64/discover-plasmoid
 /tumbleweed/repo/oss/suse/x86_64/djvulibre
+/tumbleweed/repo/oss/suse/x86_64/djvulibre-djview4
 /tumbleweed/repo/oss/suse/x86_64/dleyna-connector-dbus
 /tumbleweed/repo/oss/suse/x86_64/dleyna-renderer
 /tumbleweed/repo/oss/suse/x86_64/dleyna-server
@@ -56888,7 +56909,6 @@
 /tumbleweed/repo/oss/suse/x86_64/dmxproto-devel
 /tumbleweed/repo/oss/suse/x86_64/dnscrypt-proxy
 /tumbleweed/repo/oss/suse/x86_64/dnsmasq
-/tumbleweed/repo/oss/suse/x86_64/dnsmasq-utils
 /tumbleweed/repo/oss/suse/x86_64/docbook2x
 /tumbleweed/repo/oss/suse/x86_64/docker
 /tumbleweed/repo/oss/suse/x86_64/docker-image-migrator
@@ -56934,7 +56954,6 @@
 /tumbleweed/repo/oss/suse/x86_64/dump-rmt
 /tumbleweed/repo/oss/suse/x86_64/duplicity
 /tumbleweed/repo/oss/suse/x86_64/dvbsnoop
-/tumbleweed/repo/oss/suse/x86_64/dvbstream
 /tumbleweed/repo/oss/suse/x86_64/dvdauthor
 /tumbleweed/repo/oss/suse/x86_64/dvd+rw-tools
 /tumbleweed/repo/oss/suse/x86_64/dwz
@@ -56989,6 +57008,7 @@
 /tumbleweed/repo/oss/suse/x86_64/erlang
 /tumbleweed/repo/oss/suse/x86_64/erlang-debugger
 /tumbleweed/repo/oss/suse/x86_64/erlang-dialyzer
+/tumbleweed/repo/oss/suse/x86_64/erlang-doc
 /tumbleweed/repo/oss/suse/x86_64/erlang-epmd
 /tumbleweed/repo/oss/suse/x86_64/erlang-observer
 /tumbleweed/repo/oss/suse/x86_64/erlang-rabbitmq-client
@@ -57090,8 +57110,6 @@
 /tumbleweed/repo/oss/suse/x86_64/fio
 /tumbleweed/repo/oss/suse/x86_64/fipscheck
 /tumbleweed/repo/oss/suse/x86_64/firebird
-/tumbleweed/repo/oss/suse/x86_64/firebird-server
-/tumbleweed/repo/oss/suse/x86_64/firebird-utils
 /tumbleweed/repo/oss/suse/x86_64/FirmwareUpdateKit
 /tumbleweed/repo/oss/suse/x86_64/fish
 /tumbleweed/repo/oss/suse/x86_64/five-or-more
@@ -57136,7 +57154,6 @@
 /tumbleweed/repo/oss/suse/x86_64/freeglut-devel
 /tumbleweed/repo/oss/suse/x86_64/freeipmi
 /tumbleweed/repo/oss/suse/x86_64/freeorion
-/tumbleweed/repo/oss/suse/x86_64/freeradius-client-libs
 /tumbleweed/repo/oss/suse/x86_64/freerdp
 /tumbleweed/repo/oss/suse/x86_64/freerdp-devel
 /tumbleweed/repo/oss/suse/x86_64/freerdp-wayland
@@ -57172,7 +57189,6 @@
 /tumbleweed/repo/oss/suse/x86_64/ftview
 /tumbleweed/repo/oss/suse/x86_64/fuse
 /tumbleweed/repo/oss/suse/x86_64/fuse-devel
-/tumbleweed/repo/oss/suse/x86_64/fuse-devel-static
 /tumbleweed/repo/oss/suse/x86_64/fuse-doc
 /tumbleweed/repo/oss/suse/x86_64/fuseiso
 /tumbleweed/repo/oss/suse/x86_64/fusesmb
@@ -57285,6 +57301,8 @@
 /tumbleweed/repo/oss/suse/x86_64/gcc-32bit
 /tumbleweed/repo/oss/suse/x86_64/gcc7
 /tumbleweed/repo/oss/suse/x86_64/gcc7-32bit
+/tumbleweed/repo/oss/suse/x86_64/gcc7-ada
+/tumbleweed/repo/oss/suse/x86_64/gcc7-ada-32bit
 /tumbleweed/repo/oss/suse/x86_64/gcc7-c++
 /tumbleweed/repo/oss/suse/x86_64/gcc7-c++-32bit
 /tumbleweed/repo/oss/suse/x86_64/gcc7-devel
@@ -57296,6 +57314,7 @@
 /tumbleweed/repo/oss/suse/x86_64/gcc7-obj-c++
 /tumbleweed/repo/oss/suse/x86_64/gcc7-obj-c++-32bit
 /tumbleweed/repo/oss/suse/x86_64/gcc7-objc-32bit
+/tumbleweed/repo/oss/suse/x86_64/gcc7-testresults
 /tumbleweed/repo/oss/suse/x86_64/gcc-ada
 /tumbleweed/repo/oss/suse/x86_64/gcc-c++
 /tumbleweed/repo/oss/suse/x86_64/gcc-c++-32bit
@@ -57324,7 +57343,6 @@
 /tumbleweed/repo/oss/suse/x86_64/gdal-devel
 /tumbleweed/repo/oss/suse/x86_64/gdb
 /tumbleweed/repo/oss/suse/x86_64/gdbm-devel
-/tumbleweed/repo/oss/suse/x86_64/gdbm-devel-32bit
 /tumbleweed/repo/oss/suse/x86_64/gdbserver
 /tumbleweed/repo/oss/suse/x86_64/gd-devel
 /tumbleweed/repo/oss/suse/x86_64/gdk-pixbuf-devel
@@ -57376,6 +57394,7 @@
 /tumbleweed/repo/oss/suse/x86_64/ghc-array
 /tumbleweed/repo/oss/suse/x86_64/ghc-array-devel
 /tumbleweed/repo/oss/suse/x86_64/ghc-asn1-encoding
+/tumbleweed/repo/oss/suse/x86_64/ghc-asn1-encoding-devel
 /tumbleweed/repo/oss/suse/x86_64/ghc-asn1-parse
 /tumbleweed/repo/oss/suse/x86_64/ghc-asn1-types
 /tumbleweed/repo/oss/suse/x86_64/ghc-asn1-types-devel
@@ -57402,7 +57421,6 @@
 /tumbleweed/repo/oss/suse/x86_64/ghc-blaze-builder
 /tumbleweed/repo/oss/suse/x86_64/ghc-blaze-builder-devel
 /tumbleweed/repo/oss/suse/x86_64/ghc-blaze-html
-/tumbleweed/repo/oss/suse/x86_64/ghc-blaze-html-devel
 /tumbleweed/repo/oss/suse/x86_64/ghc-blaze-markup
 /tumbleweed/repo/oss/suse/x86_64/ghc-blaze-markup-devel
 /tumbleweed/repo/oss/suse/x86_64/ghc-byteable
@@ -57475,7 +57493,6 @@
 /tumbleweed/repo/oss/suse/x86_64/ghc-either
 /tumbleweed/repo/oss/suse/x86_64/ghc-enclosed-exceptions
 /tumbleweed/repo/oss/suse/x86_64/ghc-entropy
-/tumbleweed/repo/oss/suse/x86_64/ghc-errors
 /tumbleweed/repo/oss/suse/x86_64/ghc-exceptions
 /tumbleweed/repo/oss/suse/x86_64/ghc-exceptions-devel
 /tumbleweed/repo/oss/suse/x86_64/ghc-extensible-exceptions
@@ -57684,7 +57701,6 @@
 /tumbleweed/repo/oss/suse/x86_64/ghc-transformers-compat
 /tumbleweed/repo/oss/suse/x86_64/ghc-transformers-compat-devel
 /tumbleweed/repo/oss/suse/x86_64/ghc-transformers-devel
-/tumbleweed/repo/oss/suse/x86_64/ghc-unexceptionalio
 /tumbleweed/repo/oss/suse/x86_64/ghc-uniplate
 /tumbleweed/repo/oss/suse/x86_64/ghc-unix
 /tumbleweed/repo/oss/suse/x86_64/ghc-unix-compat
@@ -57732,7 +57748,6 @@
 /tumbleweed/repo/oss/suse/x86_64/gimp-plugins-python
 /tumbleweed/repo/oss/suse/x86_64/gimp-save-for-web
 /tumbleweed/repo/oss/suse/x86_64/gimp-ufraw
-/tumbleweed/repo/oss/suse/x86_64/gio-sharp
 /tumbleweed/repo/oss/suse/x86_64/gio-sharp3
 /tumbleweed/repo/oss/suse/x86_64/girepository-1_0
 /tumbleweed/repo/oss/suse/x86_64/git
@@ -57774,6 +57789,8 @@
 /tumbleweed/repo/oss/suse/x86_64/glibc-extra
 /tumbleweed/repo/oss/suse/x86_64/glibc-locale
 /tumbleweed/repo/oss/suse/x86_64/glibc-locale-32bit
+/tumbleweed/repo/oss/suse/x86_64/glibc-profile
+/tumbleweed/repo/oss/suse/x86_64/glibc-profile-32bit
 /tumbleweed/repo/oss/suse/x86_64/glibc-utils
 /tumbleweed/repo/oss/suse/x86_64/glibc-utils-32bit
 /tumbleweed/repo/oss/suse/x86_64/glibmm2_4-devel
@@ -57913,9 +57930,9 @@
 /tumbleweed/repo/oss/suse/x86_64/gnucash
 /tumbleweed/repo/oss/suse/x86_64/gnuchess
 /tumbleweed/repo/oss/suse/x86_64/gnu_ddrescue
-/tumbleweed/repo/oss/suse/x86_64/gnu-efi
 /tumbleweed/repo/oss/suse/x86_64/gnumeric
 /tumbleweed/repo/oss/suse/x86_64/gnuplot
+/tumbleweed/repo/oss/suse/x86_64/gnuradio
 /tumbleweed/repo/oss/suse/x86_64/gnustep-base
 /tumbleweed/repo/oss/suse/x86_64/gnustep-make
 /tumbleweed/repo/oss/suse/x86_64/gnutls
@@ -57968,7 +57985,6 @@
 /tumbleweed/repo/oss/suse/x86_64/graphviz-doc
 /tumbleweed/repo/oss/suse/x86_64/graphviz-gd
 /tumbleweed/repo/oss/suse/x86_64/graphviz-gnome
-/tumbleweed/repo/oss/suse/x86_64/graphviz-gvedit
 /tumbleweed/repo/oss/suse/x86_64/graphviz-java
 /tumbleweed/repo/oss/suse/x86_64/graphviz-plugins-core
 /tumbleweed/repo/oss/suse/x86_64/graphviz-python
@@ -58125,7 +58141,6 @@
 /tumbleweed/repo/oss/suse/x86_64/hashcat
 /tumbleweed/repo/oss/suse/x86_64/hashdeep
 /tumbleweed/repo/oss/suse/x86_64/haveged
-/tumbleweed/repo/oss/suse/x86_64/hawk-apiserver
 /tumbleweed/repo/oss/suse/x86_64/hdajackretask
 /tumbleweed/repo/oss/suse/x86_64/hda-verb
 /tumbleweed/repo/oss/suse/x86_64/hddtemp
@@ -58133,9 +58148,11 @@
 /tumbleweed/repo/oss/suse/x86_64/hdf5
 /tumbleweed/repo/oss/suse/x86_64/hdf5-devel
 /tumbleweed/repo/oss/suse/x86_64/hdf5-devel-data
+/tumbleweed/repo/oss/suse/x86_64/hdf5-devel-static
 /tumbleweed/repo/oss/suse/x86_64/hdf5-examples
 /tumbleweed/repo/oss/suse/x86_64/hdf5-openmpi
 /tumbleweed/repo/oss/suse/x86_64/hdf5-openmpi-devel
+/tumbleweed/repo/oss/suse/x86_64/hdf5-openmpi-devel-static
 /tumbleweed/repo/oss/suse/x86_64/hdf-devel
 /tumbleweed/repo/oss/suse/x86_64/hdf-devel-data
 /tumbleweed/repo/oss/suse/x86_64/hdjmod-kmp-default
@@ -58201,7 +58218,6 @@
 /tumbleweed/repo/oss/suse/x86_64/ibus-table-translit-ua
 /tumbleweed/repo/oss/suse/x86_64/iceauth
 /tumbleweed/repo/oss/suse/x86_64/icecream
-/tumbleweed/repo/oss/suse/x86_64/icecream-clang-wrappers
 /tumbleweed/repo/oss/suse/x86_64/icedax
 /tumbleweed/repo/oss/suse/x86_64/icedtea-web
 /tumbleweed/repo/oss/suse/x86_64/icewm
@@ -58339,7 +58355,6 @@
 /tumbleweed/repo/oss/suse/x86_64/kaddressbook
 /tumbleweed/repo/oss/suse/x86_64/kaffeine
 /tumbleweed/repo/oss/suse/x86_64/kakasi
-/tumbleweed/repo/oss/suse/x86_64/kakasi-dict
 /tumbleweed/repo/oss/suse/x86_64/kalarm
 /tumbleweed/repo/oss/suse/x86_64/kalarmcal
 /tumbleweed/repo/oss/suse/x86_64/kalgebra
@@ -58407,6 +58422,7 @@
 /tumbleweed/repo/oss/suse/x86_64/kdebase3-nsplugin
 /tumbleweed/repo/oss/suse/x86_64/kdebase3-runtime
 /tumbleweed/repo/oss/suse/x86_64/kdebase3-samba
+/tumbleweed/repo/oss/suse/x86_64/kdebase3-workspace
 /tumbleweed/repo/oss/suse/x86_64/kdebase4-runtime
 /tumbleweed/repo/oss/suse/x86_64/kdebase4-runtime-devel
 /tumbleweed/repo/oss/suse/x86_64/kdebase4-workspace-addons
@@ -58441,7 +58457,6 @@
 /tumbleweed/repo/oss/suse/x86_64/kdelibs3-arts
 /tumbleweed/repo/oss/suse/x86_64/kdelibs3-default-style
 /tumbleweed/repo/oss/suse/x86_64/kdelibs3-default-style-32bit
-/tumbleweed/repo/oss/suse/x86_64/kdelibs3-devel
 /tumbleweed/repo/oss/suse/x86_64/kdelibs3-doc
 /tumbleweed/repo/oss/suse/x86_64/kdelibs4
 /tumbleweed/repo/oss/suse/x86_64/kdelibs4-branding-upstream
@@ -58452,7 +58467,6 @@
 /tumbleweed/repo/oss/suse/x86_64/kdemultimedia3-arts
 /tumbleweed/repo/oss/suse/x86_64/kdemultimedia3-CD
 /tumbleweed/repo/oss/suse/x86_64/kdemultimedia3-jukebox
-/tumbleweed/repo/oss/suse/x86_64/kdemultimedia3-mixer
 /tumbleweed/repo/oss/suse/x86_64/kdemultimedia3-sound
 /tumbleweed/repo/oss/suse/x86_64/kdemultimedia3-video
 /tumbleweed/repo/oss/suse/x86_64/kdemultimedia3-video-xine
@@ -58619,7 +58633,6 @@
 /tumbleweed/repo/oss/suse/x86_64/knewstuff
 /tumbleweed/repo/oss/suse/x86_64/knewstuff-core-devel
 /tumbleweed/repo/oss/suse/x86_64/knewstuff-devel
-/tumbleweed/repo/oss/suse/x86_64/knewstuff-imports
 /tumbleweed/repo/oss/suse/x86_64/knotes
 /tumbleweed/repo/oss/suse/x86_64/knotifications-devel
 /tumbleweed/repo/oss/suse/x86_64/knotifyconfig-devel
@@ -58714,6 +58727,7 @@
 /tumbleweed/repo/oss/suse/x86_64/ktuberling
 /tumbleweed/repo/oss/suse/x86_64/kturtle
 /tumbleweed/repo/oss/suse/x86_64/kubernetes-client
+/tumbleweed/repo/oss/suse/x86_64/kubernetes-common
 /tumbleweed/repo/oss/suse/x86_64/kubrick
 /tumbleweed/repo/oss/suse/x86_64/kuiviewer
 /tumbleweed/repo/oss/suse/x86_64/kunitconversion-devel
@@ -58772,6 +58786,7 @@
 /tumbleweed/repo/oss/suse/x86_64/lame-mp3rtp
 /tumbleweed/repo/oss/suse/x86_64/lapack-devel
 /tumbleweed/repo/oss/suse/x86_64/latexila
+/tumbleweed/repo/oss/suse/x86_64/lazarus
 /tumbleweed/repo/oss/suse/x86_64/lbxproxy
 /tumbleweed/repo/oss/suse/x86_64/lbzip2
 /tumbleweed/repo/oss/suse/x86_64/lcms2
@@ -58819,7 +58834,6 @@
 /tumbleweed/repo/oss/suse/x86_64/lhasa
 /tumbleweed/repo/oss/suse/x86_64/liba52-0
 /tumbleweed/repo/oss/suse/x86_64/liba52-0-32bit
-/tumbleweed/repo/oss/suse/x86_64/liba52-devel
 /tumbleweed/repo/oss/suse/x86_64/libaa1
 /tumbleweed/repo/oss/suse/x86_64/libaa1-32bit
 /tumbleweed/repo/oss/suse/x86_64/libabiword-3_0
@@ -58914,7 +58928,6 @@
 /tumbleweed/repo/oss/suse/x86_64/libattr1
 /tumbleweed/repo/oss/suse/x86_64/libattr1-32bit
 /tumbleweed/repo/oss/suse/x86_64/libattr-devel
-/tumbleweed/repo/oss/suse/x86_64/libaubio4
 /tumbleweed/repo/oss/suse/x86_64/libaudaspace1_3
 /tumbleweed/repo/oss/suse/x86_64/libaudaspace-c1_3
 /tumbleweed/repo/oss/suse/x86_64/libaudaspace-py1_3
@@ -58984,6 +58997,7 @@
 /tumbleweed/repo/oss/suse/x86_64/libbcg729-0
 /tumbleweed/repo/oss/suse/x86_64/libbcmatroska2-0
 /tumbleweed/repo/oss/suse/x86_64/libbctoolbox1
+/tumbleweed/repo/oss/suse/x86_64/libbde1
 /tumbleweed/repo/oss/suse/x86_64/libbelcard1
 /tumbleweed/repo/oss/suse/x86_64/libbellesip0
 /tumbleweed/repo/oss/suse/x86_64/libbelr1
@@ -59104,7 +59118,6 @@
 /tumbleweed/repo/oss/suse/x86_64/libcairomm-1_0-1
 /tumbleweed/repo/oss/suse/x86_64/libcairomm-1_16-1
 /tumbleweed/repo/oss/suse/x86_64/libcairo-script-interpreter2
-/tumbleweed/repo/oss/suse/x86_64/libcairo-script-interpreter2-32bit
 /tumbleweed/repo/oss/suse/x86_64/libcaja-extension1
 /tumbleweed/repo/oss/suse/x86_64/libcalc2
 /tumbleweed/repo/oss/suse/x86_64/libcamd-2_4_6
@@ -59288,7 +59301,6 @@
 /tumbleweed/repo/oss/suse/x86_64/libcurl-devel
 /tumbleweed/repo/oss/suse/x86_64/libcurl-devel-32bit
 /tumbleweed/repo/oss/suse/x86_64/libcvc0
-/tumbleweed/repo/oss/suse/x86_64/libcwiid1
 /tumbleweed/repo/oss/suse/x86_64/libcxsparse-3_1_9
 /tumbleweed/repo/oss/suse/x86_64/libcxxtools9
 /tumbleweed/repo/oss/suse/x86_64/libczmq4
@@ -59324,7 +59336,6 @@
 /tumbleweed/repo/oss/suse/x86_64/libdcmtk3_6
 /tumbleweed/repo/oss/suse/x86_64/libdconf1
 /tumbleweed/repo/oss/suse/x86_64/libdecoration0
-/tumbleweed/repo/oss/suse/x86_64/libdee-1_0-4
 /tumbleweed/repo/oss/suse/x86_64/libdevmapper1_03
 /tumbleweed/repo/oss/suse/x86_64/libdevmapper1_03-32bit
 /tumbleweed/repo/oss/suse/x86_64/libdevmapper-event1_03
@@ -59366,7 +59377,6 @@
 /tumbleweed/repo/oss/suse/x86_64/libdrm_radeon1
 /tumbleweed/repo/oss/suse/x86_64/libdrm_radeon1-32bit
 /tumbleweed/repo/oss/suse/x86_64/libdrm-tools
-/tumbleweed/repo/oss/suse/x86_64/libdrumstick-alsa1
 /tumbleweed/repo/oss/suse/x86_64/libdSFMT2_2
 /tumbleweed/repo/oss/suse/x86_64/libdv
 /tumbleweed/repo/oss/suse/x86_64/libdv4
@@ -59396,7 +59406,6 @@
 /tumbleweed/repo/oss/suse/x86_64/libebur128-1
 /tumbleweed/repo/oss/suse/x86_64/libecal-1_2-19
 /tumbleweed/repo/oss/suse/x86_64/libechonest2_3
-/tumbleweed/repo/oss/suse/x86_64/libecm1
 /tumbleweed/repo/oss/suse/x86_64/libecore1
 /tumbleweed/repo/oss/suse/x86_64/libecpg6
 /tumbleweed/repo/oss/suse/x86_64/libecryptfs1
@@ -59549,7 +59558,6 @@
 /tumbleweed/repo/oss/suse/x86_64/libfontenc1-32bit
 /tumbleweed/repo/oss/suse/x86_64/libfontenc-devel
 /tumbleweed/repo/oss/suse/x86_64/libfont-specimen0
-/tumbleweed/repo/oss/suse/x86_64/libfparser-4_5_2
 /tumbleweed/repo/oss/suse/x86_64/libfprint0
 /tumbleweed/repo/oss/suse/x86_64/libfprint0-32bit
 /tumbleweed/repo/oss/suse/x86_64/libframe6
@@ -59700,7 +59708,6 @@
 /tumbleweed/repo/oss/suse/x86_64/libGLU1
 /tumbleweed/repo/oss/suse/x86_64/libGLU1-32bit
 /tumbleweed/repo/oss/suse/x86_64/libglue2
-/tumbleweed/repo/oss/suse/x86_64/libglue-devel
 /tumbleweed/repo/oss/suse/x86_64/libglusterfs0
 /tumbleweed/repo/oss/suse/x86_64/libglut3
 /tumbleweed/repo/oss/suse/x86_64/libglut3-32bit
@@ -60108,12 +60115,10 @@
 /tumbleweed/repo/oss/suse/x86_64/libjpeg62
 /tumbleweed/repo/oss/suse/x86_64/libjpeg62-32bit
 /tumbleweed/repo/oss/suse/x86_64/libjpeg62-devel
-/tumbleweed/repo/oss/suse/x86_64/libjpeg62-devel-32bit
 /tumbleweed/repo/oss/suse/x86_64/libjpeg62-turbo
 /tumbleweed/repo/oss/suse/x86_64/libjpeg8
 /tumbleweed/repo/oss/suse/x86_64/libjpeg8-32bit
 /tumbleweed/repo/oss/suse/x86_64/libjpeg8-devel
-/tumbleweed/repo/oss/suse/x86_64/libjpeg8-devel-32bit
 /tumbleweed/repo/oss/suse/x86_64/libjpeg-turbo
 /tumbleweed/repo/oss/suse/x86_64/libjpegxr0
 /tumbleweed/repo/oss/suse/x86_64/libjq1
@@ -60467,7 +60472,6 @@
 /tumbleweed/repo/oss/suse/x86_64/liblightdm-qt5-3-0
 /tumbleweed/repo/oss/suse/x86_64/liblilv-0-0
 /tumbleweed/repo/oss/suse/x86_64/liblilv-0-0-32bit
-/tumbleweed/repo/oss/suse/x86_64/liblinebreak2
 /tumbleweed/repo/oss/suse/x86_64/liblinphone9
 /tumbleweed/repo/oss/suse/x86_64/liblinphone++9
 /tumbleweed/repo/oss/suse/x86_64/liblirc0
@@ -60497,7 +60501,6 @@
 /tumbleweed/repo/oss/suse/x86_64/liblrdf2
 /tumbleweed/repo/oss/suse/x86_64/liblrdf2-32bit
 /tumbleweed/repo/oss/suse/x86_64/liblsan0
-/tumbleweed/repo/oss/suse/x86_64/libltc11
 /tumbleweed/repo/oss/suse/x86_64/libltdl7
 /tumbleweed/repo/oss/suse/x86_64/libltdl7-32bit
 /tumbleweed/repo/oss/suse/x86_64/libLTO3_8
@@ -60821,6 +60824,7 @@
 /tumbleweed/repo/oss/suse/x86_64/libopenraw1-32bit
 /tumbleweed/repo/oss/suse/x86_64/libopenscap8
 /tumbleweed/repo/oss/suse/x86_64/libOpenSceneGraph130
+/tumbleweed/repo/oss/suse/x86_64/libopenshot-audio3
 /tumbleweed/repo/oss/suse/x86_64/libopenspecfun1
 /tumbleweed/repo/oss/suse/x86_64/libopenssl1_0_0
 /tumbleweed/repo/oss/suse/x86_64/libopenssl1_0_0-32bit
@@ -60862,7 +60866,6 @@
 /tumbleweed/repo/oss/suse/x86_64/libostree
 /tumbleweed/repo/oss/suse/x86_64/libostree-1-1
 /tumbleweed/repo/oss/suse/x86_64/libostree-devel
-/tumbleweed/repo/oss/suse/x86_64/libotf
 /tumbleweed/repo/oss/suse/x86_64/libotf0
 /tumbleweed/repo/oss/suse/x86_64/libotr5
 /tumbleweed/repo/oss/suse/x86_64/libotr-devel
@@ -60963,7 +60966,6 @@
 /tumbleweed/repo/oss/suse/x86_64/libpng16-16-32bit
 /tumbleweed/repo/oss/suse/x86_64/libpng16-compat-devel
 /tumbleweed/repo/oss/suse/x86_64/libpng16-devel
-/tumbleweed/repo/oss/suse/x86_64/libpng16-tools
 /tumbleweed/repo/oss/suse/x86_64/libpodofo0_9_4
 /tumbleweed/repo/oss/suse/x86_64/libpolkit0
 /tumbleweed/repo/oss/suse/x86_64/libpolkit0-32bit
@@ -61177,7 +61179,6 @@
 /tumbleweed/repo/oss/suse/x86_64/libQt5NetworkAuth5
 /tumbleweed/repo/oss/suse/x86_64/libQt5Network-devel
 /tumbleweed/repo/oss/suse/x86_64/libQt5Nfc5
-/tumbleweed/repo/oss/suse/x86_64/libQt5Nfc5-32bit
 /tumbleweed/repo/oss/suse/x86_64/libQt5Nfc5-imports
 /tumbleweed/repo/oss/suse/x86_64/libQt5OpenGL5
 /tumbleweed/repo/oss/suse/x86_64/libQt5OpenGL5-32bit
@@ -61332,7 +61333,6 @@
 /tumbleweed/repo/oss/suse/x86_64/libQt5XmlPatterns5
 /tumbleweed/repo/oss/suse/x86_64/libQt5XmlPatterns5-32bit
 /tumbleweed/repo/oss/suse/x86_64/libQtAV1
-/tumbleweed/repo/oss/suse/x86_64/libQtAV1-32bit
 /tumbleweed/repo/oss/suse/x86_64/libQtAVWidgets1
 /tumbleweed/repo/oss/suse/x86_64/libqtcurve-cairo1
 /tumbleweed/repo/oss/suse/x86_64/libqtcurve-utils2
@@ -61368,7 +61368,6 @@
 /tumbleweed/repo/oss/suse/x86_64/libraptor2-0-32bit
 /tumbleweed/repo/oss/suse/x86_64/libraptor-devel
 /tumbleweed/repo/oss/suse/x86_64/librasqal3
-/tumbleweed/repo/oss/suse/x86_64/librasqal3-32bit
 /tumbleweed/repo/oss/suse/x86_64/librasqal-devel
 /tumbleweed/repo/oss/suse/x86_64/libraven0
 /tumbleweed/repo/oss/suse/x86_64/libraw1394-11
@@ -61417,6 +61416,7 @@
 /tumbleweed/repo/oss/suse/x86_64/libreoffice-officebean
 /tumbleweed/repo/oss/suse/x86_64/libreoffice-pyuno
 /tumbleweed/repo/oss/suse/x86_64/libreoffice-sdk
+/tumbleweed/repo/oss/suse/x86_64/libreoffice-sdk-doc
 /tumbleweed/repo/oss/suse/x86_64/libreoffice-voikko
 /tumbleweed/repo/oss/suse/x86_64/libreoffice-writer
 /tumbleweed/repo/oss/suse/x86_64/libreoffice-writer-extensions
@@ -61432,6 +61432,7 @@
 /tumbleweed/repo/oss/suse/x86_64/librfxencode0
 /tumbleweed/repo/oss/suse/x86_64/librgw2
 /tumbleweed/repo/oss/suse/x86_64/librhash0
+/tumbleweed/repo/oss/suse/x86_64/libRivet-2_5_4
 /tumbleweed/repo/oss/suse/x86_64/librlog5
 /tumbleweed/repo/oss/suse/x86_64/librocsgraphtheory0
 /tumbleweed/repo/oss/suse/x86_64/librrd8
@@ -61547,6 +61548,7 @@
 /tumbleweed/repo/oss/suse/x86_64/libsignon-qt5-1-32bit
 /tumbleweed/repo/oss/suse/x86_64/libsigsegv2
 /tumbleweed/repo/oss/suse/x86_64/libSimGearCore-2017_3_1
+/tumbleweed/repo/oss/suse/x86_64/libskk0
 /tumbleweed/repo/oss/suse/x86_64/libslang2
 /tumbleweed/repo/oss/suse/x86_64/libslang2-32bit
 /tumbleweed/repo/oss/suse/x86_64/libslurm31
@@ -61701,7 +61703,6 @@
 /tumbleweed/repo/oss/suse/x86_64/libtdb1
 /tumbleweed/repo/oss/suse/x86_64/libtdb1-32bit
 /tumbleweed/repo/oss/suse/x86_64/libtdb-devel
-/tumbleweed/repo/oss/suse/x86_64/libtdsodbc0
 /tumbleweed/repo/oss/suse/x86_64/libteamdctl0
 /tumbleweed/repo/oss/suse/x86_64/libtelepathy-farstream3
 /tumbleweed/repo/oss/suse/x86_64/libtelepathy-glib0
@@ -61736,7 +61737,6 @@
 /tumbleweed/repo/oss/suse/x86_64/libtiff5
 /tumbleweed/repo/oss/suse/x86_64/libtiff5-32bit
 /tumbleweed/repo/oss/suse/x86_64/libtiff-devel
-/tumbleweed/repo/oss/suse/x86_64/libtiff-devel-32bit
 /tumbleweed/repo/oss/suse/x86_64/libtimidity2
 /tumbleweed/repo/oss/suse/x86_64/libtinygettext0
 /tumbleweed/repo/oss/suse/x86_64/libtinyxml0
@@ -61816,7 +61816,6 @@
 /tumbleweed/repo/oss/suse/x86_64/libunwind-32bit
 /tumbleweed/repo/oss/suse/x86_64/libunwind-devel
 /tumbleweed/repo/oss/suse/x86_64/libupnp6
-/tumbleweed/repo/oss/suse/x86_64/libupnp6-32bit
 /tumbleweed/repo/oss/suse/x86_64/libupower-glib3
 /tumbleweed/repo/oss/suse/x86_64/libupsclient1
 /tumbleweed/repo/oss/suse/x86_64/liburcu6
@@ -61940,6 +61939,7 @@
 /tumbleweed/repo/oss/suse/x86_64/libvirt-nss
 /tumbleweed/repo/oss/suse/x86_64/libvirt-sandbox-1_0-5
 /tumbleweed/repo/oss/suse/x86_64/libvisio-0_1-1
+/tumbleweed/repo/oss/suse/x86_64/libvisio-tools
 /tumbleweed/repo/oss/suse/x86_64/libvisual
 /tumbleweed/repo/oss/suse/x86_64/libvisual-32bit
 /tumbleweed/repo/oss/suse/x86_64/libvlc5
@@ -61967,6 +61967,7 @@
 /tumbleweed/repo/oss/suse/x86_64/libvte-2_91-0
 /tumbleweed/repo/oss/suse/x86_64/libvte9
 /tumbleweed/repo/oss/suse/x86_64/libvterm0
+/tumbleweed/repo/oss/suse/x86_64/libvtk1
 /tumbleweed/repo/oss/suse/x86_64/libvulkan1
 /tumbleweed/repo/oss/suse/x86_64/libvulkan1-32bit
 /tumbleweed/repo/oss/suse/x86_64/libvulkan_intel
@@ -62466,6 +62467,8 @@
 /tumbleweed/repo/oss/suse/x86_64/makedepend
 /tumbleweed/repo/oss/suse/x86_64/makedumpfile
 /tumbleweed/repo/oss/suse/x86_64/makeinfo
+/tumbleweed/repo/oss/suse/x86_64/mame
+/tumbleweed/repo/oss/suse/x86_64/mame-mess
 /tumbleweed/repo/oss/suse/x86_64/mame-tools
 /tumbleweed/repo/oss/suse/x86_64/man
 /tumbleweed/repo/oss/suse/x86_64/marble
@@ -62566,7 +62569,6 @@
 /tumbleweed/repo/oss/suse/x86_64/metamail
 /tumbleweed/repo/oss/suse/x86_64/metatheme-breeze-common
 /tumbleweed/repo/oss/suse/x86_64/metis-devel
-/tumbleweed/repo/oss/suse/x86_64/mgp
 /tumbleweed/repo/oss/suse/x86_64/midori
 /tumbleweed/repo/oss/suse/x86_64/milou5
 /tumbleweed/repo/oss/suse/x86_64/minetest
@@ -62574,6 +62576,7 @@
 /tumbleweed/repo/oss/suse/x86_64/minicom
 /tumbleweed/repo/oss/suse/x86_64/minitube
 /tumbleweed/repo/oss/suse/x86_64/miniupnpc
+/tumbleweed/repo/oss/suse/x86_64/minuet
 /tumbleweed/repo/oss/suse/x86_64/misc-console-font
 /tumbleweed/repo/oss/suse/x86_64/mjpegtools
 /tumbleweed/repo/oss/suse/x86_64/mkcomposecache
@@ -62691,13 +62694,13 @@
 /tumbleweed/repo/oss/suse/x86_64/mozilla-nss-devel
 /tumbleweed/repo/oss/suse/x86_64/mozilla-nss-tools
 /tumbleweed/repo/oss/suse/x86_64/MozillaThunderbird
+/tumbleweed/repo/oss/suse/x86_64/MozillaThunderbird-devel
 /tumbleweed/repo/oss/suse/x86_64/MozillaThunderbird-translations-common
 /tumbleweed/repo/oss/suse/x86_64/MozillaThunderbird-translations-other
 /tumbleweed/repo/oss/suse/x86_64/mp3_check
 /tumbleweed/repo/oss/suse/x86_64/mpc-devel
 /tumbleweed/repo/oss/suse/x86_64/mpc-qt
 /tumbleweed/repo/oss/suse/x86_64/mpfr-devel
-/tumbleweed/repo/oss/suse/x86_64/mpfr-devel-32bit
 /tumbleweed/repo/oss/suse/x86_64/mpg123
 /tumbleweed/repo/oss/suse/x86_64/mpg123-devel
 /tumbleweed/repo/oss/suse/x86_64/mpg123-jack
@@ -62708,6 +62711,7 @@
 /tumbleweed/repo/oss/suse/x86_64/mpv
 /tumbleweed/repo/oss/suse/x86_64/mpv-devel
 /tumbleweed/repo/oss/suse/x86_64/mpv-plugin-mpris
+/tumbleweed/repo/oss/suse/x86_64/msmtp
 /tumbleweed/repo/oss/suse/x86_64/mtdev-devel
 /tumbleweed/repo/oss/suse/x86_64/mtools
 /tumbleweed/repo/oss/suse/x86_64/mtpaint
@@ -62736,7 +62740,6 @@
 /tumbleweed/repo/oss/suse/x86_64/nagios
 /tumbleweed/repo/oss/suse/x86_64/nagios-www
 /tumbleweed/repo/oss/suse/x86_64/nano
-/tumbleweed/repo/oss/suse/x86_64/nano-plugin-conky
 /tumbleweed/repo/oss/suse/x86_64/nasm
 /tumbleweed/repo/oss/suse/x86_64/nautilus
 /tumbleweed/repo/oss/suse/x86_64/nautilus-deja-dup
@@ -62806,7 +62809,6 @@
 /tumbleweed/repo/oss/suse/x86_64/nfswatch
 /tumbleweed/repo/oss/suse/x86_64/nftables
 /tumbleweed/repo/oss/suse/x86_64/nginx
-/tumbleweed/repo/oss/suse/x86_64/ngrep
 /tumbleweed/repo/oss/suse/x86_64/nilfs-utils
 /tumbleweed/repo/oss/suse/x86_64/ninja
 /tumbleweed/repo/oss/suse/x86_64/nkf
@@ -62916,7 +62918,6 @@
 /tumbleweed/repo/oss/suse/x86_64/openscap
 /tumbleweed/repo/oss/suse/x86_64/openscap-content
 /tumbleweed/repo/oss/suse/x86_64/openscap-docker
-/tumbleweed/repo/oss/suse/x86_64/openscap-extra-probes
 /tumbleweed/repo/oss/suse/x86_64/openscap-utils
 /tumbleweed/repo/oss/suse/x86_64/OpenSceneGraph
 /tumbleweed/repo/oss/suse/x86_64/OpenSceneGraph-plugins
@@ -62933,6 +62934,7 @@
 /tumbleweed/repo/oss/suse/x86_64/openSUSE-appstream-process
 /tumbleweed/repo/oss/suse/x86_64/openSUSE-release
 /tumbleweed/repo/oss/suse/x86_64/openSUSE-release-ftp
+/tumbleweed/repo/oss/suse/x86_64/openttd
 /tumbleweed/repo/oss/suse/x86_64/open-vm-tools
 /tumbleweed/repo/oss/suse/x86_64/open-vm-tools-desktop
 /tumbleweed/repo/oss/suse/x86_64/openvpn
@@ -63452,7 +63454,6 @@
 /tumbleweed/repo/oss/suse/x86_64/plymouth-theme-breeze-plugin-breeze
 /tumbleweed/repo/oss/suse/x86_64/plymouth-x11-renderer
 /tumbleweed/repo/oss/suse/x86_64/plzip
-/tumbleweed/repo/oss/suse/x86_64/pmidi
 /tumbleweed/repo/oss/suse/x86_64/pngcrush
 /tumbleweed/repo/oss/suse/x86_64/pocl
 /tumbleweed/repo/oss/suse/x86_64/podofo
@@ -63513,7 +63514,6 @@
 /tumbleweed/repo/oss/suse/x86_64/proxychains-ng
 /tumbleweed/repo/oss/suse/x86_64/proxymngr
 /tumbleweed/repo/oss/suse/x86_64/psi+
-/tumbleweed/repo/oss/suse/x86_64/psiconv
 /tumbleweed/repo/oss/suse/x86_64/psmisc
 /tumbleweed/repo/oss/suse/x86_64/psqlODBC
 /tumbleweed/repo/oss/suse/x86_64/pstoedit
@@ -63633,7 +63633,6 @@
 /tumbleweed/repo/oss/suse/x86_64/python2-ruamel.yaml
 /tumbleweed/repo/oss/suse/x86_64/python2-scandir
 /tumbleweed/repo/oss/suse/x86_64/python2-scipy
-/tumbleweed/repo/oss/suse/x86_64/python2-semanage
 /tumbleweed/repo/oss/suse/x86_64/python2-setproctitle
 /tumbleweed/repo/oss/suse/x86_64/python2-simplejson
 /tumbleweed/repo/oss/suse/x86_64/python2-sip
@@ -63695,7 +63694,6 @@
 /tumbleweed/repo/oss/suse/x86_64/python3-javapackages
 /tumbleweed/repo/oss/suse/x86_64/python3-kiwi
 /tumbleweed/repo/oss/suse/x86_64/python3-lazy-object-proxy
-/tumbleweed/repo/oss/suse/x86_64/python3-Levenshtein
 /tumbleweed/repo/oss/suse/x86_64/python3-libaccounts
 /tumbleweed/repo/oss/suse/x86_64/python3-libcomps
 /tumbleweed/repo/oss/suse/x86_64/python3-libguestfs
@@ -63754,6 +63752,7 @@
 /tumbleweed/repo/oss/suse/x86_64/python3-speechd
 /tumbleweed/repo/oss/suse/x86_64/python3-SQLAlchemy
 /tumbleweed/repo/oss/suse/x86_64/python3-tables
+/tumbleweed/repo/oss/suse/x86_64/python3-testsuite
 /tumbleweed/repo/oss/suse/x86_64/python3-tk
 /tumbleweed/repo/oss/suse/x86_64/python3-tools
 /tumbleweed/repo/oss/suse/x86_64/python3-tornado
@@ -63776,7 +63775,6 @@
 /tumbleweed/repo/oss/suse/x86_64/python-crcmod
 /tumbleweed/repo/oss/suse/x86_64/python-curses
 /tumbleweed/repo/oss/suse/x86_64/python-dbus-python-common-devel
-/tumbleweed/repo/oss/suse/x86_64/python-dee
 /tumbleweed/repo/oss/suse/x86_64/python-deltarpm
 /tumbleweed/repo/oss/suse/x86_64/python-devel
 /tumbleweed/repo/oss/suse/x86_64/python-fcgi
@@ -63820,16 +63818,12 @@
 /tumbleweed/repo/oss/suse/x86_64/python-libaccounts
 /tumbleweed/repo/oss/suse/x86_64/python-mate-menus
 /tumbleweed/repo/oss/suse/x86_64/python-mathgl
-/tumbleweed/repo/oss/suse/x86_64/python-miniupnpc
-/tumbleweed/repo/oss/suse/x86_64/python-mlt
-/tumbleweed/repo/oss/suse/x86_64/python-monkeysign
 /tumbleweed/repo/oss/suse/x86_64/python-MySQL-python
 /tumbleweed/repo/oss/suse/x86_64/python-nautilus
 /tumbleweed/repo/oss/suse/x86_64/python-nemo
 /tumbleweed/repo/oss/suse/x86_64/python-notify
 /tumbleweed/repo/oss/suse/x86_64/python-ntp
 /tumbleweed/repo/oss/suse/x86_64/python-opencv
-/tumbleweed/repo/oss/suse/x86_64/python-opensync
 /tumbleweed/repo/oss/suse/x86_64/python-openvswitch
 /tumbleweed/repo/oss/suse/x86_64/python-orbit
 /tumbleweed/repo/oss/suse/x86_64/python-pam
@@ -63843,7 +63837,6 @@
 /tumbleweed/repo/oss/suse/x86_64/python-pyliblzma
 /tumbleweed/repo/oss/suse/x86_64/python-pyside
 /tumbleweed/repo/oss/suse/x86_64/python-pysqlite
-/tumbleweed/repo/oss/suse/x86_64/python-pywbem
 /tumbleweed/repo/oss/suse/x86_64/python-qscintilla-qt4-sip
 /tumbleweed/repo/oss/suse/x86_64/python-qscintilla-qt5-sip
 /tumbleweed/repo/oss/suse/x86_64/python-qt4-utils
@@ -63888,6 +63881,7 @@
 /tumbleweed/repo/oss/suse/x86_64/qemu-block-iscsi
 /tumbleweed/repo/oss/suse/x86_64/qemu-block-rbd
 /tumbleweed/repo/oss/suse/x86_64/qemu-block-ssh
+/tumbleweed/repo/oss/suse/x86_64/qemu-extra
 /tumbleweed/repo/oss/suse/x86_64/qemu-guest-agent
 /tumbleweed/repo/oss/suse/x86_64/qemu-ksm
 /tumbleweed/repo/oss/suse/x86_64/qemu-kvm
@@ -63933,7 +63927,6 @@
 /tumbleweed/repo/oss/suse/x86_64/qupzilla
 /tumbleweed/repo/oss/suse/x86_64/qupzilla-gnome-keyring
 /tumbleweed/repo/oss/suse/x86_64/qupzilla-kwallet
-/tumbleweed/repo/oss/suse/x86_64/quvi
 /tumbleweed/repo/oss/suse/x86_64/qwt6-qt5-devel
 /tumbleweed/repo/oss/suse/x86_64/rabbitmq-server
 /tumbleweed/repo/oss/suse/x86_64/rabbitmq-server-plugins
@@ -64179,13 +64172,13 @@
 /tumbleweed/repo/oss/suse/x86_64/ruby2.5-stdlib
 /tumbleweed/repo/oss/suse/x86_64/ruby-devel
 /tumbleweed/repo/oss/suse/x86_64/rubygem-builder-3_0
-/tumbleweed/repo/oss/suse/x86_64/rubygem-cancan
 /tumbleweed/repo/oss/suse/x86_64/rubygem-docker-api
 /tumbleweed/repo/oss/suse/x86_64/rubygem-ruby-fcgi
 /tumbleweed/repo/oss/suse/x86_64/runc
 /tumbleweed/repo/oss/suse/x86_64/rust
 /tumbleweed/repo/oss/suse/x86_64/rust-doc
 /tumbleweed/repo/oss/suse/x86_64/rust-gdb
+/tumbleweed/repo/oss/suse/x86_64/rust-std
 /tumbleweed/repo/oss/suse/x86_64/R-utils
 /tumbleweed/repo/oss/suse/x86_64/rxvt-unicode
 /tumbleweed/repo/oss/suse/x86_64/rygel
@@ -64195,7 +64188,6 @@
 /tumbleweed/repo/oss/suse/x86_64/rzsz
 /tumbleweed/repo/oss/suse/x86_64/s2tc
 /tumbleweed/repo/oss/suse/x86_64/s2tc-32bit
-/tumbleweed/repo/oss/suse/x86_64/s3fs
 /tumbleweed/repo/oss/suse/x86_64/sablot
 /tumbleweed/repo/oss/suse/x86_64/salt
 /tumbleweed/repo/oss/suse/x86_64/salt-master
@@ -64241,7 +64233,6 @@
 /tumbleweed/repo/oss/suse/x86_64/scribus
 /tumbleweed/repo/oss/suse/x86_64/scrnsaverproto-devel
 /tumbleweed/repo/oss/suse/x86_64/scrot
-/tumbleweed/repo/oss/suse/x86_64/sdcc
 /tumbleweed/repo/oss/suse/x86_64/sddm
 /tumbleweed/repo/oss/suse/x86_64/sddm-branding-openSUSE
 /tumbleweed/repo/oss/suse/x86_64/sddm-branding-upstream
@@ -64256,7 +64247,6 @@
 /tumbleweed/repo/oss/suse/x86_64/sensord
 /tumbleweed/repo/oss/suse/x86_64/sensors
 /tumbleweed/repo/oss/suse/x86_64/sessreg
-/tumbleweed/repo/oss/suse/x86_64/setools-libs
 /tumbleweed/repo/oss/suse/x86_64/setserial
 /tumbleweed/repo/oss/suse/x86_64/setxkbmap
 /tumbleweed/repo/oss/suse/x86_64/sg3_utils
@@ -64286,7 +64276,6 @@
 /tumbleweed/repo/oss/suse/x86_64/skopeo
 /tumbleweed/repo/oss/suse/x86_64/slang-devel
 /tumbleweed/repo/oss/suse/x86_64/slang-slsh
-/tumbleweed/repo/oss/suse/x86_64/slrn
 /tumbleweed/repo/oss/suse/x86_64/slurm
 /tumbleweed/repo/oss/suse/x86_64/slurm-munge
 /tumbleweed/repo/oss/suse/x86_64/slurm-plugins
@@ -64374,6 +64363,7 @@
 /tumbleweed/repo/oss/suse/x86_64/suitesparse-devel
 /tumbleweed/repo/oss/suse/x86_64/sunpinyin-data
 /tumbleweed/repo/oss/suse/x86_64/supermin
+/tumbleweed/repo/oss/suse/x86_64/supertux2
 /tumbleweed/repo/oss/suse/x86_64/supertuxkart
 /tumbleweed/repo/oss/suse/x86_64/SUSEConnect
 /tumbleweed/repo/oss/suse/x86_64/suse-module-tools
@@ -64393,7 +64383,6 @@
 /tumbleweed/repo/oss/suse/x86_64/sysdig
 /tumbleweed/repo/oss/suse/x86_64/sysdig-kmp-default
 /tumbleweed/repo/oss/suse/x86_64/sysfsutils
-/tumbleweed/repo/oss/suse/x86_64/sysfsutils-32bit
 /tumbleweed/repo/oss/suse/x86_64/sysinfo
 /tumbleweed/repo/oss/suse/x86_64/syslinux
 /tumbleweed/repo/oss/suse/x86_64/syslog-ng
@@ -64406,6 +64395,7 @@
 /tumbleweed/repo/oss/suse/x86_64/systemd-devel
 /tumbleweed/repo/oss/suse/x86_64/systemd-logger
 /tumbleweed/repo/oss/suse/x86_64/systemd-sysvinit
+/tumbleweed/repo/oss/suse/x86_64/systemd-ui
 /tumbleweed/repo/oss/suse/x86_64/systemsettings5
 /tumbleweed/repo/oss/suse/x86_64/systemsettings5-devel
 /tumbleweed/repo/oss/suse/x86_64/systemtap
@@ -64759,7 +64749,6 @@
 /tumbleweed/repo/oss/suse/x86_64/typelib-1_0-GdkPixbuf-2_0
 /tumbleweed/repo/oss/suse/x86_64/typelib-1_0-Gdm-1_0
 /tumbleweed/repo/oss/suse/x86_64/typelib-1_0-Gee-0_8
-/tumbleweed/repo/oss/suse/x86_64/typelib-1_0-Gee-1_0
 /tumbleweed/repo/oss/suse/x86_64/typelib-1_0-Geoclue-2_0
 /tumbleweed/repo/oss/suse/x86_64/typelib-1_0-GeocodeGlib-1_0
 /tumbleweed/repo/oss/suse/x86_64/typelib-1_0-Gepub-0_5
@@ -64773,7 +64762,6 @@
 /tumbleweed/repo/oss/suse/x86_64/typelib-1_0-GnomeDesktop-3_0
 /tumbleweed/repo/oss/suse/x86_64/typelib-1_0-GnomeKeyring-1_0
 /tumbleweed/repo/oss/suse/x86_64/typelib-1_0-Goa-1_0
-/tumbleweed/repo/oss/suse/x86_64/typelib-1_0-GooCanvas-2_0
 /tumbleweed/repo/oss/suse/x86_64/typelib-1_0-GPaste-1_0
 /tumbleweed/repo/oss/suse/x86_64/typelib-1_0-Graphene-1_0
 /tumbleweed/repo/oss/suse/x86_64/typelib-1_0-Grl-0_3
@@ -64886,7 +64874,6 @@
 /tumbleweed/repo/oss/suse/x86_64/unbound
 /tumbleweed/repo/oss/suse/x86_64/unbound-anchor
 /tumbleweed/repo/oss/suse/x86_64/unclutter
-/tumbleweed/repo/oss/suse/x86_64/uncrustify
 /tumbleweed/repo/oss/suse/x86_64/unetbootin
 /tumbleweed/repo/oss/suse/x86_64/unison
 /tumbleweed/repo/oss/suse/x86_64/units
@@ -64900,17 +64887,12 @@
 /tumbleweed/repo/oss/suse/x86_64/unzip-doc
 /tumbleweed/repo/oss/suse/x86_64/unzip-rcc
 /tumbleweed/repo/oss/suse/x86_64/update-alternatives
-/tumbleweed/repo/oss/suse/x86_64/update-test-affects-package-manager
-/tumbleweed/repo/oss/suse/x86_64/update-test-interactive
-/tumbleweed/repo/oss/suse/x86_64/update-test-optional
-/tumbleweed/repo/oss/suse/x86_64/update-test-reboot-needed
 /tumbleweed/repo/oss/suse/x86_64/update-test-security
 /tumbleweed/repo/oss/suse/x86_64/upower
 /tumbleweed/repo/oss/suse/x86_64/upx
 /tumbleweed/repo/oss/suse/x86_64/urfkill
 /tumbleweed/repo/oss/suse/x86_64/urlview
 /tumbleweed/repo/oss/suse/x86_64/urxvt-font-size
-/tumbleweed/repo/oss/suse/x86_64/urxvt-perls
 /tumbleweed/repo/oss/suse/x86_64/us428control
 /tumbleweed/repo/oss/suse/x86_64/usb_modeswitch
 /tumbleweed/repo/oss/suse/x86_64/usbmuxd
@@ -65012,7 +64994,6 @@
 /tumbleweed/repo/oss/suse/x86_64/whois
 /tumbleweed/repo/oss/suse/x86_64/wicked
 /tumbleweed/repo/oss/suse/x86_64/wicked-service
-/tumbleweed/repo/oss/suse/x86_64/widelands
 /tumbleweed/repo/oss/suse/x86_64/wiggle
 /tumbleweed/repo/oss/suse/x86_64/WindowMaker
 /tumbleweed/repo/oss/suse/x86_64/WindowMaker-applets
@@ -65044,7 +65025,6 @@
 /tumbleweed/repo/oss/suse/x86_64/xaos
 /tumbleweed/repo/oss/suse/x86_64/xar
 /tumbleweed/repo/oss/suse/x86_64/xauth
-/tumbleweed/repo/oss/suse/x86_64/xautomation
 /tumbleweed/repo/oss/suse/x86_64/xawtv
 /tumbleweed/repo/oss/suse/x86_64/xbacklight
 /tumbleweed/repo/oss/suse/x86_64/xbiff
@@ -65234,11 +65214,8 @@
 /tumbleweed/repo/oss/suse/x86_64/xmms2
 /tumbleweed/repo/oss/suse/x86_64/xmms2-plugin-base
 /tumbleweed/repo/oss/suse/x86_64/xmms2-plugin-flac
-/tumbleweed/repo/oss/suse/x86_64/xmms2-plugin-flv
 /tumbleweed/repo/oss/suse/x86_64/xmms2-plugin-mp4
 /tumbleweed/repo/oss/suse/x86_64/xmms2-plugin-pulse
-/tumbleweed/repo/oss/suse/x86_64/xmms2-plugin-tta
-/tumbleweed/repo/oss/suse/x86_64/xmms2-plugin-wavpack
 /tumbleweed/repo/oss/suse/x86_64/xmodmap
 /tumbleweed/repo/oss/suse/x86_64/xmonad
 /tumbleweed/repo/oss/suse/x86_64/xmore
@@ -65429,7 +65406,6 @@
 /update/leap/42.1/oss/noarch/breeze5-style-lang
 /update/leap/42.1/oss/noarch/breeze5-wallpapers
 /update/leap/42.1/oss/noarch/btrfsmaintenance
-/update/leap/42.1/oss/noarch/build
 /update/leap/42.1/oss/noarch/build-mkbaselibs
 /update/leap/42.1/oss/noarch/ca-certificates-mozilla
 /update/leap/42.1/oss/noarch/claws-mail-lang
@@ -65487,6 +65463,7 @@
 /update/leap/42.1/oss/noarch/gtk2-theme-thinice
 /update/leap/42.1/oss/noarch/gtk3-data
 /update/leap/42.1/oss/noarch/gtk3-lang
+/update/leap/42.1/oss/noarch/gtkhtml-4_0-lang
 /update/leap/42.1/oss/noarch/gvfs-lang
 /update/leap/42.1/oss/noarch/iagno-lang
 /update/leap/42.1/oss/noarch/ibus-branding-openSUSE-KDE
@@ -65503,7 +65480,6 @@
 /update/leap/42.1/oss/noarch/kdeedu-data
 /update/leap/42.1/oss/noarch/kdegames-carddecks-default
 /update/leap/42.1/oss/noarch/kde-gtk-config5-lang
-/update/leap/42.1/oss/noarch/kde-l10n-ar
 /update/leap/42.1/oss/noarch/kde-l10n-de
 /update/leap/42.1/oss/noarch/kde-l10n-de-data
 /update/leap/42.1/oss/noarch/kde-l10n-de-doc
@@ -65512,8 +65488,8 @@
 /update/leap/42.1/oss/noarch/kde-l10n-en_GB-doc
 /update/leap/42.1/oss/noarch/kde-l10n-es
 /update/leap/42.1/oss/noarch/kde-l10n-es-data
+/update/leap/42.1/oss/noarch/kde-l10n-es-doc
 /update/leap/42.1/oss/noarch/kde-l10n-ru
-/update/leap/42.1/oss/noarch/kde-l10n-ru-data
 /update/leap/42.1/oss/noarch/kdelibs4support-lang
 /update/leap/42.1/oss/noarch/kdesignerplugin-lang
 /update/leap/42.1/oss/noarch/kdoctools-lang
@@ -65599,6 +65575,8 @@
 /update/leap/42.1/oss/noarch/libreoffice-l10n-de
 /update/leap/42.1/oss/noarch/libreoffice-l10n-en
 /update/leap/42.1/oss/noarch/libreoffice-l10n-es
+/update/leap/42.1/oss/noarch/libreoffice-l10n-fr
+/update/leap/42.1/oss/noarch/libreoffice-l10n-it
 /update/leap/42.1/oss/noarch/libreoffice-l10n-pl
 /update/leap/42.1/oss/noarch/libreoffice-l10n-ru
 /update/leap/42.1/oss/noarch/librepository
@@ -65675,7 +65653,6 @@
 /update/leap/42.1/oss/noarch/shared-mime-info-lang
 /update/leap/42.1/oss/noarch/shotwell-lang
 /update/leap/42.1/oss/noarch/snapper-zypp-plugin
-/update/leap/42.1/oss/noarch/subversion-bash-completion
 /update/leap/42.1/oss/noarch/SuSEfirewall2
 /update/leap/42.1/oss/noarch/SuSEfirewall2-fail2ban
 /update/leap/42.1/oss/noarch/systemd-bash-completion
@@ -65686,9 +65663,7 @@
 /update/leap/42.1/oss/noarch/thunar-lang
 /update/leap/42.1/oss/noarch/timezone-java
 /update/leap/42.1/oss/noarch/tomcat-admin-webapps
-/update/leap/42.1/oss/noarch/tomcat-el-3_0-api
 /update/leap/42.1/oss/noarch/tomcat-jsp-2_3-api
-/update/leap/42.1/oss/noarch/tomcat-servlet-3_1-api
 /update/leap/42.1/oss/noarch/tomcat-webapps
 /update/leap/42.1/oss/noarch/totem-pl-parser-lang
 /update/leap/42.1/oss/noarch/translation-update
@@ -65744,7 +65719,6 @@
 /update/leap/42.1/oss/x86_64/acl
 /update/leap/42.1/oss/x86_64/akonadi5
 /update/leap/42.1/oss/x86_64/akonadi-search
-/update/leap/42.1/oss/x86_64/akonadi-server
 /update/leap/42.1/oss/x86_64/alsa
 /update/leap/42.1/oss/x86_64/alsa-devel
 /update/leap/42.1/oss/x86_64/alsa-plugins
@@ -65800,6 +65774,7 @@
 /update/leap/42.1/oss/x86_64/bzip2
 /update/leap/42.1/oss/x86_64/cairo-devel
 /update/leap/42.1/oss/x86_64/cervisia
+/update/leap/42.1/oss/x86_64/chromedriver
 /update/leap/42.1/oss/x86_64/clamav
 /update/leap/42.1/oss/x86_64/claws-mail
 /update/leap/42.1/oss/x86_64/clementine
@@ -65822,6 +65797,7 @@
 /update/leap/42.1/oss/x86_64/cups-libs
 /update/leap/42.1/oss/x86_64/cups-libs-32bit
 /update/leap/42.1/oss/x86_64/curl
+/update/leap/42.1/oss/x86_64/cyradm
 /update/leap/42.1/oss/x86_64/dbus-1
 /update/leap/42.1/oss/x86_64/dbus-1-devel
 /update/leap/42.1/oss/x86_64/dbus-1-x11
@@ -65966,7 +65942,6 @@
 /update/leap/42.1/oss/x86_64/gtk2-immodule-inuktitut
 /update/leap/42.1/oss/x86_64/gtk2-immodule-thai
 /update/leap/42.1/oss/x86_64/gtk2-immodule-vietnamese
-/update/leap/42.1/oss/x86_64/gtk2-immodule-xim
 /update/leap/42.1/oss/x86_64/gtk2-tools
 /update/leap/42.1/oss/x86_64/gtk2-tools-32bit
 /update/leap/42.1/oss/x86_64/gtk3-devel
@@ -66005,7 +65980,6 @@
 /update/leap/42.1/oss/x86_64/ipmitool
 /update/leap/42.1/oss/x86_64/ipsec-tools
 /update/leap/42.1/oss/x86_64/ipset
-/update/leap/42.1/oss/x86_64/ipset-kmp-default
 /update/leap/42.1/oss/x86_64/irqbalance
 /update/leap/42.1/oss/x86_64/iscsiuio
 /update/leap/42.1/oss/x86_64/ispell
@@ -66015,6 +65989,7 @@
 /update/leap/42.1/oss/x86_64/java-1_7_0-openjdk-headless
 /update/leap/42.1/oss/x86_64/java-1_7_0-openjdk-plugin
 /update/leap/42.1/oss/x86_64/java-1_8_0-openjdk
+/update/leap/42.1/oss/x86_64/java-1_8_0-openjdk-devel
 /update/leap/42.1/oss/x86_64/java-1_8_0-openjdk-headless
 /update/leap/42.1/oss/x86_64/java-1_8_0-openjdk-plugin
 /update/leap/42.1/oss/x86_64/jq
@@ -66682,6 +66657,7 @@
 /update/leap/42.1/oss/x86_64/libqt4
 /update/leap/42.1/oss/x86_64/libqt4-32bit
 /update/leap/42.1/oss/x86_64/libqt4-devel
+/update/leap/42.1/oss/x86_64/libqt4-devel-doc
 /update/leap/42.1/oss/x86_64/libqt4-linguist
 /update/leap/42.1/oss/x86_64/libqt4-qt3support
 /update/leap/42.1/oss/x86_64/libqt4-qt3support-32bit
@@ -66829,7 +66805,6 @@
 /update/leap/42.1/oss/x86_64/libsoftokn3-32bit
 /update/leap/42.1/oss/x86_64/libsolv-tools
 /update/leap/42.1/oss/x86_64/libsoup-2_4-1
-/update/leap/42.1/oss/x86_64/libsoup-2_4-1-32bit
 /update/leap/42.1/oss/x86_64/libsource-highlight4
 /update/leap/42.1/oss/x86_64/libspectre1
 /update/leap/42.1/oss/x86_64/libspice-client-glib-2_0-8
@@ -67027,6 +67002,7 @@
 /update/leap/42.1/oss/x86_64/mozilla-nss-certs-32bit
 /update/leap/42.1/oss/x86_64/mozilla-nss-devel
 /update/leap/42.1/oss/x86_64/mozilla-nss-tools
+/update/leap/42.1/oss/x86_64/MozillaThunderbird
 /update/leap/42.1/oss/x86_64/MozillaThunderbird-translations-common
 /update/leap/42.1/oss/x86_64/mtools
 /update/leap/42.1/oss/x86_64/multipath-tools
@@ -67092,6 +67068,7 @@
 /update/leap/42.1/oss/x86_64/patterns-openSUSE-devel_basis
 /update/leap/42.1/oss/x86_64/patterns-openSUSE-devel_C_C++
 /update/leap/42.1/oss/x86_64/patterns-openSUSE-devel_java
+/update/leap/42.1/oss/x86_64/patterns-openSUSE-devel_kde_frameworks
 /update/leap/42.1/oss/x86_64/patterns-openSUSE-devel_kernel
 /update/leap/42.1/oss/x86_64/patterns-openSUSE-devel_perl
 /update/leap/42.1/oss/x86_64/patterns-openSUSE-devel_python
@@ -67412,6 +67389,7 @@
 /update/leap/42.1/oss/x86_64/uuidd
 /update/leap/42.1/oss/x86_64/vaapi-intel-driver
 /update/leap/42.1/oss/x86_64/vim
+/update/leap/42.1/oss/x86_64/virtualbox
 /update/leap/42.1/oss/x86_64/virtualbox-guest-kmp-default
 /update/leap/42.1/oss/x86_64/virtualbox-guest-tools
 /update/leap/42.1/oss/x86_64/virtualbox-guest-x11
@@ -67436,9 +67414,11 @@
 /update/leap/42.1/oss/x86_64/wpa_supplicant
 /update/leap/42.1/oss/x86_64/x11vnc
 /update/leap/42.1/oss/x86_64/xdm
+/update/leap/42.1/oss/x86_64/xen
 /update/leap/42.1/oss/x86_64/xen-doc-html
 /update/leap/42.1/oss/x86_64/xen-kmp-default
 /update/leap/42.1/oss/x86_64/xen-libs
+/update/leap/42.1/oss/x86_64/xen-tools
 /update/leap/42.1/oss/x86_64/xf86-video-intel
 /update/leap/42.1/oss/x86_64/xfce4-session
 /update/leap/42.1/oss/x86_64/xfsprogs
@@ -67510,7 +67490,6 @@
 /update/leap/42.2/oss/noarch/build-mkdrpms
 /update/leap/42.2/oss/noarch/cacti
 /update/leap/42.2/oss/noarch/cacti-doc
-/update/leap/42.2/oss/noarch/clamav-database
 /update/leap/42.2/oss/noarch/colord-lang
 /update/leap/42.2/oss/noarch/containerd-test
 /update/leap/42.2/oss/noarch/cpio-lang
@@ -67746,8 +67725,6 @@
 /update/leap/42.2/oss/noarch/rubygem-puppet-vim
 /update/leap/42.2/oss/noarch/runc-test
 /update/leap/42.2/oss/noarch/salt-bash-completion
-/update/leap/42.2/oss/noarch/salt-fish-completion
-/update/leap/42.2/oss/noarch/salt-zsh-completion
 /update/leap/42.2/oss/noarch/samba-doc
 /update/leap/42.2/oss/noarch/sddm-theme-openSUSE
 /update/leap/42.2/oss/noarch/sed-lang
@@ -67756,7 +67733,6 @@
 /update/leap/42.2/oss/noarch/shutter-lang
 /update/leap/42.2/oss/noarch/smb4k-lang
 /update/leap/42.2/oss/noarch/smplayer-lang
-/update/leap/42.2/oss/noarch/sqlite3-doc
 /update/leap/42.2/oss/noarch/subversion-bash-completion
 /update/leap/42.2/oss/noarch/SuSEfirewall2
 /update/leap/42.2/oss/noarch/SuSEfirewall2-fail2ban
@@ -67829,9 +67805,6 @@
 /update/leap/42.2/oss/repodata/-suseinfo.xml.gz
 /update/leap/42.2/oss/repodata/-updateinfo.xml.gz
 /update/leap/42.2/oss/src/backintime
-/update/leap/42.2/oss/src/cacti
-/update/leap/42.2/oss/src/cacti-spine
-/update/leap/42.2/oss/src/clamav-database
 /update/leap/42.2/oss/src/cpupower
 /update/leap/42.2/oss/src/empathy
 /update/leap/42.2/oss/src/file
@@ -67977,6 +67950,7 @@
 /update/leap/42.2/oss/x86_64/dnsmasq-utils
 /update/leap/42.2/oss/x86_64/docker
 /update/leap/42.2/oss/x86_64/docker-libnetwork
+/update/leap/42.2/oss/x86_64/docker-test
 /update/leap/42.2/oss/x86_64/dolphin
 /update/leap/42.2/oss/x86_64/dolphin-part
 /update/leap/42.2/oss/x86_64/dos2unix
@@ -67992,7 +67966,6 @@
 /update/leap/42.2/oss/x86_64/drbd-kmp-default
 /update/leap/42.2/oss/x86_64/drbd-utils
 /update/leap/42.2/oss/x86_64/drkonqi5
-/update/leap/42.2/oss/x86_64/dump
 /update/leap/42.2/oss/x86_64/e2fsprogs
 /update/leap/42.2/oss/x86_64/e2fsprogs-devel
 /update/leap/42.2/oss/x86_64/edje
@@ -68300,6 +68273,7 @@
 /update/leap/42.2/oss/x86_64/java-1_8_0-openjdk-devel
 /update/leap/42.2/oss/x86_64/java-1_8_0-openjdk-headless
 /update/leap/42.2/oss/x86_64/java-1_8_0-openjdk-plugin
+/update/leap/42.2/oss/x86_64/java-1_8_0-openjdk-src
 /update/leap/42.2/oss/x86_64/javapackages-tools
 /update/leap/42.2/oss/x86_64/jq
 /update/leap/42.2/oss/x86_64/k3b
@@ -68414,11 +68388,12 @@
 /update/leap/42.2/oss/x86_64/libavcodec-devel
 /update/leap/42.2/oss/x86_64/libavdevice56
 /update/leap/42.2/oss/x86_64/libavdevice57
-/update/leap/42.2/oss/x86_64/libavdevice-devel
 /update/leap/42.2/oss/x86_64/libavfilter5
 /update/leap/42.2/oss/x86_64/libavfilter6
+/update/leap/42.2/oss/x86_64/libavfilter6-32bit
 /update/leap/42.2/oss/x86_64/libavfilter-devel
 /update/leap/42.2/oss/x86_64/libavformat56
+/update/leap/42.2/oss/x86_64/libavformat56-32bit
 /update/leap/42.2/oss/x86_64/libavformat57
 /update/leap/42.2/oss/x86_64/libavformat57-32bit
 /update/leap/42.2/oss/x86_64/libavformat-devel
@@ -68494,6 +68469,7 @@
 /update/leap/42.2/oss/x86_64/libcorosync4-32bit
 /update/leap/42.2/oss/x86_64/libcorosync-devel
 /update/leap/42.2/oss/x86_64/libcpupower0
+/update/leap/42.2/oss/x86_64/libcrypto37
 /update/leap/42.2/oss/x86_64/libcrypto41
 /update/leap/42.2/oss/x86_64/libcryptsetup4
 /update/leap/42.2/oss/x86_64/libcryptsetup4-32bit
@@ -68884,6 +68860,7 @@
 /update/leap/42.2/oss/x86_64/libpng12-0-32bit
 /update/leap/42.2/oss/x86_64/libpng12-compat-devel
 /update/leap/42.2/oss/x86_64/libpng12-devel
+/update/leap/42.2/oss/x86_64/libpng12-devel-32bit
 /update/leap/42.2/oss/x86_64/libpng15-15
 /update/leap/42.2/oss/x86_64/libpng16-16
 /update/leap/42.2/oss/x86_64/libpng16-16-32bit
@@ -68948,6 +68925,7 @@
 /update/leap/42.2/oss/x86_64/libQt5Sql5-sqlite
 /update/leap/42.2/oss/x86_64/libQt5Sql-devel
 /update/leap/42.2/oss/x86_64/libQt5Test5
+/update/leap/42.2/oss/x86_64/libQt5Test5-32bit
 /update/leap/42.2/oss/x86_64/libQt5Test-devel
 /update/leap/42.2/oss/x86_64/libQt5Widgets5
 /update/leap/42.2/oss/x86_64/libQt5Widgets5-32bit
@@ -69313,6 +69291,7 @@
 /update/leap/42.2/oss/x86_64/mysql-community-server-bench
 /update/leap/42.2/oss/x86_64/mysql-community-server-client
 /update/leap/42.2/oss/x86_64/mysql-community-server-errormessages
+/update/leap/42.2/oss/x86_64/mysql-community-server-test
 /update/leap/42.2/oss/x86_64/mysql-community-server-tools
 /update/leap/42.2/oss/x86_64/mysql-workbench
 /update/leap/42.2/oss/x86_64/nasm
@@ -69620,7 +69599,6 @@
 /update/leap/42.2/oss/x86_64/ruby-apparmor
 /update/leap/42.2/oss/x86_64/rubygem-puppet
 /update/leap/42.2/oss/x86_64/runc
-/update/leap/42.2/oss/x86_64/rxvt-unicode
 /update/leap/42.2/oss/x86_64/salt
 /update/leap/42.2/oss/x86_64/salt-api
 /update/leap/42.2/oss/x86_64/salt-cloud
@@ -69629,7 +69607,6 @@
 /update/leap/42.2/oss/x86_64/salt-minion
 /update/leap/42.2/oss/x86_64/salt-proxy
 /update/leap/42.2/oss/x86_64/salt-ssh
-/update/leap/42.2/oss/x86_64/salt-syndic
 /update/leap/42.2/oss/x86_64/samba
 /update/leap/42.2/oss/x86_64/samba-client
 /update/leap/42.2/oss/x86_64/samba-client-32bit
@@ -69835,29 +69812,14 @@
 /update/leap/42.2-test/noarch/clamav-database
 /update/leap/42.2-test/noarch/empathy-lang
 /update/leap/42.2-test/noarch/gimp-lang
-/update/leap/42.2-test/noarch/gnome-desktop-lang
 /update/leap/42.2-test/noarch/kernel-firmware
 /update/leap/42.2-test/noarch/kio-lang
 /update/leap/42.2-test/noarch/konversation-lang
 /update/leap/42.2-test/noarch/libwebkit2gtk3-lang
-/update/leap/42.2-test/noarch/otrs
-/update/leap/42.2-test/noarch/otrs-doc
-/update/leap/42.2-test/noarch/otrs-itsm
 /update/leap/42.2-test/noarch/perl-doc
 /update/leap/42.2-test/noarch/phpMyAdmin
 /update/leap/42.2-test/noarch/samba-doc
 /update/leap/42.2-test/noarch/SuSEfirewall2
-/update/leap/42.2-test/noarch/tomcat
-/update/leap/42.2-test/noarch/tomcat-admin-webapps
-/update/leap/42.2-test/noarch/tomcat-docs-webapp
-/update/leap/42.2-test/noarch/tomcat-el-3_0-api
-/update/leap/42.2-test/noarch/tomcat-embed
-/update/leap/42.2-test/noarch/tomcat-javadoc
-/update/leap/42.2-test/noarch/tomcat-jsp-2_3-api
-/update/leap/42.2-test/noarch/tomcat-jsvc
-/update/leap/42.2-test/noarch/tomcat-lib
-/update/leap/42.2-test/noarch/tomcat-servlet-3_1-api
-/update/leap/42.2-test/noarch/tomcat-webapps
 /update/leap/42.2-test/noarch/ucode-amd
 /update/leap/42.2-test/noarch/vusb-analyzer
 /update/leap/42.2-test/repodata/-filelists.xml.gz
@@ -69869,12 +69831,9 @@
 /update/leap/42.2-test/repodata/-suseinfo.xml.gz
 /update/leap/42.2-test/repodata/-updateinfo.xml.gz
 /update/leap/42.2-test/src/clamav-database
-/update/leap/42.2-test/src/cpupower
 /update/leap/42.2-test/src/empathy
 /update/leap/42.2-test/src/exim
-/update/leap/42.2-test/src/file
 /update/leap/42.2-test/src/gimp
-/update/leap/42.2-test/src/gnome-desktop
 /update/leap/42.2-test/src/GraphicsMagick
 /update/leap/42.2-test/src/graphviz
 /update/leap/42.2-test/src/graphviz-gvedit
@@ -69885,22 +69844,14 @@
 /update/leap/42.2-test/src/mdadm
 /update/leap/42.2-test/src/MozillaThunderbird
 /update/leap/42.2-test/src/optipng
-/update/leap/42.2-test/src/otrs
 /update/leap/42.2-test/src/pdns
 /update/leap/42.2-test/src/pdns-recursor
 /update/leap/42.2-test/src/perl
 /update/leap/42.2-test/src/phpMyAdmin
-/update/leap/42.2-test/src/python-magic
 /update/leap/42.2-test/src/samba
-/update/leap/42.2-test/src/tomcat
 /update/leap/42.2-test/src/vusb-analyzer
 /update/leap/42.2-test/x86_64/apparmor-parser
 /update/leap/42.2-test/x86_64/cpupower
-/update/leap/42.2-test/x86_64/cpupower-bench
-/update/leap/42.2-test/x86_64/cpupower-bench-debuginfo
-/update/leap/42.2-test/x86_64/cpupower-debuginfo
-/update/leap/42.2-test/x86_64/cpupower-debugsource
-/update/leap/42.2-test/x86_64/cpupower-devel
 /update/leap/42.2-test/x86_64/ctdb
 /update/leap/42.2-test/x86_64/ctdb-debuginfo
 /update/leap/42.2-test/x86_64/ctdb-tests
@@ -69915,9 +69866,6 @@
 /update/leap/42.2-test/x86_64/eximon-debuginfo
 /update/leap/42.2-test/x86_64/eximstats-html
 /update/leap/42.2-test/x86_64/file
-/update/leap/42.2-test/x86_64/file-debuginfo
-/update/leap/42.2-test/x86_64/file-debugsource
-/update/leap/42.2-test/x86_64/file-devel
 /update/leap/42.2-test/x86_64/file-magic
 /update/leap/42.2-test/x86_64/gimp
 /update/leap/42.2-test/x86_64/gimp-debuginfo
@@ -69928,8 +69876,6 @@
 /update/leap/42.2-test/x86_64/gimp-plugin-aa-debuginfo
 /update/leap/42.2-test/x86_64/gimp-plugins-python
 /update/leap/42.2-test/x86_64/gimp-plugins-python-debuginfo
-/update/leap/42.2-test/x86_64/gnome-desktop-debugsource
-/update/leap/42.2-test/x86_64/gnome-version
 /update/leap/42.2-test/x86_64/GraphicsMagick
 /update/leap/42.2-test/x86_64/GraphicsMagick-debuginfo
 /update/leap/42.2-test/x86_64/GraphicsMagick-debugsource
@@ -69975,7 +69921,6 @@
 /update/leap/42.2-test/x86_64/libapparmor1
 /update/leap/42.2-test/x86_64/libapparmor-devel
 /update/leap/42.2-test/x86_64/libcpupower0
-/update/leap/42.2-test/x86_64/libcpupower0-debuginfo
 /update/leap/42.2-test/x86_64/libdcerpc0
 /update/leap/42.2-test/x86_64/libdcerpc0-32bit
 /update/leap/42.2-test/x86_64/libdcerpc0-debuginfo
@@ -70011,13 +69956,6 @@
 /update/leap/42.2-test/x86_64/libgimpui-2_0-0-32bit
 /update/leap/42.2-test/x86_64/libgimpui-2_0-0-debuginfo
 /update/leap/42.2-test/x86_64/libgimpui-2_0-0-debuginfo-32bit
-/update/leap/42.2-test/x86_64/libgnome-desktop-3_0-common
-/update/leap/42.2-test/x86_64/libgnome-desktop-3_0-common-debuginfo
-/update/leap/42.2-test/x86_64/libgnome-desktop-3-12
-/update/leap/42.2-test/x86_64/libgnome-desktop-3-12-32bit
-/update/leap/42.2-test/x86_64/libgnome-desktop-3-12-debuginfo
-/update/leap/42.2-test/x86_64/libgnome-desktop-3-12-debuginfo-32bit
-/update/leap/42.2-test/x86_64/libgnome-desktop-3-devel
 /update/leap/42.2-test/x86_64/libGraphicsMagick3-config
 /update/leap/42.2-test/x86_64/libGraphicsMagick++-devel
 /update/leap/42.2-test/x86_64/libGraphicsMagick++-Q16-12
@@ -70028,9 +69966,6 @@
 /update/leap/42.2-test/x86_64/libGraphicsMagickWand-Q16-2-debuginfo
 /update/leap/42.2-test/x86_64/libjavascriptcoregtk-4_0-18
 /update/leap/42.2-test/x86_64/libmagic1
-/update/leap/42.2-test/x86_64/libmagic1-32bit
-/update/leap/42.2-test/x86_64/libmagic1-debuginfo
-/update/leap/42.2-test/x86_64/libmagic1-debuginfo-32bit
 /update/leap/42.2-test/x86_64/libMagick++-6_Q16-3
 /update/leap/42.2-test/x86_64/libMagickCore-6_Q16-1
 /update/leap/42.2-test/x86_64/libMagickWand-6_Q16-1
@@ -70167,7 +70102,6 @@
 /update/leap/42.2-test/x86_64/perl-GraphicsMagick
 /update/leap/42.2-test/x86_64/perl-GraphicsMagick-debuginfo
 /update/leap/42.2-test/x86_64/python3-apparmor
-/update/leap/42.2-test/x86_64/python-magic
 /update/leap/42.2-test/x86_64/samba
 /update/leap/42.2-test/x86_64/samba-client
 /update/leap/42.2-test/x86_64/samba-client-32bit
@@ -70192,7 +70126,6 @@
 /update/leap/42.2-test/x86_64/shadow
 /update/leap/42.2-test/x86_64/telepathy-mission-control-plugin-goa
 /update/leap/42.2-test/x86_64/telepathy-mission-control-plugin-goa-debuginfo
-/update/leap/42.2-test/x86_64/typelib-1_0-GnomeDesktop-3_0
 /update/leap/42.2-test/x86_64/typelib-1_0-JavaScriptCore-4_0
 /update/leap/42.2-test/x86_64/typelib-1_0-WebKit2-4_0
 /update/leap/42.2-test/x86_64/virtualbox
@@ -70783,27 +70716,36 @@
 /update/leap/42.3/oss/repodata/-suseinfo.xml.gz
 /update/leap/42.3/oss/repodata/-updateinfo.xml.gz
 /update/leap/42.3/oss/src/audit
-/update/leap/42.3/oss/src/audit-secondary
+/update/leap/42.3/oss/src/autoyast2
 /update/leap/42.3/oss/src/backintime
 /update/leap/42.3/oss/src/bluez
 /update/leap/42.3/oss/src/cacti
 /update/leap/42.3/oss/src/cacti-spine
 /update/leap/42.3/oss/src/cpupower
 /update/leap/42.3/oss/src/curl
+/update/leap/42.3/oss/src/cvs
+/update/leap/42.3/oss/src/cyrus-sasl
 /update/leap/42.3/oss/src/docker
 /update/leap/42.3/oss/src/dracut
+/update/leap/42.3/oss/src/emacs
 /update/leap/42.3/oss/src/empathy
 /update/leap/42.3/oss/src/exiv2
+/update/leap/42.3/oss/src/expat
 /update/leap/42.3/oss/src/fetchmsttfonts
 /update/leap/42.3/oss/src/ffmpeg
+/update/leap/42.3/oss/src/ffmpeg2
 /update/leap/42.3/oss/src/file
 /update/leap/42.3/oss/src/freerdp
 /update/leap/42.3/oss/src/git
 /update/leap/42.3/oss/src/gnome-desktop
 /update/leap/42.3/oss/src/gnuhealth
+/update/leap/42.3/oss/src/GraphicsMagick
 /update/leap/42.3/oss/src/gtk3
 /update/leap/42.3/oss/src/hawk2
 /update/leap/42.3/oss/src/ImageMagick
+/update/leap/42.3/oss/src/iproute2
+/update/leap/42.3/oss/src/iptables
+/update/leap/42.3/oss/src/k3b
 /update/leap/42.3/oss/src/kernel-docs
 /update/leap/42.3/oss/src/kernel-obs-build
 /update/leap/42.3/oss/src/kernel-obs-qa
@@ -70816,19 +70758,33 @@
 /update/leap/42.3/oss/src/libvirt
 /update/leap/42.3/oss/src/libxml2
 /update/leap/42.3/oss/src/libzypp
+/update/leap/42.3/oss/src/lua51
+/update/leap/42.3/oss/src/lvm2
 /update/leap/42.3/oss/src/Mesa
 /update/leap/42.3/oss/src/MozillaThunderbird
 /update/leap/42.3/oss/src/mupdf
+/update/leap/42.3/oss/src/mysql-community-server
+/update/leap/42.3/oss/src/ncurses
 /update/leap/42.3/oss/src/netcat-openbsd
 /update/leap/42.3/oss/src/NetworkManager-l2tp
+/update/leap/42.3/oss/src/nextcloud
 /update/leap/42.3/oss/src/openldap2
 /update/leap/42.3/oss/src/openssl
 /update/leap/42.3/oss/src/otrs
 /update/leap/42.3/oss/src/perl
 /update/leap/42.3/oss/src/plasma5-pk-updates
-/update/leap/42.3/oss/src/proteus
+/update/leap/42.3/oss/src/poppler-qt
+/update/leap/42.3/oss/src/procps
+/update/leap/42.3/oss/src/pulseaudio
+/update/leap/42.3/oss/src/python3-PyJWT
 /update/leap/42.3/oss/src/python-magic
+/update/leap/42.3/oss/src/qemu
+/update/leap/42.3/oss/src/qemu-linux-user
+/update/leap/42.3/oss/src/qemu-testsuite
 /update/leap/42.3/oss/src/resource-agents
+/update/leap/42.3/oss/src/salt
+/update/leap/42.3/oss/src/samba
+/update/leap/42.3/oss/src/squidGuard
 /update/leap/42.3/oss/src/SuSEfirewall2
 /update/leap/42.3/oss/src/systemd
 /update/leap/42.3/oss/src/tboot
@@ -70839,16 +70795,13 @@
 /update/leap/42.3/oss/src/trytond
 /update/leap/42.3/oss/src/trytond_account
 /update/leap/42.3/oss/src/trytond_company
-/update/leap/42.3/oss/src/trytond_product
 /update/leap/42.3/oss/src/trytond_purchase
-/update/leap/42.3/oss/src/trytond_purchase_request
 /update/leap/42.3/oss/src/trytond_stock
 /update/leap/42.3/oss/src/vlc
 /update/leap/42.3/oss/src/wpa_supplicant
 /update/leap/42.3/oss/src/xerces-j2
 /update/leap/42.3/oss/src/xorg-x11-server
 /update/leap/42.3/oss/src/yast2-network
-/update/leap/42.3/oss/src/yast2-packager
 /update/leap/42.3/oss/src/zypper
 /update/leap/42.3/oss/x86_64/a52dec
 /update/leap/42.3/oss/x86_64/abxtest
@@ -71155,6 +71108,8 @@
 /update/leap/42.3/oss/x86_64/kdepim-addons
 /update/leap/42.3/oss/x86_64/kdesvn
 /update/leap/42.3/oss/x86_64/keepassxc
+/update/leap/42.3/oss/x86_64/kernel-debug
+/update/leap/42.3/oss/x86_64/kernel-debug-base
 /update/leap/42.3/oss/x86_64/kernel-debug-devel
 /update/leap/42.3/oss/x86_64/kernel-default
 /update/leap/42.3/oss/x86_64/kernel-default-base
@@ -71162,6 +71117,8 @@
 /update/leap/42.3/oss/x86_64/kernel-obs-build
 /update/leap/42.3/oss/x86_64/kernel-obs-qa
 /update/leap/42.3/oss/x86_64/kernel-syms
+/update/leap/42.3/oss/x86_64/kernel-vanilla
+/update/leap/42.3/oss/x86_64/kernel-vanilla-base
 /update/leap/42.3/oss/x86_64/kernel-vanilla-devel
 /update/leap/42.3/oss/x86_64/kexec-tools
 /update/leap/42.3/oss/x86_64/kio
@@ -72418,23 +72375,10 @@
 /update/leap/42.3-test/noarch/konversation-lang
 /update/leap/42.3-test/noarch/libwebkit2gtk3-lang
 /update/leap/42.3-test/noarch/NetworkManager-l2tp-lang
-/update/leap/42.3-test/noarch/otrs
-/update/leap/42.3-test/noarch/otrs-doc
-/update/leap/42.3-test/noarch/otrs-itsm
 /update/leap/42.3-test/noarch/perl-doc
 /update/leap/42.3-test/noarch/phpMyAdmin
 /update/leap/42.3-test/noarch/plasma5-pk-updates-lang
-/update/leap/42.3-test/noarch/tomcat
-/update/leap/42.3-test/noarch/tomcat-admin-webapps
-/update/leap/42.3-test/noarch/tomcat-docs-webapp
-/update/leap/42.3-test/noarch/tomcat-el-3_0-api
-/update/leap/42.3-test/noarch/tomcat-embed
-/update/leap/42.3-test/noarch/tomcat-javadoc
-/update/leap/42.3-test/noarch/tomcat-jsp-2_3-api
-/update/leap/42.3-test/noarch/tomcat-jsvc
-/update/leap/42.3-test/noarch/tomcat-lib
-/update/leap/42.3-test/noarch/tomcat-servlet-3_1-api
-/update/leap/42.3-test/noarch/tomcat-webapps
+/update/leap/42.3-test/noarch/samba-doc
 /update/leap/42.3-test/noarch/ucode-amd
 /update/leap/42.3-test/noarch/vusb-analyzer
 /update/leap/42.3-test/noarch/yast2-network
@@ -72446,46 +72390,38 @@
 /update/leap/42.3-test/repodata/repomd.xml.key
 /update/leap/42.3-test/repodata/-suseinfo.xml.gz
 /update/leap/42.3-test/repodata/-updateinfo.xml.gz
-/update/leap/42.3-test/src/cpupower
 /update/leap/42.3-test/src/cross-nvptx-gcc7
 /update/leap/42.3-test/src/empathy
 /update/leap/42.3-test/src/exim
-/update/leap/42.3-test/src/file
 /update/leap/42.3-test/src/gcc7
 /update/leap/42.3-test/src/gcc7-testresults
 /update/leap/42.3-test/src/gimp
-/update/leap/42.3-test/src/gnome-desktop
 /update/leap/42.3-test/src/GraphicsMagick
 /update/leap/42.3-test/src/graphviz
 /update/leap/42.3-test/src/graphviz-gvedit
 /update/leap/42.3-test/src/graphviz-plugins
 /update/leap/42.3-test/src/graphviz-smyrna
-/update/leap/42.3-test/src/hawk2
 /update/leap/42.3-test/src/kernel-firmware
 /update/leap/42.3-test/src/libgcrypt
 /update/leap/42.3-test/src/MozillaThunderbird
 /update/leap/42.3-test/src/NetworkManager-l2tp
 /update/leap/42.3-test/src/nvptx-tools
 /update/leap/42.3-test/src/optipng
-/update/leap/42.3-test/src/otrs
 /update/leap/42.3-test/src/pdns
 /update/leap/42.3-test/src/pdns-recursor
 /update/leap/42.3-test/src/perl
 /update/leap/42.3-test/src/phpMyAdmin
-/update/leap/42.3-test/src/python-magic
-/update/leap/42.3-test/src/tomcat
+/update/leap/42.3-test/src/samba
 /update/leap/42.3-test/src/vusb-analyzer
-/update/leap/42.3-test/src/yast2-network
 /update/leap/42.3-test/x86_64/apparmor-parser
 /update/leap/42.3-test/x86_64/cpp7
 /update/leap/42.3-test/x86_64/cpp7-debuginfo
 /update/leap/42.3-test/x86_64/cpupower
-/update/leap/42.3-test/x86_64/cpupower-bench
-/update/leap/42.3-test/x86_64/cpupower-bench-debuginfo
-/update/leap/42.3-test/x86_64/cpupower-debuginfo
-/update/leap/42.3-test/x86_64/cpupower-debugsource
-/update/leap/42.3-test/x86_64/cpupower-devel
 /update/leap/42.3-test/x86_64/cross-nvptx-gcc7
+/update/leap/42.3-test/x86_64/ctdb
+/update/leap/42.3-test/x86_64/ctdb-debuginfo
+/update/leap/42.3-test/x86_64/ctdb-tests
+/update/leap/42.3-test/x86_64/ctdb-tests-debuginfo
 /update/leap/42.3-test/x86_64/empathy
 /update/leap/42.3-test/x86_64/empathy-debuginfo
 /update/leap/42.3-test/x86_64/empathy-debugsource
@@ -72496,9 +72432,6 @@
 /update/leap/42.3-test/x86_64/eximon-debuginfo
 /update/leap/42.3-test/x86_64/eximstats-html
 /update/leap/42.3-test/x86_64/file
-/update/leap/42.3-test/x86_64/file-debuginfo
-/update/leap/42.3-test/x86_64/file-debugsource
-/update/leap/42.3-test/x86_64/file-devel
 /update/leap/42.3-test/x86_64/file-magic
 /update/leap/42.3-test/x86_64/gcc7
 /update/leap/42.3-test/x86_64/gcc7-32bit
@@ -72527,7 +72460,6 @@
 /update/leap/42.3-test/x86_64/gimp-plugin-aa-debuginfo
 /update/leap/42.3-test/x86_64/gimp-plugins-python
 /update/leap/42.3-test/x86_64/gimp-plugins-python-debuginfo
-/update/leap/42.3-test/x86_64/gnome-desktop-debugsource
 /update/leap/42.3-test/x86_64/gnome-version
 /update/leap/42.3-test/x86_64/GraphicsMagick
 /update/leap/42.3-test/x86_64/GraphicsMagick-debuginfo
@@ -72565,9 +72497,6 @@
 /update/leap/42.3-test/x86_64/graphviz-smyrna-debugsource
 /update/leap/42.3-test/x86_64/graphviz-tcl
 /update/leap/42.3-test/x86_64/graphviz-tcl-debuginfo
-/update/leap/42.3-test/x86_64/hawk2
-/update/leap/42.3-test/x86_64/hawk2-debuginfo
-/update/leap/42.3-test/x86_64/hawk2-debugsource
 /update/leap/42.3-test/x86_64/ImageMagick
 /update/leap/42.3-test/x86_64/ImageMagick-devel
 /update/leap/42.3-test/x86_64/kcoreaddons
@@ -72597,7 +72526,20 @@
 /update/leap/42.3-test/x86_64/libcilkrts5-32bit-debuginfo
 /update/leap/42.3-test/x86_64/libcilkrts5-debuginfo
 /update/leap/42.3-test/x86_64/libcpupower0
-/update/leap/42.3-test/x86_64/libcpupower0-debuginfo
+/update/leap/42.3-test/x86_64/libdcerpc0
+/update/leap/42.3-test/x86_64/libdcerpc0-32bit
+/update/leap/42.3-test/x86_64/libdcerpc0-debuginfo
+/update/leap/42.3-test/x86_64/libdcerpc0-debuginfo-32bit
+/update/leap/42.3-test/x86_64/libdcerpc-binding0
+/update/leap/42.3-test/x86_64/libdcerpc-binding0-32bit
+/update/leap/42.3-test/x86_64/libdcerpc-binding0-debuginfo
+/update/leap/42.3-test/x86_64/libdcerpc-binding0-debuginfo-32bit
+/update/leap/42.3-test/x86_64/libdcerpc-devel
+/update/leap/42.3-test/x86_64/libdcerpc-samr0
+/update/leap/42.3-test/x86_64/libdcerpc-samr0-32bit
+/update/leap/42.3-test/x86_64/libdcerpc-samr0-debuginfo
+/update/leap/42.3-test/x86_64/libdcerpc-samr0-debuginfo-32bit
+/update/leap/42.3-test/x86_64/libdcerpc-samr-devel
 /update/leap/42.3-test/x86_64/libgcc_s1
 /update/leap/42.3-test/x86_64/libgcc_s1-32bit
 /update/leap/42.3-test/x86_64/libgcc_s1-32bit-debuginfo
@@ -72628,12 +72570,7 @@
 /update/leap/42.3-test/x86_64/libgimpui-2_0-0-debuginfo
 /update/leap/42.3-test/x86_64/libgimpui-2_0-0-debuginfo-32bit
 /update/leap/42.3-test/x86_64/libgnome-desktop-3_0-common
-/update/leap/42.3-test/x86_64/libgnome-desktop-3_0-common-debuginfo
 /update/leap/42.3-test/x86_64/libgnome-desktop-3-12
-/update/leap/42.3-test/x86_64/libgnome-desktop-3-12-32bit
-/update/leap/42.3-test/x86_64/libgnome-desktop-3-12-debuginfo
-/update/leap/42.3-test/x86_64/libgnome-desktop-3-12-debuginfo-32bit
-/update/leap/42.3-test/x86_64/libgnome-desktop-3-devel
 /update/leap/42.3-test/x86_64/libgo11
 /update/leap/42.3-test/x86_64/libgo11-32bit
 /update/leap/42.3-test/x86_64/libgo11-32bit-debuginfo
@@ -72660,8 +72597,6 @@
 /update/leap/42.3-test/x86_64/liblsan0-debuginfo
 /update/leap/42.3-test/x86_64/libmagic1
 /update/leap/42.3-test/x86_64/libmagic1-32bit
-/update/leap/42.3-test/x86_64/libmagic1-debuginfo
-/update/leap/42.3-test/x86_64/libmagic1-debuginfo-32bit
 /update/leap/42.3-test/x86_64/libMagick++-6_Q16-3
 /update/leap/42.3-test/x86_64/libMagickCore-6_Q16-1
 /update/leap/42.3-test/x86_64/libMagickWand-6_Q16-1
@@ -72673,10 +72608,85 @@
 /update/leap/42.3-test/x86_64/libmpxwrappers2-32bit
 /update/leap/42.3-test/x86_64/libmpxwrappers2-32bit-debuginfo
 /update/leap/42.3-test/x86_64/libmpxwrappers2-debuginfo
+/update/leap/42.3-test/x86_64/libndr0
+/update/leap/42.3-test/x86_64/libndr0-32bit
+/update/leap/42.3-test/x86_64/libndr0-debuginfo
+/update/leap/42.3-test/x86_64/libndr0-debuginfo-32bit
+/update/leap/42.3-test/x86_64/libndr-devel
+/update/leap/42.3-test/x86_64/libndr-krb5pac0
+/update/leap/42.3-test/x86_64/libndr-krb5pac0-32bit
+/update/leap/42.3-test/x86_64/libndr-krb5pac0-debuginfo
+/update/leap/42.3-test/x86_64/libndr-krb5pac0-debuginfo-32bit
+/update/leap/42.3-test/x86_64/libndr-krb5pac-devel
+/update/leap/42.3-test/x86_64/libndr-nbt0
+/update/leap/42.3-test/x86_64/libndr-nbt0-32bit
+/update/leap/42.3-test/x86_64/libndr-nbt0-debuginfo
+/update/leap/42.3-test/x86_64/libndr-nbt0-debuginfo-32bit
+/update/leap/42.3-test/x86_64/libndr-nbt-devel
+/update/leap/42.3-test/x86_64/libndr-standard0
+/update/leap/42.3-test/x86_64/libndr-standard0-32bit
+/update/leap/42.3-test/x86_64/libndr-standard0-debuginfo
+/update/leap/42.3-test/x86_64/libndr-standard0-debuginfo-32bit
+/update/leap/42.3-test/x86_64/libndr-standard-devel
+/update/leap/42.3-test/x86_64/libnetapi0
+/update/leap/42.3-test/x86_64/libnetapi0-32bit
+/update/leap/42.3-test/x86_64/libnetapi0-debuginfo
+/update/leap/42.3-test/x86_64/libnetapi0-debuginfo-32bit
+/update/leap/42.3-test/x86_64/libnetapi-devel
 /update/leap/42.3-test/x86_64/libquadmath0
 /update/leap/42.3-test/x86_64/libquadmath0-32bit
 /update/leap/42.3-test/x86_64/libquadmath0-32bit-debuginfo
 /update/leap/42.3-test/x86_64/libquadmath0-debuginfo
+/update/leap/42.3-test/x86_64/libsamba-credentials0
+/update/leap/42.3-test/x86_64/libsamba-credentials0-32bit
+/update/leap/42.3-test/x86_64/libsamba-credentials0-debuginfo
+/update/leap/42.3-test/x86_64/libsamba-credentials0-debuginfo-32bit
+/update/leap/42.3-test/x86_64/libsamba-credentials-devel
+/update/leap/42.3-test/x86_64/libsamba-errors0
+/update/leap/42.3-test/x86_64/libsamba-errors0-32bit
+/update/leap/42.3-test/x86_64/libsamba-errors0-debuginfo
+/update/leap/42.3-test/x86_64/libsamba-errors0-debuginfo-32bit
+/update/leap/42.3-test/x86_64/libsamba-errors-devel
+/update/leap/42.3-test/x86_64/libsamba-hostconfig0
+/update/leap/42.3-test/x86_64/libsamba-hostconfig0-32bit
+/update/leap/42.3-test/x86_64/libsamba-hostconfig0-debuginfo
+/update/leap/42.3-test/x86_64/libsamba-hostconfig0-debuginfo-32bit
+/update/leap/42.3-test/x86_64/libsamba-hostconfig-devel
+/update/leap/42.3-test/x86_64/libsamba-passdb0
+/update/leap/42.3-test/x86_64/libsamba-passdb0-32bit
+/update/leap/42.3-test/x86_64/libsamba-passdb0-debuginfo
+/update/leap/42.3-test/x86_64/libsamba-passdb0-debuginfo-32bit
+/update/leap/42.3-test/x86_64/libsamba-passdb-devel
+/update/leap/42.3-test/x86_64/libsamba-policy0
+/update/leap/42.3-test/x86_64/libsamba-policy0-32bit
+/update/leap/42.3-test/x86_64/libsamba-policy0-debuginfo
+/update/leap/42.3-test/x86_64/libsamba-policy0-debuginfo-32bit
+/update/leap/42.3-test/x86_64/libsamba-policy-devel
+/update/leap/42.3-test/x86_64/libsamba-util0
+/update/leap/42.3-test/x86_64/libsamba-util0-32bit
+/update/leap/42.3-test/x86_64/libsamba-util0-debuginfo
+/update/leap/42.3-test/x86_64/libsamba-util0-debuginfo-32bit
+/update/leap/42.3-test/x86_64/libsamba-util-devel
+/update/leap/42.3-test/x86_64/libsamdb0
+/update/leap/42.3-test/x86_64/libsamdb0-32bit
+/update/leap/42.3-test/x86_64/libsamdb0-debuginfo
+/update/leap/42.3-test/x86_64/libsamdb0-debuginfo-32bit
+/update/leap/42.3-test/x86_64/libsamdb-devel
+/update/leap/42.3-test/x86_64/libsmbclient0
+/update/leap/42.3-test/x86_64/libsmbclient0-32bit
+/update/leap/42.3-test/x86_64/libsmbclient0-debuginfo
+/update/leap/42.3-test/x86_64/libsmbclient0-debuginfo-32bit
+/update/leap/42.3-test/x86_64/libsmbclient-devel
+/update/leap/42.3-test/x86_64/libsmbconf0
+/update/leap/42.3-test/x86_64/libsmbconf0-32bit
+/update/leap/42.3-test/x86_64/libsmbconf0-debuginfo
+/update/leap/42.3-test/x86_64/libsmbconf0-debuginfo-32bit
+/update/leap/42.3-test/x86_64/libsmbconf-devel
+/update/leap/42.3-test/x86_64/libsmbldap0
+/update/leap/42.3-test/x86_64/libsmbldap0-32bit
+/update/leap/42.3-test/x86_64/libsmbldap0-debuginfo
+/update/leap/42.3-test/x86_64/libsmbldap0-debuginfo-32bit
+/update/leap/42.3-test/x86_64/libsmbldap-devel
 /update/leap/42.3-test/x86_64/libstdc++6
 /update/leap/42.3-test/x86_64/libstdc++6-32bit
 /update/leap/42.3-test/x86_64/libstdc++6-32bit-debuginfo
@@ -72684,12 +72694,22 @@
 /update/leap/42.3-test/x86_64/libstdc++6-devel-gcc7
 /update/leap/42.3-test/x86_64/libstdc++6-devel-gcc7-32bit
 /update/leap/42.3-test/x86_64/libstdc++6-locale
+/update/leap/42.3-test/x86_64/libtevent-util0
+/update/leap/42.3-test/x86_64/libtevent-util0-32bit
+/update/leap/42.3-test/x86_64/libtevent-util0-debuginfo
+/update/leap/42.3-test/x86_64/libtevent-util0-debuginfo-32bit
+/update/leap/42.3-test/x86_64/libtevent-util-devel
 /update/leap/42.3-test/x86_64/libtsan0
 /update/leap/42.3-test/x86_64/libtsan0-debuginfo
 /update/leap/42.3-test/x86_64/libubsan0
 /update/leap/42.3-test/x86_64/libubsan0-32bit
 /update/leap/42.3-test/x86_64/libubsan0-32bit-debuginfo
 /update/leap/42.3-test/x86_64/libubsan0-debuginfo
+/update/leap/42.3-test/x86_64/libwbclient0
+/update/leap/42.3-test/x86_64/libwbclient0-32bit
+/update/leap/42.3-test/x86_64/libwbclient0-debuginfo
+/update/leap/42.3-test/x86_64/libwbclient0-debuginfo-32bit
+/update/leap/42.3-test/x86_64/libwbclient-devel
 /update/leap/42.3-test/x86_64/libwebkit2gtk-4_0-37
 /update/leap/42.3-test/x86_64/MozillaThunderbird
 /update/leap/42.3-test/x86_64/MozillaThunderbird-buildsymbols
@@ -72750,11 +72770,33 @@
 /update/leap/42.3-test/x86_64/perl-GraphicsMagick-debuginfo
 /update/leap/42.3-test/x86_64/plasma5-pk-updates
 /update/leap/42.3-test/x86_64/python3-apparmor
-/update/leap/42.3-test/x86_64/python-magic
 /update/leap/42.3-test/x86_64/qemu-block-curl
 /update/leap/42.3-test/x86_64/qemu-block-rbd
 /update/leap/42.3-test/x86_64/qemu-tools
 /update/leap/42.3-test/x86_64/rp-pppoe
+/update/leap/42.3-test/x86_64/samba
+/update/leap/42.3-test/x86_64/samba-ceph
+/update/leap/42.3-test/x86_64/samba-ceph-debuginfo
+/update/leap/42.3-test/x86_64/samba-client
+/update/leap/42.3-test/x86_64/samba-client-32bit
+/update/leap/42.3-test/x86_64/samba-client-debuginfo
+/update/leap/42.3-test/x86_64/samba-client-debuginfo-32bit
+/update/leap/42.3-test/x86_64/samba-core-devel
+/update/leap/42.3-test/x86_64/samba-debuginfo
+/update/leap/42.3-test/x86_64/samba-debugsource
+/update/leap/42.3-test/x86_64/samba-libs
+/update/leap/42.3-test/x86_64/samba-libs-32bit
+/update/leap/42.3-test/x86_64/samba-libs-debuginfo
+/update/leap/42.3-test/x86_64/samba-libs-debuginfo-32bit
+/update/leap/42.3-test/x86_64/samba-pidl
+/update/leap/42.3-test/x86_64/samba-python
+/update/leap/42.3-test/x86_64/samba-python-debuginfo
+/update/leap/42.3-test/x86_64/samba-test
+/update/leap/42.3-test/x86_64/samba-test-debuginfo
+/update/leap/42.3-test/x86_64/samba-winbind
+/update/leap/42.3-test/x86_64/samba-winbind-32bit
+/update/leap/42.3-test/x86_64/samba-winbind-debuginfo
+/update/leap/42.3-test/x86_64/samba-winbind-debuginfo-32bit
 /update/leap/42.3-test/x86_64/shadow
 /update/leap/42.3-test/x86_64/telepathy-mission-control-plugin-goa
 /update/leap/42.3-test/x86_64/telepathy-mission-control-plugin-goa-debuginfo
